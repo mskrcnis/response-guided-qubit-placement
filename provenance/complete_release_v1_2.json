@@ -1,0 +1,10 @@
+{
+  "version": "v1.2.0",
+  "filename": "qst-data-code-v1.2.0.zip",
+  "url": "https://github.com/mskrcnis/response-guided-qubit-placement/releases/download/v1.2.0/qst-data-code-v1.2.0.zip",
+  "sha256": "ebe932f14811d06fe48d4e4c545cc4cdf9ef7ae0be0380224850ec326b61ac1a",
+  "bytes": 154626756,
+  "members": 16187,
+  "original_artifact_files": 7020,
+  "scope": "One self-contained saved-data distribution for original study and additional validation; dependencies and full upstream device archives remain external."
+}

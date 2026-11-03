@@ -1,3 +1,7 @@
+# Current complete reproduction route
+
+Use [the consolidated v1.2.0 release](COMPLETE_RELEASE.md) to obtain original and validation data in one archive and reproduce both analyses. No older release downloads are needed. The instructions below document the original-study CLI for compatibility and targeted reruns.
+
 # Reproducing the paper artifact
 
 ## Environments

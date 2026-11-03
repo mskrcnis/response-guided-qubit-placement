@@ -1,100 +1,47 @@
-# Response-guided qubit placement
+# Response-guided qubit placement — complete data and code
 
-Code and research data for **Circuit-response-guided swarm placement under
-changing quantum-device calibration**.
+Code and research data for **Circuit-response-guided swarm placement under changing quantum-device calibration**.
 
-This artifact preserves the implemented response objective, duplicate-aware
-permutation swarm, internal controls, five configured compiler baselines,
-calibration inputs, simulated outcomes, and manuscript plot/table data.
+## One complete release
 
-## Study scope
+Use **[release v1.2.0](https://github.com/mskrcnis/response-guided-qubit-placement/releases/tag/v1.2.0)**. Its `qst-data-code-v1.2.0.zip` asset contains the complete original study and additional validation in one download. You do not need either older release.
 
-- 15 circuit instances, with four or five logical qubits on a six-qubit IBM Fez region.
-- 11 paired calibration cutoffs, 19–29 October 2026; 18 October initializes the histories.
-- 3 search replicates and 2 seed schedules; 56 proposals per internal search.
-- 3,240 internal searches, 2,055 distinct external compilation requests,
-  5,940 paired external-comparison method observations, and 270 serial timing trials.
-- Exact noisy simulation under independent depolarizing gates and asymmetric
-  readout assignment. No physical-device execution is reported.
-
-The mean simulated TVD favors the modified swarm in the reported groups, but
-there are ring-circuit losses and substantially greater compilation cost.
-The observed period is exploratory and was already exposed during development.
-This is not independent confirmation, a matched-runtime superiority claim,
-or a learned controller that decides whether to recompile before searching.
-See [results and interpretation](docs/INTERPRETATION.txt).
-
-## Additional validation release
-
-[Release v1.1.0](https://github.com/mskrcnis/response-guided-qubit-placement/releases/tag/v1.1.0)
-adds a separately reproducible assessment of objective ranking, exhaustive
-placement/search coverage, coefficient reuse, matched time budgets, and
-noise-model sensitivity. The original v1.0.0 artifacts remain unchanged.
-See [validation data and reproduction](docs/VALIDATION_V1_1.md).
-
-The added evidence narrows the interpretation: the hybrid score improves on
-product-success scoring on identical candidates, but not on fully first-order
-scoring in mean selected TVD. The swarm has a small fixed-proposal mean gain
-over random search; multistart Mapomatic has lower mean TVD at the tested time
-budgets, and relaxation-model changes reverse the extension-panel mean gain.
-No hardware or independent prospective confirmation is claimed. The new
-assessment is deposited separately; this release does not assert that the
-manuscript has incorporated its findings.
-
-## Start here
-
-Python 3.12 was used for the main experiment. From a fresh clone:
+Download the named data/code ZIP and its SHA-256 file from the release. GitHub's automatically generated “Source code” ZIP contains the repository checkout, not the large experimental datasets.
 
 ```bash
-python3.12 -m venv .venv-data
-.venv-data/bin/python -m pip install -r requirements/core.txt
-.venv-data/bin/python reproduce.py fetch
-.venv-data/bin/python reproduce.py audit
-.venv-data/bin/python reproduce.py paper
-.venv-data/bin/python reproduce.py smoke
+sha256sum --check qst-data-code-v1.2.0.zip.sha256
+unzip qst-data-code-v1.2.0.zip
+cd QST_Data_Code
+python3 verify_package.py
+python3 -m venv .venv
+.venv/bin/python -m pip install -r original_study/requirements/core.txt
+.venv/bin/python reproduce_all.py
 ```
 
-`fetch` downloads the versioned, SHA256-checked frozen-artifact asset.
-`audit` verifies saved outputs and independently recomputes numerical summaries.
-`paper` regenerates five numerical tables and seven numerical figures.
-`smoke` runs twelve fresh searches on two circuits and two dates, checking
-compiled circuits, scores, arbitrary-input measurement equivalence and noisy outputs.
-Generated checks go into `outputs/`; archived experimental results are preserved.
+Python 3.12 was used. The combined saved-data command needs no private files, credentials, older release downloads or quantum-device jobs. See [complete release guide](docs/COMPLETE_RELEASE.md).
 
-For the five external compilers and complete search replay, follow
-[the reproduction guide](docs/REPRODUCING.md). The full external source archives
-are retrieved directly from their authors; no quantum-service credentials or
-hardware credits are needed.
+## Archive contents
 
-## Repository contents
-
-| Location | Contents |
+| Folder or file | Contents |
 | --- | --- |
-| `reproduce.py`, `tools/` | Portable commands, integrity checks and fresh replay adapters |
-| `scripts/` | 33 preserved original Python modules in the runtime dependency closure |
-| `experiments/` | Frozen protocols, circuit inputs, environment inventory and baseline registry |
-| `reports/` | Recorded numerical summaries |
-| `paper/data/` | Data used for the manuscript's numerical tables and figures |
-| `paper/scripts/` | Figure and table exporters |
-| `provenance/` | Source-copy hashes, artifact inventory, upstream revisions and download metadata |
-| Release asset | Detailed jobs, candidates, output distributions, native QPY files, timing records and regional calibration extracts |
+| `original_study/` | Original code and all 7,020 frozen artifact files: fifteen circuits, calibration inputs, native executables, probabilities, baseline comparisons and timing records |
+| `validation/` | Complete additional A–E assessment: exhaustive candidates, search/cost/time-budget experiments, extra circuits/regions, noise-model sensitivity, failures, numerical checks, tables and figures |
+| `reproduce_all.py` | Audit and regenerate both analyses from saved records |
+| `verify_package.py`, `SHA256SUMS.json` | Combined file-integrity verification |
+| `REPRODUCTION_CHECK.json` | Recorded isolated-copy reproduction result |
 
-Some preserved modules have historical experiment names. The supported entry
-points are documented here; those names do not expand this paper's cohort.
-The release intentionally excludes credentials, virtual environments, earlier
-manuscripts, downloaded literature, unrelated experiment results and live
-collection schedules.
+The two analysis folders preserve distinct protocols, cohorts and endpoints; they are not a pooled dataset. Historical version identifiers inside frozen provenance describe the source records and do not mean additional downloads are needed. Older releases remain as history.
 
-## Availability, attribution and citation
+## Interpretation
 
-Versioned release: https://github.com/mskrcnis/response-guided-qubit-placement/releases/tag/v1.0.0
+The original study covers fifteen four-/five-qubit circuits, a six-node IBM Fez region, eleven paired October cutoffs, internal search controls and five configured compiler baselines. The additional validation separates objective quality, exhaustive coverage, coefficient reuse, matched-time performance and model sensitivity.
 
-Additional validation release: https://github.com/mskrcnis/response-guided-qubit-placement/releases/tag/v1.1.0
+The hybrid score improves on product-success scoring on identical candidates, but not on fully first-order scoring in mean selected TVD. Swarm gives a small fixed-proposal mean improvement over random search. Multistart Mapomatic has lower mean TVD at the tested time budgets, and relaxation-model changes reverse the extension-panel mean gain. No physical-device execution, independent prospective confirmation or broad compiler superiority is claimed. The deposited validation does not assert that the manuscript has already incorporated its findings.
 
-The [data and code availability text](docs/AVAILABILITY.md) identifies the code,
-data and upstream calibration source. This GitHub release has no asserted DOI.
-See `CITATION.cff` for the versioned software citation.
+## Availability and licensing
 
-Original code: **MIT**. Research data: see [DATA_LICENSE.md](DATA_LICENSE.md).
-Upstream software and calibration data retain their own terms and attribution:
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+[Data and code availability](docs/AVAILABILITY.md). Cite the single consolidated release identified in `CITATION.cff`. No DOI is claimed.
+
+Original code is MIT. Research outputs and upstream calibration-derived data are CC BY 4.0 with attribution. Third-party software retains its own licenses. Full upstream device archives and compiler build dependencies remain indexed externally; scientific records needed for the saved-data analyses are included. Manuscripts, private prompts, credentials and unrelated project files are excluded.
+
+The lightweight repository retains the original scientific code and CLI for inspection. For complete reproduction, use the consolidated release asset above.
