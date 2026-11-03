@@ -1,0 +1,11 @@
+{
+  "version": "v1.1.0",
+  "url": "https://github.com/mskrcnis/response-guided-qubit-placement/releases/download/v1.1.0/qst-validation-assessment-v1.1.0.zip",
+  "sha256": "26c74c410ea62068102b2081e635156af83f90cae09f940936d533379b2f1d47",
+  "bytes": 104946435,
+  "members": 9020,
+  "source_assessment": "2026-11-03 focused A-E validation",
+  "numerical_tables_reproduced": 59,
+  "png_figures_identical": 7,
+  "scientific_scope": "Simulation, exhaustive fixed-router search, timing and model-mismatch diagnostics. No prospective independent or hardware validation."
+}

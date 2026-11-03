@@ -24,6 +24,23 @@ This is not independent confirmation, a matched-runtime superiority claim,
 or a learned controller that decides whether to recompile before searching.
 See [results and interpretation](docs/INTERPRETATION.txt).
 
+## Additional validation release
+
+[Release v1.1.0](https://github.com/mskrcnis/response-guided-qubit-placement/releases/tag/v1.1.0)
+adds a separately reproducible assessment of objective ranking, exhaustive
+placement/search coverage, coefficient reuse, matched time budgets, and
+noise-model sensitivity. The original v1.0.0 artifacts remain unchanged.
+See [validation data and reproduction](docs/VALIDATION_V1_1.md).
+
+The added evidence narrows the interpretation: the hybrid score improves on
+product-success scoring on identical candidates, but not on fully first-order
+scoring in mean selected TVD. The swarm has a small fixed-proposal mean gain
+over random search; multistart Mapomatic has lower mean TVD at the tested time
+budgets, and relaxation-model changes reverse the extension-panel mean gain.
+No hardware or independent prospective confirmation is claimed. The new
+assessment is deposited separately; this release does not assert that the
+manuscript has incorporated its findings.
+
 ## Start here
 
 Python 3.12 was used for the main experiment. From a fresh clone:
@@ -71,6 +88,8 @@ collection schedules.
 ## Availability, attribution and citation
 
 Versioned release: https://github.com/mskrcnis/response-guided-qubit-placement/releases/tag/v1.0.0
+
+Additional validation release: https://github.com/mskrcnis/response-guided-qubit-placement/releases/tag/v1.1.0
 
 The [data and code availability text](docs/AVAILABILITY.md) identifies the code,
 data and upstream calibration source. This GitHub release has no asserted DOI.
