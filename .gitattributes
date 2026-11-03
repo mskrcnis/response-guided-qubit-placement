@@ -1,0 +1,7 @@
+# Preserve the byte hashes of frozen source and research records on checkout.
+* -text
+# These are byte-preserved source copies: CSV CRLF and patch context spaces
+# are intentional, not formatting changes to make during release packaging.
+*.csv whitespace=cr-at-eol
+*.patch -whitespace
+docs/RESULTS.txt -whitespace

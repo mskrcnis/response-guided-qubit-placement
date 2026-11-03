@@ -1,4 +1,5 @@
 {
+  ".gitattributes": "747e7f3aa67424f31e5b8f1da08ea181591fed2c7cfd430a2cd037a08069b948",
   ".github/workflows/check.yml": "afeb5367b2a13db57ae0af80e86eab36e8c6e0ea225d4d0a02021140a02be74d",
   ".gitignore": "94b17e7564f741340954e07a9862ac683392e703de97454262c80da1803c18a8",
   "CITATION.cff": "b8143baa5b549248e4726d2115c1ae7aabd0ef7b7ebc42586c953f316ee9afa6",
