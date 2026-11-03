@@ -1,0 +1,45 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 252c0eb..5a93e18 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -20,6 +20,7 @@ if(APPLE AND CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+     set(CMAKE_OSX_ARCHITECTURES "" CACHE STRING "Architectures for OS X (cleared for GCC)" FORCE)
+ endif()
+ 
++add_compile_definitions(ABC_USE_STDINT_H) # local Linux build compatibility; algorithm unchanged
+ include(FetchContent)
+ include(CheckCXXCompilerFlag)
+ set(FETCHCONTENT_UPDATES_DISCONNECTED TRUE)
+@@ -310,7 +311,7 @@ target_compile_definitions(
+ target_compile_definitions(
+     ${CMAKE_PROJECT_NAME} PRIVATE QSYN_BUILD_TYPE="${CMAKE_BUILD_TYPE}")
+ target_compile_options(
+-    ${CMAKE_PROJECT_NAME} PRIVATE -Wall -Wextra -Werror)
++    ${CMAKE_PROJECT_NAME} PRIVATE -Wall -Wextra -Werror -Wno-error=maybe-uninitialized)
+ 
+ # compilers are being too paranoid about missing field initializers
+ target_compile_options(
+diff --git a/src/duostra/duostra.cpp b/src/duostra/duostra.cpp
+index 9af610b..63f8e59 100644
+--- a/src/duostra/duostra.cpp
++++ b/src/duostra/duostra.cpp
+@@ -66,6 +66,9 @@ bool Duostra::map(bool use_device_as_placement) {
+         auto placer = get_placer(_config.placer_type);
+         assign      = placer->place_and_assign(_device);
+     }
++    // Local benchmark instrumentation: expose permutations without changing mapping.
++    for (size_t i = 0; i < assign.size(); ++i)
++        fmt::println("BENCHMARK_INITIAL {} {}", i, assign[i]);
+     // scheduler
+     spdlog::info("Creating Scheduler...");
+     auto scheduler = get_scheduler(_config, std::move(topo), _tqdm);
+@@ -92,6 +95,9 @@ bool Duostra::map(bool use_device_as_placement) {
+         return false;
+     }
+ 
++    for (size_t i = 0; i < _device.mapping().size(); ++i)
++        if (_device.mapping()[i].has_value())
++            fmt::println("BENCHMARK_FINAL {} {}", _device.mapping()[i].value(), i);
+     assert(scheduler->is_sorted());
+     // assert(scheduler->get_order().size() == _logical_circuit->get_gates().size());
+ 

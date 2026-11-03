@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "trajectories": 270,
+  "searches": 3240,
+  "policy_update_rows": 8910,
+  "reproduced_tables": [
+    "method_summary",
+    "by_date",
+    "by_circuit",
+    "by_seed_rule",
+    "by_date_seed_rule",
+    "paired_comparisons",
+    "comparison_summary",
+    "leave_one_date_out",
+    "calibration_change_sensitivity",
+    "policy_screens",
+    "seed_variability",
+    "computational_work",
+    "accepted_harmful_updates",
+    "policy_cases",
+    "search_cases"
+  ],
+  "prior_pilot_overlap_regression": "Not rerun; earlier pilot is outside the paper-cohort release",
+  "included_original_source_hashes": 98
+}

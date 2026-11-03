@@ -1,0 +1,216 @@
+{
+  "version": "validation_protocol_v1",
+  "status": "frozen_before_held_out_outcome_generation",
+  "registration": "Internal versioned plan written after training-period exploration, not external preregistration or live prediction",
+  "training": "All predictor refits use June-July only; fixed-random labels regenerated; compatible unchanged swarm refits retained",
+  "compilers": {
+    "swarm": {
+      "proposal_count": 56,
+      "particles": 8,
+      "iterations": 6,
+      "source": "scripts/run_step2_pilot.py",
+      "unique_compilations": "At most 56; duplicates use within-search cache"
+    },
+    "random_fixed_56": {
+      "proposal_count": 56,
+      "unique_compilations": 56,
+      "source": "scripts/prepare_fixed_budget.py:fixed_search",
+      "selection": "Identity plus 55 seeded unique random injective placements; no companion swarm required"
+    }
+  },
+  "resource_interpretation": "Equal proposal budgets; NOT equal actual unique compilations or wall time",
+  "models": {
+    "swarm": {
+      "drift": {
+        "path": "experiments/ml_preliminary_v1/models/swarm/final_refit__drift.joblib",
+        "sha256": "164a885c68b3913856040fc55f39460373468062367c66467142f74abc2e606a"
+      },
+      "ridge": {
+        "path": "experiments/ml_preliminary_v1/models/swarm/final_refit__ridge.joblib",
+        "sha256": "d3ca4d7fca10213a1ab4729aff9f66bcd98e03944610801b9c9165c421e81454"
+      },
+      "forest": {
+        "path": "experiments/ml_preliminary_v1/models/swarm/final_refit__forest.joblib",
+        "sha256": "3f096e7c251dc2269e6be182b0c96ede0cc8aa6c2741bae42679473506a3def9"
+      }
+    },
+    "random_fixed_56": {
+      "drift": {
+        "path": "experiments/fixed_budget_v1/models/final_refit__drift.joblib",
+        "sha256": "5b14b654e0862adcc25b1ad70620f9864eaa11df14cb3defadfcb3d0a0088b3b"
+      },
+      "ridge": {
+        "path": "experiments/fixed_budget_v1/models/final_refit__ridge.joblib",
+        "sha256": "3e864db0fabfa0c2f57cdf76263e9dac5d53fa70d3809547c00d151f0b575629"
+      },
+      "forest": {
+        "path": "experiments/fixed_budget_v1/models/final_refit__forest.joblib",
+        "sha256": "9e1a33f86321aab53e7d40e5824fafd342e3183e2a9eff119c2f5763d27d12ba"
+      }
+    }
+  },
+  "input_columns": [
+    "num_qubits",
+    "logical_depth",
+    "logical_two_qubit_gates",
+    "reuse_native_depth",
+    "reuse_cz_count",
+    "mean_abs_parameter_change",
+    "max_abs_parameter_change",
+    "mean_current_parameter",
+    "reuse_proxy_old",
+    "reuse_proxy_current",
+    "sx_gate_error_mean_current",
+    "sx_gate_error_mean_abs_change",
+    "x_gate_error_mean_current",
+    "x_gate_error_mean_abs_change",
+    "rz_gate_error_mean_current",
+    "rz_gate_error_mean_abs_change",
+    "cz_gate_error_mean_current",
+    "cz_gate_error_mean_abs_change",
+    "prob_meas0_prep1_mean_current",
+    "prob_meas0_prep1_mean_abs_change",
+    "prob_meas1_prep0_mean_current",
+    "prob_meas1_prep0_mean_abs_change",
+    "reuse_age_days",
+    "max_current_measurement_age_hours",
+    "physical_edge_count",
+    "physical_max_degree"
+  ],
+  "policies": [
+    "always",
+    "never",
+    "periodic_3",
+    "periodic_7",
+    "drift",
+    "ridge",
+    "forest"
+  ],
+  "triggers": "Fixed trained drift threshold; ridge/forest predicted delta TVD >1e-10; periodic elapsed days from own last compile >=3/7",
+  "model_updates": "No retraining or online updates during validation/test trajectories; flag out-of-training-range inputs without overriding decisions",
+  "validation": {
+    "dates": [
+      "2026-08-05",
+      "2026-08-31"
+    ],
+    "region": "ibm_fez_r0",
+    "physical_qubits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      16
+    ],
+    "temporal_transfer_templates": [
+      "ghz_3",
+      "ghz_4",
+      "ghz_5",
+      "product_3",
+      "product_4",
+      "product_5",
+      "rotcx_line_n4_l2",
+      "rotcx_line_n4_l6",
+      "rotcx_line_n5_l2",
+      "rotcx_line_n5_l6",
+      "rotcx_ring_n4_l2",
+      "rotcx_ring_n4_l6",
+      "rotcx_ring_n5_l2",
+      "rotcx_ring_n5_l6",
+      "rotcx_star_n4_l2",
+      "rotcx_star_n4_l6",
+      "rotcx_star_n5_l2",
+      "rotcx_star_n5_l6"
+    ],
+    "unseen_family_templates": [
+      "qft_3",
+      "qft_4",
+      "qft_5"
+    ],
+    "analysis": "Report known-template temporal transfer and new-family/time transfer separately; do not pool them as a single generalization claim"
+  },
+  "final_test": {
+    "dates": [
+      "2026-09-05",
+      "2026-10-10"
+    ],
+    "region": "ibm_fez_r0",
+    "physical_qubits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      16
+    ],
+    "temporal_transfer_templates": [
+      "ghz_3",
+      "ghz_4",
+      "ghz_5",
+      "product_3",
+      "product_4",
+      "product_5",
+      "rotcx_line_n4_l2",
+      "rotcx_line_n4_l6",
+      "rotcx_line_n5_l2",
+      "rotcx_line_n5_l6",
+      "rotcx_ring_n4_l2",
+      "rotcx_ring_n4_l6",
+      "rotcx_ring_n5_l2",
+      "rotcx_ring_n5_l6",
+      "rotcx_star_n4_l2",
+      "rotcx_star_n4_l6",
+      "rotcx_star_n5_l2",
+      "rotcx_star_n5_l6"
+    ],
+    "unseen_family_templates": [
+      "qaoa_3",
+      "qaoa_4",
+      "qaoa_5"
+    ],
+    "selection": "One evaluation of frozen policy choices; no selection or tuning from final-test results"
+  },
+  "embargo": "First four dates of August and September omitted before outcome generation so 72-hour-valid initial calibration measurements follow the preceding period. Verify actual source-key disjointness, not just nominal dates.",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "circuit_source": "Original frozen generator/QASM; no new angles or benchmark selection based on held-out outcomes",
+  "calibration_policy": "Original six-property quality and <=72h observation/measurement age rules, latest observed event; no imputation/fallback to older healthy measurements",
+  "state_and_gaps": "Compile once at first ready date; each policy retains own native circuit; skip blocked days and reset all policies together next ready date; separate common initialization calls",
+  "noise": "Unchanged exact density-matrix depolarizing + asymmetric assignment; no hardware evidence",
+  "metric_limits": "Output-distribution TVD is not quantum state/process fidelity. QFT of a computational-basis input has uniform ideal output probabilities and can be insensitive to phase errors; report this limitation for the QFT robustness block rather than inferring gate-fidelity generalization.",
+  "primary_quality": "Equal-current-date mean output-distribution TVD on all ready days; also report paired daily differences, pooled/trajectory summaries and per-template strata",
+  "primary_work": "Number of actual native placement compilations charged to the policy, including common initializations; also report triggered recompile calls and native circuit changes",
+  "timing": "Exploratory separately measured searches/controller overhead, with shared-library accounting disclosed; no conversion between seconds and TVD",
+  "quality_loss_allowances_absolute_tvd": [
+    0.0,
+    0.0001,
+    0.0005,
+    0.001
+  ],
+  "allowance_interpretation": "Predeclared sensitivity grid for observed mean error, not a claim that a loss is acceptable to the user or a statistical noninferiority margin",
+  "primary_allowance": 0.0,
+  "numeric_tolerance": 1e-10,
+  "selection_rule": "Separately for each compiler and allowance, on known-template August validation only, retain policies whose equal-date mean TVD minus always <= allowance +1e-10. Choose minimum total native placement compilations, then lower TVD, then fewer triggered recompiles, then policy name. Freeze these choices before final-test generation. Always is feasible fallback.",
+  "unseen_family_validation_role": "Descriptive robustness check only; cannot choose settings using QFT outcomes",
+  "reporting": "Publish all seven predeclared policies and all four allowances, including failures; label any selected-policy test results by the allowance that selected them",
+  "no_significance_shortcut": "Dates/circuits/seeds are correlated. Report paired date-level and seed variability without pretending each row is an independent trial; observed threshold satisfaction is not a statistical guarantee",
+  "required_gates": [
+    "Fixed-budget labels and model replay validated",
+    "Source/model/code hashes unchanged",
+    "Exact fit/selection-to-evaluation measurement-key disjointness",
+    "No final-test outcomes used for choices",
+    "Missing/blocked evidence explicitly recorded"
+  ],
+  "prior_experiments": "Preserved unchanged. Old random_matched results remain useful as offline equal-unique-work comparisons, but are not relabeled as fixed-budget results",
+  "code_hashes": {
+    "scripts/prepare_fixed_budget.py": "27a3ba85489eaecef58b449bb803a0adf255702da105c9840374ede65718ff1d",
+    "scripts/train_fixed_budget.py": "98a3654983f06b38b026853af1545e4651ca3b1781b9970d43e8e59c37f73a2b",
+    "scripts/run_step2_pilot.py": "7be981114268e248639eb9d004c11e2ab747b8a32e3f3f389a6ab469f1186270",
+    "scripts/expand_training.py": "caa41e44b40f9f3752ee91c01e5e376a03bdd4e976e3ee8e00e22f783e833c71",
+    "scripts/run_sequential.py": "5780fe84f42b72632e4f204af2ff190db022004060abe0533c1b0857b6ff8f88",
+    "scripts/train_recompile_ml.py": "42cb1f33bd8a717247c87802f90e90a38ee4f7050ae8b942afbfe39648463194"
+  }
+}

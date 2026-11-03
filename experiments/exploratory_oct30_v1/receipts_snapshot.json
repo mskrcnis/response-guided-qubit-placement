@@ -1,0 +1,1738 @@
+[
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-14T09:27:03.190484+00:00",
+    "revision": "f6b0679ab00913405ce502b5214b9657ff4a1b5e",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "180ed534b75f1cf3d43a26bb83ae78c8bf4a74843abee867f529d26b91f108c8",
+    "tree_sha256": "ce0f34f6b194abc60431aa91e6f66ce84134a77967bda1e78c821acdf7d1cd65",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/f6b0679ab00913405ce502b5214b9657ff4a1b5e/data/train-00000-of-00001.parquet",
+        "sha256": "69181154f284cfdaaf1c3aa22bb43981684dc7d16ce99e4c80d5446f5181deb8",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/f6b0679ab00913405ce502b5214b9657ff4a1b5e/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 71545348
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/f6b0679ab00913405ce502b5214b9657ff4a1b5e/regional.parquet",
+      "sha256": "d317317ce0c6b25fea1b3e26bb76e4a95f836c93faa65a3c5ca49954863443f1"
+    },
+    "source_rows": 16515821,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-14 09:16:29+00:00",
+    "source_max_calibrated": "2026-10-14 09:12:09.611533+00:00",
+    "protocol_sha256": "5cdd782858313af986eb3e8164810672a211ab4fcc0453badd8bef1581e8bba2",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-14T09:31:45.153531+00:00",
+    "revision": "f6b0679ab00913405ce502b5214b9657ff4a1b5e",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "180ed534b75f1cf3d43a26bb83ae78c8bf4a74843abee867f529d26b91f108c8",
+    "tree_sha256": "ce0f34f6b194abc60431aa91e6f66ce84134a77967bda1e78c821acdf7d1cd65",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/f6b0679ab00913405ce502b5214b9657ff4a1b5e/data/train-00000-of-00001.parquet",
+        "sha256": "69181154f284cfdaaf1c3aa22bb43981684dc7d16ce99e4c80d5446f5181deb8",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/f6b0679ab00913405ce502b5214b9657ff4a1b5e/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 71545348
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/f6b0679ab00913405ce502b5214b9657ff4a1b5e/regional.parquet",
+      "sha256": "d317317ce0c6b25fea1b3e26bb76e4a95f836c93faa65a3c5ca49954863443f1"
+    },
+    "source_rows": 16515821,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-14 09:16:29+00:00",
+    "source_max_calibrated": "2026-10-14 09:12:09.611533+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-14T12:15:31.970551+00:00",
+    "revision": "fc03569f5e9254c3df1ceed1468f549efe886e52",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "72d8bd974a99bb8b7bea1b566fa2243cd6a81f8c58b5f0eed2c933cf9d34ffe4",
+    "tree_sha256": "cca9374c7e96227eabbb6eb64a2c6e31fe54eec1ea4a2331077927bfd7b7a84e",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/fc03569f5e9254c3df1ceed1468f549efe886e52/data/train-00000-of-00001.parquet",
+        "sha256": "83c82a1e76bb8a909a552e70e0fb3314d26b4f4a30eb995a8604ec8daf323713",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/fc03569f5e9254c3df1ceed1468f549efe886e52/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 71639875
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/fc03569f5e9254c3df1ceed1468f549efe886e52/regional.parquet",
+      "sha256": "d82e0b14eec66a8fb24e936667cb552ab3da54acf2e38d93df4cd87606b92fb8"
+    },
+    "source_rows": 16550639,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-14 11:40:04+00:00",
+    "source_max_calibrated": "2026-10-14 11:27:27.400528+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-14T18:15:31.453424+00:00",
+    "revision": "c1ea4018eab6cfb51f374cafc388e3a4776a0f80",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "5422bb97669294f304e100b29cc532baa27bf2b5673004c5802baf82736d4dc9",
+    "tree_sha256": "6cf7024df1a72d580634243c612badef830df2dc9b1a34465c3c25103503ae74",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/c1ea4018eab6cfb51f374cafc388e3a4776a0f80/data/train-00000-of-00001.parquet",
+        "sha256": "d0d5faf7ec7e5d8f31f447015336ba3800ce942ac4f5e562163646d007bc7112",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/c1ea4018eab6cfb51f374cafc388e3a4776a0f80/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 71824940
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/c1ea4018eab6cfb51f374cafc388e3a4776a0f80/regional.parquet",
+      "sha256": "290d9e2d52799d7458762cf51f3dc9b1ef0d5ae20e73d3b706cb778299ee572d"
+    },
+    "source_rows": 16612731,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-14 17:40:51+00:00",
+    "source_max_calibrated": "2026-10-14 17:32:43.187832+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-15T00:15:30.710745+00:00",
+    "revision": "010258403e6ae292bd4f5eddda2a5b54e825501f",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "752ffb43339411e5cafd73e63e781ae7383d8497155643f2cfc9b2026f380acf",
+    "tree_sha256": "9289fc7457bf67a8df93fddd8204a6b36d939715ea293a8725115e2053a5f22b",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/010258403e6ae292bd4f5eddda2a5b54e825501f/data/train-00000-of-00001.parquet",
+        "sha256": "53fc3383cd52ba237d87fff8246176dcc5bcbc56891b5225129a908ff3ab8909",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/010258403e6ae292bd4f5eddda2a5b54e825501f/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 71940728
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/010258403e6ae292bd4f5eddda2a5b54e825501f/regional.parquet",
+      "sha256": "290d9e2d52799d7458762cf51f3dc9b1ef0d5ae20e73d3b706cb778299ee572d"
+    },
+    "source_rows": 16657144,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-14 23:36:05+00:00",
+    "source_max_calibrated": "2026-10-14 23:23:03.571201+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-15T06:15:27.628105+00:00",
+    "revision": "4415ea67e19c7a8c4880638c63b04126b0e1410f",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "cb8b0fed17247845d9301dd282192fe36ea2560dc6c1ec0bf9cae5dfd441a16c",
+    "tree_sha256": "1f0bd17aaab99e0e7767b3f2eead46edcb31a24eb65526698f98704822d87ce9",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/4415ea67e19c7a8c4880638c63b04126b0e1410f/data/train-00000-of-00001.parquet",
+        "sha256": "73c92a86d1790ccdabdf7104ebad72791519aba561e96924f79f656860bc9674",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/4415ea67e19c7a8c4880638c63b04126b0e1410f/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 71982295
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/4415ea67e19c7a8c4880638c63b04126b0e1410f/regional.parquet",
+      "sha256": "290d9e2d52799d7458762cf51f3dc9b1ef0d5ae20e73d3b706cb778299ee572d"
+    },
+    "source_rows": 16683661,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-15 05:41:14+00:00",
+    "source_max_calibrated": "2026-10-15 05:31:51.754701+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-15T12:15:32.912252+00:00",
+    "revision": "0ae932435eb5bda7511206e0ef4d97c286d538e7",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "6f6a3320daf1c812e8d014d63f7ec4cd10a12a740f8fe8b98551b292515ab23f",
+    "tree_sha256": "42712fd0bdca67f8e6695340e6b81a51057ff146fe96eceb816e24a8d6773928",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/0ae932435eb5bda7511206e0ef4d97c286d538e7/data/train-00000-of-00001.parquet",
+        "sha256": "4b6bc294b990f3dbe7f4d3a2bafa630572b1e5857ad89a39f4609b2bd60d6909",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/0ae932435eb5bda7511206e0ef4d97c286d538e7/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 72147142
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/0ae932435eb5bda7511206e0ef4d97c286d538e7/regional.parquet",
+      "sha256": "c0be86db041935f6544472774e7d70c44dbb82dfa4aa63525cc5a43f671bd9a0"
+    },
+    "source_rows": 16747146,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-15 11:39:46+00:00",
+    "source_max_calibrated": "2026-10-15 11:30:36.236601+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-15T18:15:32.074361+00:00",
+    "revision": "5ac1b9180dbcb23c2a24b50060882a49a12c815b",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "519a1f6d501ddc40b80696bb3528331097a0109b1f42aa0b5979bf30f9179277",
+    "tree_sha256": "5a7ce2fe0ee50405db6273457b4a6c751b871b9de6a02abc586a8560f9198ac7",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/5ac1b9180dbcb23c2a24b50060882a49a12c815b/data/train-00000-of-00001.parquet",
+        "sha256": "d35a55cf7eb1111c647ebbde62f54cb4687910828b5ef8e99ff58d7f639f94d9",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/5ac1b9180dbcb23c2a24b50060882a49a12c815b/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 72288497
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/5ac1b9180dbcb23c2a24b50060882a49a12c815b/regional.parquet",
+      "sha256": "daa2769c40ad4958429125666b3cddd33355c32e6f3c918fcca20a0989dee0f1"
+    },
+    "source_rows": 16803108,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-15 17:38:49+00:00",
+    "source_max_calibrated": "2026-10-15 17:15:14.140412+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-16T00:15:33.641790+00:00",
+    "revision": "77cdf5732324ba7b8f7fc660f8b97eea43ad0b6e",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "208832da0c2b37386e89726ec28591a7fd32bd9cb8b8229392f1b7afb8b483e2",
+    "tree_sha256": "56398a2398626340f4f81d512004e2e4fb8f0bfa4c85ff4d034c29ba2b0417e4",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/77cdf5732324ba7b8f7fc660f8b97eea43ad0b6e/data/train-00000-of-00001.parquet",
+        "sha256": "fe277f7a15984cc723a07cd591a981549d6cf4f3b44e529067dff35ef3ad4836",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/77cdf5732324ba7b8f7fc660f8b97eea43ad0b6e/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 72367286
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/77cdf5732324ba7b8f7fc660f8b97eea43ad0b6e/regional.parquet",
+      "sha256": "b2cba882ce1b8e6cbcf0868c9b0ad80ce1643934d66b6f01b9aaadd2d8d3319a"
+    },
+    "source_rows": 16845959,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-15 23:36:11+00:00",
+    "source_max_calibrated": "2026-10-15 23:11:03.835949+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-16T06:15:32.192430+00:00",
+    "revision": "8117f89848361c9e7a8eb326de3e6cbf1b783c0f",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "4b90726497a7b833e7b31298ee93141bacdbc12e749830a23a97f7239b1ace4c",
+    "tree_sha256": "bc31dee222ad9e98e9c89124251ce07fb9f9832b0754578f4cb9613862297374",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/8117f89848361c9e7a8eb326de3e6cbf1b783c0f/data/train-00000-of-00001.parquet",
+        "sha256": "3e7f91bd6239def3a626e5e60e968300a64513cf28796fd3d5ae61c455a3fd9b",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/8117f89848361c9e7a8eb326de3e6cbf1b783c0f/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 72453442
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/8117f89848361c9e7a8eb326de3e6cbf1b783c0f/regional.parquet",
+      "sha256": "9fcb2ff5aa099dbb46a43d774f3d2e2c1ca5919cb1f5cadcc813fc16212b3b50"
+    },
+    "source_rows": 16889286,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-16 05:41:23+00:00",
+    "source_max_calibrated": "2026-10-16 05:28:08.796534+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-16T12:15:33.695918+00:00",
+    "revision": "de973d2d3a2727e6e3abd0d8fc4844e550449736",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "29d7117126356417132988364b26738b76ad154d25e7daa194f2a667a1c44c62",
+    "tree_sha256": "1eddafc60d231559a40ace5bfe87b53980c8d3b4294c3220bce9f7f689e84b9f",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/de973d2d3a2727e6e3abd0d8fc4844e550449736/data/train-00000-of-00001.parquet",
+        "sha256": "dcb1065b4b28a938ea4de2423039d49584d4bef4026e5ab1a2c5380bb6574b50",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/de973d2d3a2727e6e3abd0d8fc4844e550449736/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 72602049
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/de973d2d3a2727e6e3abd0d8fc4844e550449736/regional.parquet",
+      "sha256": "b3b6529a0251b8d8388cd5271fb0c743ea42fc60329d9cb86fd013f3748d7bf6"
+    },
+    "source_rows": 16946689,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-16 11:39:18+00:00",
+    "source_max_calibrated": "2026-10-16 11:29:44.749557+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-16T18:15:31.906147+00:00",
+    "revision": "476ad8dcbe8e7e2022e8dfc59d1c795649cddfc8",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "6dbafe83161817231f40db6135b0298de39eb4d547de937641946b0649ebfb48",
+    "tree_sha256": "7877a15c00c1be75a4641984de6421be62809072ee4eb707154cfa3c0c0afbe3",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/476ad8dcbe8e7e2022e8dfc59d1c795649cddfc8/data/train-00000-of-00001.parquet",
+        "sha256": "7a46b510aad206a507002ce13fe9fff02d645e2f6f25f303f5de595faa8990aa",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/476ad8dcbe8e7e2022e8dfc59d1c795649cddfc8/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 72737977
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/476ad8dcbe8e7e2022e8dfc59d1c795649cddfc8/regional.parquet",
+      "sha256": "179bf99f2c9c0582d79f2115a8c77c02635a3f946054af676b92decc5ea6f518"
+    },
+    "source_rows": 17001750,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-16 17:37:34+00:00",
+    "source_max_calibrated": "2026-10-16 17:28:43.857172+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-17T00:15:29.758087+00:00",
+    "revision": "ec5fe3f4f955da96ed308ebc2a5a2d8a72a5d56f",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "873aa4e4c025303d17b63241fe995207d640ea84bb0de98a4dddf6393d14c99c",
+    "tree_sha256": "109a0f4fcda7efd48e3947d3d60acc1093c586918e25fb32e277a6008040b0fc",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/ec5fe3f4f955da96ed308ebc2a5a2d8a72a5d56f/data/train-00000-of-00001.parquet",
+        "sha256": "f5b5df2432e2583ddd8e048ec712859a8e95dc4f581464fbac26abcb4b5dcfc2",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/ec5fe3f4f955da96ed308ebc2a5a2d8a72a5d56f/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 72832678
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/ec5fe3f4f955da96ed308ebc2a5a2d8a72a5d56f/regional.parquet",
+      "sha256": "7191897c134128429afd548e8d9a59ecd8b2159d85750448aa913fcf27bc7cff"
+    },
+    "source_rows": 17052950,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-16 23:36:02+00:00",
+    "source_max_calibrated": "2026-10-16 23:13:04.447783+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-17T06:15:41.436638+00:00",
+    "revision": "b392e4551363e2a2b2817bbfb742bc9c596329c3",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "36c505b8d72419531b9072454db7c7923884d4cffc0c08e1897fbc5e1ae46577",
+    "tree_sha256": "d8f4e6744a6b343bdfa9b6af308b1db3675cd5a9077f6d3de5444e49e559e58a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/b392e4551363e2a2b2817bbfb742bc9c596329c3/data/train-00000-of-00001.parquet",
+        "sha256": "117e17a9fb328517287ac51bc1bbad8e86c25a8e6f717969975b3e933b82979a",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/b392e4551363e2a2b2817bbfb742bc9c596329c3/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 72906483
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/b392e4551363e2a2b2817bbfb742bc9c596329c3/regional.parquet",
+      "sha256": "1db1e61be4cce6199498f49306f0b80ea7f9ede33a47ebf2e40656254e828b48"
+    },
+    "source_rows": 17088424,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-17 05:38:58+00:00",
+    "source_max_calibrated": "2026-10-17 05:16:51.159199+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-17T12:15:30.143532+00:00",
+    "revision": "2d0bf49b6ded1b5bac71966d936db885e8d5bb85",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "97d2ed383b43f22d38342007d2efbb478407c63f621ea20501d58c9088267c13",
+    "tree_sha256": "cf21d4a37e8ba493c072f3d6fa7b15fe29f67f61c589c098fa7f4ac0a7161966",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/2d0bf49b6ded1b5bac71966d936db885e8d5bb85/data/train-00000-of-00001.parquet",
+        "sha256": "cb6ca6d474018c141bc279cb53cf7be864a5ff5b82dadab2f23551e661011d66",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/2d0bf49b6ded1b5bac71966d936db885e8d5bb85/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 73036010
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/2d0bf49b6ded1b5bac71966d936db885e8d5bb85/regional.parquet",
+      "sha256": "2d717f33c5f35b0e17bac4e01c010c28598e372b154f66336cd986bd29a47e7e"
+    },
+    "source_rows": 17143683,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-17 11:35:51+00:00",
+    "source_max_calibrated": "2026-10-17 11:23:43.799587+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-17T18:15:30.165232+00:00",
+    "revision": "726d51fc392eb950d78f88aaf49ffeb2a0ccdcee",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "6837d41c112cef381a1bb924b000f57aad4fbe340a86e6dbce5864340ea32bae",
+    "tree_sha256": "86401b037c55f8770dbe03b88afa3501e2b875335a78015374624723c8bfea6f",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/726d51fc392eb950d78f88aaf49ffeb2a0ccdcee/data/train-00000-of-00001.parquet",
+        "sha256": "af7abc705edc938925875bfa3934ef25d771bf6824f78fb081c500ab8ce4e8b8",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/726d51fc392eb950d78f88aaf49ffeb2a0ccdcee/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 73189484
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/726d51fc392eb950d78f88aaf49ffeb2a0ccdcee/regional.parquet",
+      "sha256": "b8c10d6f71b37cd4f917c6d51b296ae78fdf26e4cf47f55965a2d2e10618c999"
+    },
+    "source_rows": 17199409,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-17 17:36:14+00:00",
+    "source_max_calibrated": "2026-10-17 17:26:22.169294+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-18T00:15:32.134753+00:00",
+    "revision": "8f52a99445e44d02b582ff9bb93764dbb3ac79f2",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "2f8d734667af42e7c094f32ca981fb85bfa3081ff2d5c7c758f67e7eae1c13d5",
+    "tree_sha256": "d7d80875566a051b7d14623c7e9666260fe54b0f4c29ff0bf37e10dae64d6b08",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/8f52a99445e44d02b582ff9bb93764dbb3ac79f2/data/train-00000-of-00001.parquet",
+        "sha256": "387ee9ebcc8043951e2f3cbf0c9caea505709232a7f112522683caa719175849",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/8f52a99445e44d02b582ff9bb93764dbb3ac79f2/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 73314900
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/8f52a99445e44d02b582ff9bb93764dbb3ac79f2/regional.parquet",
+      "sha256": "7b7f306986fa067bfac2d4f46e082396d8baab0db43deba8fbe7b10ed96023ed"
+    },
+    "source_rows": 17252307,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-17 23:36:05+00:00",
+    "source_max_calibrated": "2026-10-17 23:33:02.351066+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-18T06:15:30.197220+00:00",
+    "revision": "bd8b0ba486e8228b9e9798df7145319dce9ea54c",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "d4aba81b9a4e31612ceda3c89ecba808a714d4ad6ba9725149885f105f79f070",
+    "tree_sha256": "29fd1c7f20b85870d4b64d2fdd3f47afcdb8121579a07f44af74239edcfe11a4",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/bd8b0ba486e8228b9e9798df7145319dce9ea54c/data/train-00000-of-00001.parquet",
+        "sha256": "b8ee5e3495c6c218bde4e8d2276f2ab765615a14daa97079ff9fe44510821078",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/bd8b0ba486e8228b9e9798df7145319dce9ea54c/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 73401894
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/bd8b0ba486e8228b9e9798df7145319dce9ea54c/regional.parquet",
+      "sha256": "71ac9e5c97881d3e343a775ac7ace479474d946b953eceff0f57341962d8e074"
+    },
+    "source_rows": 17287265,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-18 05:12:41+00:00",
+    "source_max_calibrated": "2026-10-18 05:02:45.480027+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-18T12:15:30.634502+00:00",
+    "revision": "52d7639fb39f0ae061b88cc68cc09db3473b694d",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "87f23f8a9bb8365d012e21cdc17174519c426df50a51619db0915bd4db623bdb",
+    "tree_sha256": "3258f10257bbe51557cc5ddcf75398b9706823c05618f6dc473a7d11b3e17146",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/52d7639fb39f0ae061b88cc68cc09db3473b694d/data/train-00000-of-00001.parquet",
+        "sha256": "8adc75af3cfd90bf1ed3f2a9f9ed0bce737352b59356a3e5d23ac60439c17b19",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/52d7639fb39f0ae061b88cc68cc09db3473b694d/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 73561634
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/52d7639fb39f0ae061b88cc68cc09db3473b694d/regional.parquet",
+      "sha256": "2befcb9178dba8ff6b938bbb78392657acb80c16ba07b87bc2f47cdf7e695106"
+    },
+    "source_rows": 17347460,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-18 11:36:21+00:00",
+    "source_max_calibrated": "2026-10-18 11:18:15.262291+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-18T18:15:29.632242+00:00",
+    "revision": "c0c42629a9c5716d95155980c9cf36441fc7f58f",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "69ded8b2027ba7e5a3c90d3901bf6caf2f0ec27a9b274274274dcebeb24a767e",
+    "tree_sha256": "b9af0cc5d98458e8267503f30fa3803a092ae406878db95766470abcdff0620b",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/c0c42629a9c5716d95155980c9cf36441fc7f58f/data/train-00000-of-00001.parquet",
+        "sha256": "860a693634485d9e29f896fc070decd6693241636309a058ecdc120fe592583c",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/c0c42629a9c5716d95155980c9cf36441fc7f58f/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 73698872
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/c0c42629a9c5716d95155980c9cf36441fc7f58f/regional.parquet",
+      "sha256": "aa2618daf9301e4076509350bff3ffe502826666e07e76de828e5b15bed4769f"
+    },
+    "source_rows": 17398532,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-18 17:35:58+00:00",
+    "source_max_calibrated": "2026-10-18 17:29:10.951014+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-19T00:15:30.357172+00:00",
+    "revision": "eaf685d557583def2b06669c8976b744ddc02c2d",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "f99a6398cc7a430a438e90cfc3688ee1bc67e95caa8cd0e989c9724c684bf9e8",
+    "tree_sha256": "325dc564a31687fba210194b9abba4d5646424fb3d71032f33bf666b50fc01eb",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/eaf685d557583def2b06669c8976b744ddc02c2d/data/train-00000-of-00001.parquet",
+        "sha256": "c4db4be3f10a59d769d4d22f2a9cd8604df88812a5b1b635ee424ccd6eb283cc",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/eaf685d557583def2b06669c8976b744ddc02c2d/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 73828052
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/eaf685d557583def2b06669c8976b744ddc02c2d/regional.parquet",
+      "sha256": "34ae54cfc72401b9028ccbded37efe319c746ec7caa7f3207c4a2a4333fcc68a"
+    },
+    "source_rows": 17455486,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-18 23:36:02+00:00",
+    "source_max_calibrated": "2026-10-18 23:29:26.548426+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-19T06:15:29.990320+00:00",
+    "revision": "0430ab1b2fddc5af6c73e9777cbd76e0602580a2",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "9293edf0f1d470eb50b85003d17326ef4b1b0d2c2b241a37e7ea21db7e1a9576",
+    "tree_sha256": "c98f702c9e71adbabc24751a68d9ba5febee8a379f7d4a6b1066fac9ed9b2a8f",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/0430ab1b2fddc5af6c73e9777cbd76e0602580a2/data/train-00000-of-00001.parquet",
+        "sha256": "88f869b9435b439df7b8e643110314c2f677e01cb212d819045d611a05a39f04",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/0430ab1b2fddc5af6c73e9777cbd76e0602580a2/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 73904983
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/0430ab1b2fddc5af6c73e9777cbd76e0602580a2/regional.parquet",
+      "sha256": "3574c953cc9340a495c8ddf452203bad4f5a7e968d65490484aefc286571592d"
+    },
+    "source_rows": 17489281,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-19 05:42:36+00:00",
+    "source_max_calibrated": "2026-10-19 05:29:23.555103+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-19T12:15:29.616196+00:00",
+    "revision": "ba3f243eea062104c28636e3e99287356121aa48",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "79bfbd9256e4d32ffc5f0595061af65b3364bbb8bbf6fce5d63b78675fd484ba",
+    "tree_sha256": "d8d1fa20d3a46fbadfec211fdaa7b643e89c12a240f858454aa87c174721db1d",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/ba3f243eea062104c28636e3e99287356121aa48/data/train-00000-of-00001.parquet",
+        "sha256": "63dd409ac1b6b7a8ba3565eefd0dacb764835557b75a7f9bb159004152d2810e",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/ba3f243eea062104c28636e3e99287356121aa48/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74024142
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/ba3f243eea062104c28636e3e99287356121aa48/regional.parquet",
+      "sha256": "c82b300666d129c223304fcb6c587fcd512093fb6151e952f096e76b174c5622"
+    },
+    "source_rows": 17538449,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-19 11:40:30+00:00",
+    "source_max_calibrated": "2026-10-19 11:15:27.927290+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-19T18:15:30.197514+00:00",
+    "revision": "e0f49629f19ad9ab3ffb8aaeb7836c2b9ce543f8",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "d91e23ba9cdd070f4b264c6bd2bf398ecff965af61ef501529d196eca2cd159e",
+    "tree_sha256": "ebe188f45a6b6659ed18de24a9936e808205fb5be84ae9a5285170907cd79448",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/e0f49629f19ad9ab3ffb8aaeb7836c2b9ce543f8/data/train-00000-of-00001.parquet",
+        "sha256": "35b05d91ce45e04097c2c4e22d3c20d8f32561d63c8f70d54316952afe786dc2",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/e0f49629f19ad9ab3ffb8aaeb7836c2b9ce543f8/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74108019
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/e0f49629f19ad9ab3ffb8aaeb7836c2b9ce543f8/regional.parquet",
+      "sha256": "67429bfaa4096e9ce1b8748813ccfcf29071f0c8c2d32b4b777bc78bdb6318a2"
+    },
+    "source_rows": 17577507,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-19 17:39:23+00:00",
+    "source_max_calibrated": "2026-10-19 17:31:55.079322+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-20T00:15:29.667487+00:00",
+    "revision": "dabe03f69527d24e391be7cd5dae0c2e9d284352",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "20276b2ae903c1d9d6b30bd189e88eae4094259d71c4130ceafa62bdeea84210",
+    "tree_sha256": "f8bff1d864dbbbea93aa28a3e4b1f388aa4df34b6790708e09b49c3bf81b7948",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/dabe03f69527d24e391be7cd5dae0c2e9d284352/data/train-00000-of-00001.parquet",
+        "sha256": "dffc3af779c7cb3df7fb67f031ab1d4844cd9bd048f5b0f3a1c40471d76eca4a",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/dabe03f69527d24e391be7cd5dae0c2e9d284352/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74161653
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/dabe03f69527d24e391be7cd5dae0c2e9d284352/regional.parquet",
+      "sha256": "4a533688911dcd1852fa9914d800d93684e3c2053e39988cda568fd3b3516845"
+    },
+    "source_rows": 17605126,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-19 23:13:14+00:00",
+    "source_max_calibrated": "2026-10-19 22:57:37.185124+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-20T06:15:29.923245+00:00",
+    "revision": "f77d43fb7ae2d72b9799511fe79f4cc93de3779e",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "665f0166916756ab66c831df30c72213b221300bd4580bb99a1a0491c16a4697",
+    "tree_sha256": "64e9a40676509ae88914bb1df2ee08081eaa75d7cf87ddfc1dcee38e30ddade4",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/f77d43fb7ae2d72b9799511fe79f4cc93de3779e/data/train-00000-of-00001.parquet",
+        "sha256": "96ff1ec12ccdfcf82ee8b204009cba772a80418e15627273429d44a708bf3692",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/f77d43fb7ae2d72b9799511fe79f4cc93de3779e/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74222223
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/f77d43fb7ae2d72b9799511fe79f4cc93de3779e/regional.parquet",
+      "sha256": "4fc6ff7991f080b8ba8e00e8e092666e3c490dfb73006be800325f0da5f170e7"
+    },
+    "source_rows": 17634966,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-20 05:41:30+00:00",
+    "source_max_calibrated": "2026-10-20 05:18:21.113201+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-20T12:15:30.292135+00:00",
+    "revision": "45dc8603f3caf960df399e848ffb9dc978344883",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "22bd7ed3b990b88e5c41b61febd130d11365780dd3107df52eda52b2335ac1d3",
+    "tree_sha256": "5b5863c66f260d358f5c64fd3657712bcfdec0f5d8b9aeb91c2a8ce2001f05dd",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/45dc8603f3caf960df399e848ffb9dc978344883/data/train-00000-of-00001.parquet",
+        "sha256": "47873fa0bd7273f1c01d5198cc4e4c3849c91f29b4c32c5afd557326b56e40e2",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/45dc8603f3caf960df399e848ffb9dc978344883/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74353470
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/45dc8603f3caf960df399e848ffb9dc978344883/regional.parquet",
+      "sha256": "3965ea5cff67c3ab407f300044b9d12f3fb4b7a00cc9c48184f7a7a8714d6728"
+    },
+    "source_rows": 17692245,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-20 11:39:46+00:00",
+    "source_max_calibrated": "2026-10-20 11:10:41.714898+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-20T18:15:29.975260+00:00",
+    "revision": "6bade8f615f396bd5407e14a98c3ebbe25d678d3",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "a8897d12caf29e657c94f41bdc1cd4b542c6d6eec511bc975525899060220046",
+    "tree_sha256": "3df04f75a05c235ab4521b33a3ff2e62f9d02dc2c069d07ab8b8dcfdf17eebf6",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/6bade8f615f396bd5407e14a98c3ebbe25d678d3/data/train-00000-of-00001.parquet",
+        "sha256": "ea1ec61756415bc34045bdfeea3e592b7e7200fa96c9248eb162f71fc29db270",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/6bade8f615f396bd5407e14a98c3ebbe25d678d3/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74488700
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/6bade8f615f396bd5407e14a98c3ebbe25d678d3/regional.parquet",
+      "sha256": "1b742e2c5c5ac8c73b9414ffe701a4cab2e5e5da39b52ad0264b63d92af1e6fb"
+    },
+    "source_rows": 17742873,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-20 17:39:03+00:00",
+    "source_max_calibrated": "2026-10-20 17:24:33.472140+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-21T00:15:29.942937+00:00",
+    "revision": "65347452e97c7027cd1fd0562acc1b6de4331c11",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "67548dde7892580e10b05a879889fe93e9998af23eb325bc0a667278b3142d7e",
+    "tree_sha256": "f856869318fdd739a5f62b2a44cad1d36fb138f354d2b2af3ef207d05c1768eb",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/65347452e97c7027cd1fd0562acc1b6de4331c11/data/train-00000-of-00001.parquet",
+        "sha256": "90a632dcacf54b1a099a680acdbad85fa1ebe2223dd26d32b59e457a3aa6015e",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/65347452e97c7027cd1fd0562acc1b6de4331c11/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74528633
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/65347452e97c7027cd1fd0562acc1b6de4331c11/regional.parquet",
+      "sha256": "e4bfd7f02d65d63492bbeece3abd0ccf3d9e9fe27618dabbf6594d18fe06b27c"
+    },
+    "source_rows": 17763051,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-20 23:36:22+00:00",
+    "source_max_calibrated": "2026-10-20 23:25:32.853606+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-21T06:15:29.994303+00:00",
+    "revision": "3611300ec59b03c716511db544959e4ab3038b86",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "c66dc58d52c91500b3f2d9d9bf8c4c51890160ce25cee1366852700f8ccb9a2b",
+    "tree_sha256": "9d0a9a8b776bff8b48cf0c4437ace5b3517778f135371929a39fcd9832d8aeab",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/3611300ec59b03c716511db544959e4ab3038b86/data/train-00000-of-00001.parquet",
+        "sha256": "cafae6951d3b1929c209f1d57da01eb02757f99ed412283f2068dbc426134a71",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/3611300ec59b03c716511db544959e4ab3038b86/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74622410
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/3611300ec59b03c716511db544959e4ab3038b86/regional.parquet",
+      "sha256": "26b99741142dbd8b118dc9d713951de9bd5a3b167d9d5bc73b03219fdae9cf6d"
+    },
+    "source_rows": 17798701,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-21 05:41:37+00:00",
+    "source_max_calibrated": "2026-10-21 05:36:10.517253+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-21T12:15:29.916409+00:00",
+    "revision": "c7721dc7c6fe1fe1a7456591b0e5c715de898797",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "645f0857aa33b2a7eb637dc55b97e1fa281898260b326cc08463614df98d5933",
+    "tree_sha256": "52d280c47d338324550a2693ad187343f7295c6956c502e011b753aea97e4fb6",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/c7721dc7c6fe1fe1a7456591b0e5c715de898797/data/train-00000-of-00001.parquet",
+        "sha256": "6f6f8a108b72ae3bd5c58396e873bff26552b94af7ec58c42d532d49b37d8b0f",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/c7721dc7c6fe1fe1a7456591b0e5c715de898797/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74754614
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/c7721dc7c6fe1fe1a7456591b0e5c715de898797/regional.parquet",
+      "sha256": "66914b554429556fbf960441c38b072de67597e048b1ee4cb203103ad1e1fe97"
+    },
+    "source_rows": 17857649,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-21 11:41:05+00:00",
+    "source_max_calibrated": "2026-10-21 11:28:48.983554+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-21T18:15:29.904748+00:00",
+    "revision": "be2d8749b87b1a17be4dccf1bf69de06fd607c15",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "c6517cf7798d44d47e7ce8b53b4b94775f273ac2f27d22495f4bf6d08fcb5d24",
+    "tree_sha256": "dcd6bb8c21219639688e2be9f79aebd9b9e83d246b1dba8edb0c3b840789fd1a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet",
+        "sha256": "d09b39ecefd3170508319ac70249437172f626113f9a6d642889e9f3b0550cf4",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74764670
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/regional.parquet",
+      "sha256": "016235e31d2d3c2af741f38f820ef1d62cf980ed53d33efbb06dcb88e50ac852"
+    },
+    "source_rows": 17863485,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-21 12:20:57+00:00",
+    "source_max_calibrated": "2026-10-21 12:01:13.785070+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-22T00:15:21.605311+00:00",
+    "revision": "be2d8749b87b1a17be4dccf1bf69de06fd607c15",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "c6517cf7798d44d47e7ce8b53b4b94775f273ac2f27d22495f4bf6d08fcb5d24",
+    "tree_sha256": "dcd6bb8c21219639688e2be9f79aebd9b9e83d246b1dba8edb0c3b840789fd1a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet",
+        "sha256": "d09b39ecefd3170508319ac70249437172f626113f9a6d642889e9f3b0550cf4",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74764670
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/regional.parquet",
+      "sha256": "016235e31d2d3c2af741f38f820ef1d62cf980ed53d33efbb06dcb88e50ac852"
+    },
+    "source_rows": 17863485,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-21 12:20:57+00:00",
+    "source_max_calibrated": "2026-10-21 12:01:13.785070+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-22T06:15:21.568067+00:00",
+    "revision": "be2d8749b87b1a17be4dccf1bf69de06fd607c15",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "c6517cf7798d44d47e7ce8b53b4b94775f273ac2f27d22495f4bf6d08fcb5d24",
+    "tree_sha256": "dcd6bb8c21219639688e2be9f79aebd9b9e83d246b1dba8edb0c3b840789fd1a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet",
+        "sha256": "d09b39ecefd3170508319ac70249437172f626113f9a6d642889e9f3b0550cf4",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74764670
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/regional.parquet",
+      "sha256": "016235e31d2d3c2af741f38f820ef1d62cf980ed53d33efbb06dcb88e50ac852"
+    },
+    "source_rows": 17863485,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-21 12:20:57+00:00",
+    "source_max_calibrated": "2026-10-21 12:01:13.785070+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-22T12:15:21.658731+00:00",
+    "revision": "be2d8749b87b1a17be4dccf1bf69de06fd607c15",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "c6517cf7798d44d47e7ce8b53b4b94775f273ac2f27d22495f4bf6d08fcb5d24",
+    "tree_sha256": "dcd6bb8c21219639688e2be9f79aebd9b9e83d246b1dba8edb0c3b840789fd1a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet",
+        "sha256": "d09b39ecefd3170508319ac70249437172f626113f9a6d642889e9f3b0550cf4",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74764670
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/regional.parquet",
+      "sha256": "016235e31d2d3c2af741f38f820ef1d62cf980ed53d33efbb06dcb88e50ac852"
+    },
+    "source_rows": 17863485,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-21 12:20:57+00:00",
+    "source_max_calibrated": "2026-10-21 12:01:13.785070+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-22T18:15:21.638423+00:00",
+    "revision": "be2d8749b87b1a17be4dccf1bf69de06fd607c15",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "c6517cf7798d44d47e7ce8b53b4b94775f273ac2f27d22495f4bf6d08fcb5d24",
+    "tree_sha256": "dcd6bb8c21219639688e2be9f79aebd9b9e83d246b1dba8edb0c3b840789fd1a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet",
+        "sha256": "d09b39ecefd3170508319ac70249437172f626113f9a6d642889e9f3b0550cf4",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74764670
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/regional.parquet",
+      "sha256": "016235e31d2d3c2af741f38f820ef1d62cf980ed53d33efbb06dcb88e50ac852"
+    },
+    "source_rows": 17863485,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-21 12:20:57+00:00",
+    "source_max_calibrated": "2026-10-21 12:01:13.785070+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-23T00:15:21.599818+00:00",
+    "revision": "be2d8749b87b1a17be4dccf1bf69de06fd607c15",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "c6517cf7798d44d47e7ce8b53b4b94775f273ac2f27d22495f4bf6d08fcb5d24",
+    "tree_sha256": "dcd6bb8c21219639688e2be9f79aebd9b9e83d246b1dba8edb0c3b840789fd1a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet",
+        "sha256": "d09b39ecefd3170508319ac70249437172f626113f9a6d642889e9f3b0550cf4",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/be2d8749b87b1a17be4dccf1bf69de06fd607c15/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 74764670
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/be2d8749b87b1a17be4dccf1bf69de06fd607c15/regional.parquet",
+      "sha256": "016235e31d2d3c2af741f38f820ef1d62cf980ed53d33efbb06dcb88e50ac852"
+    },
+    "source_rows": 17863485,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-21 12:20:57+00:00",
+    "source_max_calibrated": "2026-10-21 12:01:13.785070+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-23T06:15:29.911023+00:00",
+    "revision": "f05926ef3dddd96df2212cc39ac6529522dea0c0",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "4a0da50685a45e2226397c495d39997c241f8daa7d51a0ef3702d4592005170a",
+    "tree_sha256": "743af153674301fe75fc94cf967d7ad5ed7932ac99b9332ef975ebc08e443981",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/f05926ef3dddd96df2212cc39ac6529522dea0c0/data/train-00000-of-00001.parquet",
+        "sha256": "d8f75d1b5e5858ce597ad811bcca1acae9943ffcbad2ce831283fffa3fcc4814",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/f05926ef3dddd96df2212cc39ac6529522dea0c0/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 75256527
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/f05926ef3dddd96df2212cc39ac6529522dea0c0/regional.parquet",
+      "sha256": "56448a260457fd37d9962aa53a43be18cb9f7ea017445dac5c86011972a6d30d"
+    },
+    "source_rows": 17910961,
+    "source_min_observed": "2026-01-31 17:05:03+00:00",
+    "source_max_observed": "2026-10-23 06:03:38+00:00",
+    "source_max_calibrated": "2026-10-23 05:55:42.344854+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-23T12:15:33.661076+00:00",
+    "revision": "0c298c2ba07f9b230a81a0e5fa8d993dcd2cf37d",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "713a12d7ca51f6ab64182cb21e23b2fd362d00614458f853bb050eb6a78fd478",
+    "tree_sha256": "50b186df3e210a888548ca2f3f40f029d449c410b74d9652d8e267c176c4643b",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/0c298c2ba07f9b230a81a0e5fa8d993dcd2cf37d/data/train-00000-of-00001.parquet",
+        "sha256": "dbb53131a6c2c96732e5be070c6ad1621b7d90cb052298975d78d6bbd86fcc73",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/0c298c2ba07f9b230a81a0e5fa8d993dcd2cf37d/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98141114
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/0c298c2ba07f9b230a81a0e5fa8d993dcd2cf37d/regional.parquet",
+      "sha256": "e07919f687055a0b82fcafdbbb1efb8d15877dddbbadc306ffb97f6e9788aacc"
+    },
+    "source_rows": 28945985,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-23 11:41:42+00:00",
+    "source_max_calibrated": "2026-10-23 11:21:57.936542+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-23T18:15:32.266229+00:00",
+    "revision": "f2b1455dc4d7731c8c7d903dec9f92a2d301b01c",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "e7570bf7b7466945d56a07b58753189d9605b0c3aa961ee3e873509eb8e351c5",
+    "tree_sha256": "f3a4ac7ad5666ecbe8418c57d3e7ad005870cd5d75c5713404e53775916f9b9c",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/f2b1455dc4d7731c8c7d903dec9f92a2d301b01c/data/train-00000-of-00001.parquet",
+        "sha256": "68cda77ee3afcb5162ac382c55d5144bc9aab1993a24a268c2fe58f7a9435878",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/f2b1455dc4d7731c8c7d903dec9f92a2d301b01c/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98304348
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/f2b1455dc4d7731c8c7d903dec9f92a2d301b01c/regional.parquet",
+      "sha256": "cf8ed458ec4d92d95c559c3a0d75010498d6fdb59ba277c0dd13b149bb39e1e2"
+    },
+    "source_rows": 29014037,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-23 18:14:24+00:00",
+    "source_max_calibrated": "2026-10-23 18:04:54.050836+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-24T00:15:32.710269+00:00",
+    "revision": "2a79cbfb7271a8637dcc2c3ef6e3c01d0031559b",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "d3815dbaa5941becfd00eb26a7ff994c9bafc440043ad136e68cae1f4fb9da74",
+    "tree_sha256": "e7798b118931e8eab1211df4c386e7cf11ba81467f9f00c3c74c416592bcc968",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/2a79cbfb7271a8637dcc2c3ef6e3c01d0031559b/data/train-00000-of-00001.parquet",
+        "sha256": "3e8a2d4511b94b061551daca79678ce674d6e6fdb08e1d19000b13ae16df7070",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/2a79cbfb7271a8637dcc2c3ef6e3c01d0031559b/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98408877
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/2a79cbfb7271a8637dcc2c3ef6e3c01d0031559b/regional.parquet",
+      "sha256": "78dd15b3de97f5ea7a5501a050ac4e96c09a6ffa9209f651be1618dcbd1f8658"
+    },
+    "source_rows": 29063424,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-23 23:38:04+00:00",
+    "source_max_calibrated": "2026-10-23 23:15:26.735902+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-24T06:15:37.053251+00:00",
+    "revision": "c0e34727d4cd18e50053377e165704885bb375cc",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "5fef62eaf98c85ba4bedbad9cd45dbf07aec4e10009b16386000aef42d9d99f8",
+    "tree_sha256": "b0919afbdf32e726aba3f1d42bd6b037c6cac572016c4aa1ef23911f4031d1ef",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/c0e34727d4cd18e50053377e165704885bb375cc/data/train-00000-of-00001.parquet",
+        "sha256": "2a70a37342686cb591d1be71d287479d37257fb49d92b2a9be9b07fb69814484",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/c0e34727d4cd18e50053377e165704885bb375cc/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98491356
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/c0e34727d4cd18e50053377e165704885bb375cc/regional.parquet",
+      "sha256": "5fcfa08f09c6c0352e14801f5402455745e1e0dd9cf6db7418ec06ebb04108ae"
+    },
+    "source_rows": 29096547,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-24 05:10:57+00:00",
+    "source_max_calibrated": "2026-10-24 05:02:10.966963+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-24T12:15:37.198076+00:00",
+    "revision": "15e18bb546a2ea07c04534e7ff9a1afa8e1412ec",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "18b57a44664db723d4172b4881c8ab2f6a2cc6596158251d7494c6f4e1fc78df",
+    "tree_sha256": "7142e7b1391b4681bb449f38bb4d44d423fe9a3b8e57d8ecb86314bf7d76a17f",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/15e18bb546a2ea07c04534e7ff9a1afa8e1412ec/data/train-00000-of-00001.parquet",
+        "sha256": "939c2b027f4bee4c390418ef436af45701451988e4b42aa0fb73acac05ffa7c4",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/15e18bb546a2ea07c04534e7ff9a1afa8e1412ec/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98563907
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/15e18bb546a2ea07c04534e7ff9a1afa8e1412ec/regional.parquet",
+      "sha256": "88a7178306bf8fa84266a97d010337c274fa9d423589834ba5cc2780e74ea869"
+    },
+    "source_rows": 29139794,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-24 11:38:10+00:00",
+    "source_max_calibrated": "2026-10-24 11:18:39.288627+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-24T18:15:32.103826+00:00",
+    "revision": "9fadeefe95d59473693e67f0e52c4e6204a182e8",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "9129808374291d94938ad98df8d89320a4c47d10c1a9f9c3f26e2cc6b3f12e97",
+    "tree_sha256": "f4d533886c48925fb9710a473d535cbf4630c717137e336e53ed88da06255e37",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/9fadeefe95d59473693e67f0e52c4e6204a182e8/data/train-00000-of-00001.parquet",
+        "sha256": "099632d4da59a6acacd96743fa116f23ae603e18ffa093180ed1affc6b6da641",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/9fadeefe95d59473693e67f0e52c4e6204a182e8/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98653523
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/9fadeefe95d59473693e67f0e52c4e6204a182e8/regional.parquet",
+      "sha256": "ed561c3f39451e182bbe9595af89a190c43c7b7aca7bd598f170ea7f7d5d62df"
+    },
+    "source_rows": 29187152,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-24 18:00:00+00:00",
+    "source_max_calibrated": "2026-10-24 17:54:29.627962+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-25T00:15:32.166620+00:00",
+    "revision": "221e3712012face149f65c7e4679127562d34a8b",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "7b98dd481905b895aab3429a8c86bfcdfa0ac9b07250cb35989f534d9ade5570",
+    "tree_sha256": "86545761ab64381e2ec23c6c929666d4e4dbb1d70f0fdd169c081fc92177e444",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/221e3712012face149f65c7e4679127562d34a8b/data/train-00000-of-00001.parquet",
+        "sha256": "429fbcf2a2e94577e16a2a1897f5a9e5200881e90e677da82c4241497796b23d",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/221e3712012face149f65c7e4679127562d34a8b/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98731863
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/221e3712012face149f65c7e4679127562d34a8b/regional.parquet",
+      "sha256": "12e74242cc5442ffa304c926ea2e4e63ee3306079f1fef211f5a969d6377d32b"
+    },
+    "source_rows": 29218564,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-24 23:36:19+00:00",
+    "source_max_calibrated": "2026-10-24 23:24:13.805803+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-25T06:15:32.143365+00:00",
+    "revision": "b266762e6299ff3fe259c841a995b53fb8f4c2d2",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "bcf1704f6625e26f5c8f0d2d5e49e73899d8ae23a635f8ec3ba17286b18d3ecb",
+    "tree_sha256": "c877f777546c4d60374a4de3ff204f45524f2294c94fe43f748228876148ff8a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/b266762e6299ff3fe259c841a995b53fb8f4c2d2/data/train-00000-of-00001.parquet",
+        "sha256": "2d4e79c56f3c4399c4de4a0274546d89552578326c40462feca9e437f259a628",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/b266762e6299ff3fe259c841a995b53fb8f4c2d2/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98783278
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/b266762e6299ff3fe259c841a995b53fb8f4c2d2/regional.parquet",
+      "sha256": "997986895582f82f41a718e486217e6e0627025edca8785c83556b73f3b8758b"
+    },
+    "source_rows": 29249038,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-25 05:00:00+00:00",
+    "source_max_calibrated": "2026-10-25 04:55:35.742714+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-25T12:15:33.800741+00:00",
+    "revision": "116d0a1db282d7d1baf5dd54f0dac1c65ffceb36",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "a1669d89b422d72cddac4e89c5374935e93a6fbb824852f7bdd28081bf408f11",
+    "tree_sha256": "ff4f3d184d5479d2ef064b9bdef0ae7f033a3af45bfa281334a18e6f6524f1d3",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/116d0a1db282d7d1baf5dd54f0dac1c65ffceb36/data/train-00000-of-00001.parquet",
+        "sha256": "03bccf7350652b04e9eff9bba1713e9fce5b552eef4dfda02af96726ad85eac2",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/116d0a1db282d7d1baf5dd54f0dac1c65ffceb36/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98857716
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/116d0a1db282d7d1baf5dd54f0dac1c65ffceb36/regional.parquet",
+      "sha256": "9fcae533ca9d9a0078ed6f8e7df5a2ae6b411c27ee9aa798ed1c84b6296a616b"
+    },
+    "source_rows": 29285882,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-25 11:37:39+00:00",
+    "source_max_calibrated": "2026-10-25 11:00:54.258895+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-25T18:15:32.409682+00:00",
+    "revision": "1cb96122f13dc999c464ce1c532314f64ff4db4c",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "ae0f1923d17cb13196ecb2f048e9459b4816f8c562042091ae6b5b8866b945bf",
+    "tree_sha256": "98d7c36b93d5042393c32ed3a015626b1b491813341ff11fb2693e2318599193",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/1cb96122f13dc999c464ce1c532314f64ff4db4c/data/train-00000-of-00001.parquet",
+        "sha256": "910135608cae876fcea2a5a77861baacefb7afc67ed8f831c02e7a74f5bb83df",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/1cb96122f13dc999c464ce1c532314f64ff4db4c/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 98954967
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/1cb96122f13dc999c464ce1c532314f64ff4db4c/regional.parquet",
+      "sha256": "d4b9111872436c733b4ede4d58d710fb86eb06260c99da8aee36be31c12a1cc6"
+    },
+    "source_rows": 29331735,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-25 18:13:25+00:00",
+    "source_max_calibrated": "2026-10-25 17:57:52.692397+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-26T00:15:32.130382+00:00",
+    "revision": "43c51fe879f23a208684b93460a902a32ec6de04",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "a2ddb838ad1a019e17c3596dac03423318c2fee3bf815a9480db3eb4a9ba9af6",
+    "tree_sha256": "b32ba4f7a9ed1bb04fdd4ba75235fcfdaceafb5019a5a017b73fd901cd211d3a",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/43c51fe879f23a208684b93460a902a32ec6de04/data/train-00000-of-00001.parquet",
+        "sha256": "59d4e92898eb097bbd926c49135dbbde4ab7ccb1a2f30293fdc94ce54305ea32",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/43c51fe879f23a208684b93460a902a32ec6de04/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 99033636
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/43c51fe879f23a208684b93460a902a32ec6de04/regional.parquet",
+      "sha256": "849d3644d7560ec370d2e016533ed044206c452e1ce2e7d453c2fa0cdc822142"
+    },
+    "source_rows": 29363740,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-25 23:36:33+00:00",
+    "source_max_calibrated": "2026-10-25 23:19:01.309404+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-26T06:15:33.971803+00:00",
+    "revision": "558f710a8eefcb4ab9e0a6199e8d223560c70f57",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "6c3544b8be13f1a1cc6b7de0ea8595ecbdcccb1be19094be2aa3fae5ce728b69",
+    "tree_sha256": "866353f7b3a9d8522c9d9a945afe0fb2dacde6506f4c8b6855e9e051d11cab0d",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/558f710a8eefcb4ab9e0a6199e8d223560c70f57/data/train-00000-of-00001.parquet",
+        "sha256": "ae6ab203daeb1cf4b5b530c4061e081a648861c1e5a61ae0b665e75598d41949",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/558f710a8eefcb4ab9e0a6199e8d223560c70f57/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 99105685
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/558f710a8eefcb4ab9e0a6199e8d223560c70f57/regional.parquet",
+      "sha256": "1d413a57eca05333387b8d719724ccc06241b03852412d0b6e913425f7cdd994"
+    },
+    "source_rows": 29399476,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-26 05:44:22+00:00",
+    "source_max_calibrated": "2026-10-26 05:34:37.249317+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-26T12:15:32.924837+00:00",
+    "revision": "392443e05a7a2d2e1253aaa28b946c498ebba6c1",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "33b51aef175ef47676658b42e77ae84e16f0e7a8d3a5560945b54bf4f94f3129",
+    "tree_sha256": "a1a3a0c6dcbfb4a7157986e0658b1a81f0cf10e3dad1fed3c81cf27d6ce65adb",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/392443e05a7a2d2e1253aaa28b946c498ebba6c1/data/train-00000-of-00001.parquet",
+        "sha256": "35071cff4af36e378f27031b8a7f86b3dc222d050e2e75a3eb4d620937d7cf5b",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/392443e05a7a2d2e1253aaa28b946c498ebba6c1/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 99174143
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/392443e05a7a2d2e1253aaa28b946c498ebba6c1/regional.parquet",
+      "sha256": "daba7cef6db1c10c4a74527862c41d86dff5424c326379d5b2f87807bcd605dd"
+    },
+    "source_rows": 29436637,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-26 11:45:05+00:00",
+    "source_max_calibrated": "2026-10-26 11:33:19.390040+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-26T18:15:32.732282+00:00",
+    "revision": "e57fddc4f37e56d49937460522e9971a4a584bf3",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "5c5fc2a78c38000d783f0837f88771832a0fe09e7b51dddd88ac9906c912b8d6",
+    "tree_sha256": "8616ca23e48cedca87b125964e7f238f872a11e1cb9db302ea14171728794e54",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/e57fddc4f37e56d49937460522e9971a4a584bf3/data/train-00000-of-00001.parquet",
+        "sha256": "739d938a28282c029e3e4889ff39ea5d957585c5d69e13a3949446cefa3a4c17",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/e57fddc4f37e56d49937460522e9971a4a584bf3/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 99250671
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/e57fddc4f37e56d49937460522e9971a4a584bf3/regional.parquet",
+      "sha256": "62e8dfea6f805bb7eb84d8394633e1468e8bc29e2bda97ebb884e07223c75909"
+    },
+    "source_rows": 29471878,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-26 17:00:00+00:00",
+    "source_max_calibrated": "2026-10-26 16:53:16.018461+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-27T00:15:32.689537+00:00",
+    "revision": "f06fec6088ad5f2009d7c6476566d2e656b58a30",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "18fa93ecd4b187eac1f2005860ef999dd4bafa090578100cda036e88e8002ba7",
+    "tree_sha256": "a1a9627605383fefacd9448d1315b5c7440f31c72c3f8ad7de80e5c3b5c3ee0f",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/f06fec6088ad5f2009d7c6476566d2e656b58a30/data/train-00000-of-00001.parquet",
+        "sha256": "a237e3877546c519ece38a0492b8b9a14d3d05a845a2c1899571fdf66a3133fd",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/f06fec6088ad5f2009d7c6476566d2e656b58a30/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 99361449
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/f06fec6088ad5f2009d7c6476566d2e656b58a30/regional.parquet",
+      "sha256": "528bfaec89bb6c75b32c58da8d46828a12fc3677eb072439493e4507fb2fe07a"
+    },
+    "source_rows": 29520352,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-26 23:39:05+00:00",
+    "source_max_calibrated": "2026-10-26 23:27:02.202428+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-27T06:15:37.419750+00:00",
+    "revision": "3b2822ce443cca0a67687fabe773dc4b2ce95330",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "cf99286343e2b402412be33e63aff36ae378250c5c080ae4b4608557d93ef0cb",
+    "tree_sha256": "fa23ac9e66077e5c3b1ad83680da45ddda172c50eebad1cb1516a9241a9c5204",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/3b2822ce443cca0a67687fabe773dc4b2ce95330/data/train-00000-of-00001.parquet",
+        "sha256": "6f30e175a4e561e3121f6852c29f8b78d93e1b6121efee0f6435a5b5062b293a",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/3b2822ce443cca0a67687fabe773dc4b2ce95330/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 99463645
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/3b2822ce443cca0a67687fabe773dc4b2ce95330/regional.parquet",
+      "sha256": "677f290afc3084f139989831303167d3b1ec92158859e859a19359b9a1678e2d"
+    },
+    "source_rows": 29572962,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-27 05:30:00+00:00",
+    "source_max_calibrated": "2026-10-27 05:19:50.849923+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-27T12:15:36.292973+00:00",
+    "revision": "6df4d46b534c4ecad231b3e151b19dc749dec4a8",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "fc274f8903c6bf5eb202fc046452b5b35ffc4f1ce9eeb39680a81f60cce6c269",
+    "tree_sha256": "c6a9ca832538f9132642b52f3a949cc70a68b4ab86f801f60b6e0f6464b2e235",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/6df4d46b534c4ecad231b3e151b19dc749dec4a8/data/train-00000-of-00001.parquet",
+        "sha256": "fcd2cf0d2a1e42c7dd3fadb099499da1166cf5f88d5803985d0cd1a133ba17a6",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/6df4d46b534c4ecad231b3e151b19dc749dec4a8/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 99541485
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/6df4d46b534c4ecad231b3e151b19dc749dec4a8/regional.parquet",
+      "sha256": "32f549d551c599428e590b48abe0a7394c465f71e4f3c55b5294c2b6f2cb5b27"
+    },
+    "source_rows": 29620972,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-27 11:42:25+00:00",
+    "source_max_calibrated": "2026-10-27 11:26:53.748831+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-29T01:47:33.058390+00:00",
+    "revision": "50a66f2426fb91a74a367c8f07eab307d20403de",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "0b70fd68eb9a43855c675bd914c51fed6a5a09cd9f12156fbe037bd6a36e8366",
+    "tree_sha256": "ed3ee60f6a41f57cc5af5f9434312027c201b4465e776a58e52f7ce01e542686",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/50a66f2426fb91a74a367c8f07eab307d20403de/data/train-00000-of-00001.parquet",
+        "sha256": "2129f173f6dac63c4e76ef18cc0ac824d360c38b3a850207000fa625dfea7d85",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/50a66f2426fb91a74a367c8f07eab307d20403de/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 100207466
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/50a66f2426fb91a74a367c8f07eab307d20403de/regional.parquet",
+      "sha256": "4536e9025e108f5f5221414e5b119d2c0d0b41b6cc75f8c62c18d64c97161528"
+    },
+    "source_rows": 29934015,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-29 01:38:11+00:00",
+    "source_max_calibrated": "2026-10-29 01:23:08.456813+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-29T06:15:37.315974+00:00",
+    "revision": "49ceb7773bc30c1131f55c3bf28bfcd2731156d5",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "2a6482111bd3f11529cd63c954e9c9b27cac7300c960444141174cc230c150bc",
+    "tree_sha256": "8f91c1849b51fd00e3d0d3ffcd41737606adc951e39eeabec447fc7bc9052b54",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/49ceb7773bc30c1131f55c3bf28bfcd2731156d5/data/train-00000-of-00001.parquet",
+        "sha256": "6f3aa618b44cf7a9ae3621180a35db0ac0a73e3356f14c55c88c16982e4298e1",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/49ceb7773bc30c1131f55c3bf28bfcd2731156d5/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 100273790
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/49ceb7773bc30c1131f55c3bf28bfcd2731156d5/regional.parquet",
+      "sha256": "8def05f850c0578953f161e791749299b4b66a77da0fa8affc0326448dc1cb2b"
+    },
+    "source_rows": 29964054,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-29 05:36:42+00:00",
+    "source_max_calibrated": "2026-10-29 05:27:19.512636+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-29T12:15:21.697661+00:00",
+    "revision": "84af8a43379f9887a6a2fef4b949e99c1d7ff866",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "722c391bba49a1c1fd791423452350f1c6d1717662c22e5c52ed4bd549b3715e",
+    "tree_sha256": "610583c965f6529faac8516e903ed0b5b0eb5cf1d85761fcbe166865e9461742",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/84af8a43379f9887a6a2fef4b949e99c1d7ff866/data/train-00000-of-00001.parquet",
+        "sha256": "1ada0dc58df7ce9c888ba94bd2e6621bc1eb2e3405185aa0a9c3e0ee6a4a8cad",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/84af8a43379f9887a6a2fef4b949e99c1d7ff866/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 100355195
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/84af8a43379f9887a6a2fef4b949e99c1d7ff866/regional.parquet",
+      "sha256": "093fe2869dffd961ad765009e2bfbf74e2bbb55941ffa751dba254def54b7a1a"
+    },
+    "source_rows": 30013728,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-29 12:13:47+00:00",
+    "source_max_calibrated": "2026-10-29 12:00:35.119227+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-29T18:15:15.327131+00:00",
+    "revision": "4d91a6b156a4e4e3818ce77b546adc9ed6c9bd3a",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "affeed98abfbae99454b8fc62fa7d7e724979ccf8c4edd06f7a3fe3f220fcea5",
+    "tree_sha256": "845b7f9c6750b35b26d2cce06e6d4b5a92d2c378f3570c37f4d3399c224c2106",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/4d91a6b156a4e4e3818ce77b546adc9ed6c9bd3a/data/train-00000-of-00001.parquet",
+        "sha256": "5a8b5fac8780628930c598abddbf395c0e115e16d2d184d6616a8a407822b9e7",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/4d91a6b156a4e4e3818ce77b546adc9ed6c9bd3a/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 100422370
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/4d91a6b156a4e4e3818ce77b546adc9ed6c9bd3a/regional.parquet",
+      "sha256": "9a39b55163ad062a8a39f4997569107769b1572cba02ddbed112c524b1cfcd39"
+    },
+    "source_rows": 30055410,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-29 18:12:01+00:00",
+    "source_max_calibrated": "2026-10-29 18:02:02.829067+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-30T00:15:14.889208+00:00",
+    "revision": "574b8a81573ba80b472bfbfea18238b632f57e76",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "6588aeff25bc58c5db311c62e0d0784c1cf0208fa6b48ae62a7271fd8ba56c2c",
+    "tree_sha256": "54924fd9b3e84c958938597924134840888a5010de60bcc27e6065073be959b6",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/574b8a81573ba80b472bfbfea18238b632f57e76/data/train-00000-of-00001.parquet",
+        "sha256": "226f77932816ad177a3c2d18d854e845b3d77c184604dc9d77188bded871a675",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/574b8a81573ba80b472bfbfea18238b632f57e76/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 100516888
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/574b8a81573ba80b472bfbfea18238b632f57e76/regional.parquet",
+      "sha256": "0c17edf87708ef1e7aab7c9072b3e782f255e7d7e325fc3ff3408eed8aaba2da"
+    },
+    "source_rows": 30100609,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-29 23:37:39+00:00",
+    "source_max_calibrated": "2026-10-29 23:29:54.729632+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-30T06:15:15.397005+00:00",
+    "revision": "94db1f5d44da18998d73f833021b26e15ce35b0f",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "573813e91539f143393466c4f59894899f7408f8e5a1390ffc1088518a076083",
+    "tree_sha256": "53a458388b8e1c1a9ebdaa2ecb7a570cbfbe947ca88149d85b041bf254f1717f",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/94db1f5d44da18998d73f833021b26e15ce35b0f/data/train-00000-of-00001.parquet",
+        "sha256": "67fc3bc634b0d3ed3ec988d081fcd9b4cd72c313ae52f439a3bc4199a7e9f2ca",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/94db1f5d44da18998d73f833021b26e15ce35b0f/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 100666763
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/94db1f5d44da18998d73f833021b26e15ce35b0f/regional.parquet",
+      "sha256": "52c7f1449dd35e22b32aab3f72f5b27a6caf137942c218db7fef5ecfdf7e2489"
+    },
+    "source_rows": 30159739,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-30 05:36:57+00:00",
+    "source_max_calibrated": "2026-10-30 05:25:06.359370+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  },
+  {
+    "status": "collected",
+    "received_at_utc": "2026-10-30T12:15:15.514177+00:00",
+    "revision": "3bfe3e62146f2358f31e4886b4091096a5242b0c",
+    "metadata_url": "https://huggingface.co/api/datasets/phanerozoic/qiskit-calibration-drift",
+    "metadata_sha256": "20714f090c1112f4c06f3a8bbb88fe4b310830fc0bbb673c33d453925083522c",
+    "tree_sha256": "fa0b388824ead8b8252fb3b262c465d6e09b9533c7d5feaa0ae4ba5dabd483f5",
+    "sources": [
+      {
+        "path": "experiments/swarm_confirmation_v1/collection/revisions/3bfe3e62146f2358f31e4886b4091096a5242b0c/data/train-00000-of-00001.parquet",
+        "sha256": "23c79e53acb314a3c9e296e2030d387dd76b4e9114e6b6c034db925dfb841108",
+        "url": "https://huggingface.co/datasets/phanerozoic/qiskit-calibration-drift/resolve/3bfe3e62146f2358f31e4886b4091096a5242b0c/data/train-00000-of-00001.parquet?download=true",
+        "bytes": 100829822
+      }
+    ],
+    "regional": {
+      "path": "experiments/swarm_confirmation_v1/collection/revisions/3bfe3e62146f2358f31e4886b4091096a5242b0c/regional.parquet",
+      "sha256": "2eeeeec3a81fac2c5cd24f96ab22f1cb15ab8a3ac1dc7369c87332fea2fc3620"
+    },
+    "source_rows": 30234822,
+    "source_min_observed": "2026-01-31 17:00:00+00:00",
+    "source_max_observed": "2026-10-30 12:14:03+00:00",
+    "source_max_calibrated": "2026-10-30 11:58:09.385614+00:00",
+    "protocol_sha256": "37fb2e14a21b3c78dc9d5f666d897f252762b20c70fb705a888d666e582af961",
+    "collector_sha256": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "hardware_jobs": 0,
+    "credentials_used": false
+  }
+]

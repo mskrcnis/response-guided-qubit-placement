@@ -1,0 +1,106 @@
+{
+  "version": "step2_v1",
+  "source_sha256": "5ac62438e208da394ae7525da86fdf1fb72374d0c78e3c70f0a5cb56f68463db",
+  "source_revision": "d7f844495732bd25f721792e56248a8cc338e9dd",
+  "properties": [
+    "sx_gate_error",
+    "x_gate_error",
+    "rz_gate_error",
+    "cz_gate_error",
+    "prob_meas0_prep1",
+    "prob_meas1_prep0"
+  ],
+  "backend": "ibm_fez",
+  "physical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    16
+  ],
+  "directed_cz_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      16
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      16,
+      3
+    ]
+  ],
+  "max_measurement_and_observation_age_hours": 72,
+  "anchor_utc": "2026-06-01 00:00:00+00:00",
+  "patch_selection": "First six-node BFS by ascending qubit ID with complete bidirectional anchor calibration; no outcome-based selection",
+  "chronological_splits": {
+    "train": "2026-06-01 through 2026-07-31",
+    "validation": "2026-08-01 through 2026-08-31",
+    "test": "2026-09-01 through 2026-10-10"
+  },
+  "pairing": "Consecutive calendar days within the same split; both must be ready; no gap bridging",
+  "circuit_family_splits": {
+    "train": [
+      "ghz",
+      "product"
+    ],
+    "validation": [
+      "qft"
+    ],
+    "test": [
+      "qaoa"
+    ]
+  },
+  "strict_training_rule": "Use only train-time AND train-family rows to train. Validation/test Cartesian strata remain separate.",
+  "pilot_rule": "First three eligible train-time day-pairs; train families only; seeds 11,22,33. No validation/test outcomes opened.",
+  "noise_model": "Independent gate depolarization using average gate infidelity r and lambda=d*r/(d-1), plus asymmetric assignment error; excludes relaxation, crosstalk, leakage and idle noise",
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cz"
+  ],
+  "routing_method": "basic",
+  "optimization_level": 1,
+  "swarm": {
+    "particles": 8,
+    "iterations": 6,
+    "inertia": 0.5,
+    "cognitive": 0.5,
+    "social": 0.7,
+    "mutation_probability": 0.2
+  },
+  "feature_policy": "Only circuit descriptors, previous compiled circuit descriptors, and past/current calibration changes; no fresh compilation score/cost/outcome as inference input",
+  "label_policy": "delta_tvd = reuse_TVD - fresh_TVD; positive means fresh improves. No cost-aware binary label until an explicit cost tradeoff is set."
+}

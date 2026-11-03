@@ -1,0 +1,926 @@
+[
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.0012528175300455073
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.001136161575769266
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.001303236277713187
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.0010446188703374204
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0009594220130504746
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.00121562815789762
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.0010984455986158183
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.0011093000165828847
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.001294169577971292
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0012943015253790247
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.0012941080276898335
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.0011115854355287886
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.0010896719528279404
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.0010468662160838472
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.0010788307433643215
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0010318806001868221
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.0011910311045860845
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.001181388847406402
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.0011431122269992702
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.0012141160851555472
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0011654125782813683
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.0011645423456859867
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.00050263315368364
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.0004832232171230229
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.00045138904197067
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.00027851905866566935
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0002529133718544758
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.00043380550394333297
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.0004282762289654553
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.00039865933325414086
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.0004429713498953758
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0004625119842311643
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.00045780352106655515
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.0012754051115487946
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.001199662949478251
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.001230999077195821
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.0012674902471881055
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0012631075984221884
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.001284759478970396
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.0012924903320897876
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.0012992543361063993
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.0012947795332047946
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0013125395372214853
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.001307730258448172
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 9.592729919514334e-05
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.00022153693817417085
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 4.052113993623749e-05
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.00016779443778398902
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.00016779443778398902
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 8.907854689411591e-05
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-25",
+    "mean_gain": -5.394074049693517e-05
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 1.4358214416262857e-05
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-27",
+    "mean_gain": -0.0002873284433684398
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 9.063302408797075e-05
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 9.063302408797075e-05
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.00035555782125153775
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.00030940179544310315
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.0002797632961057999
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.00046977916164650285
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.00046977916164650285
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.00040256356086578295
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.000628132756075819
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.00043645991042714474
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.0006125238123142741
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.00038964532325242964
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.00038964532325242964
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.0012035013667811192
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.0012158988201655542
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.0011982538834239664
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.0012187091139465411
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0011469547502645247
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.0012871463712279358
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.001197459336152244
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.001206291299395689
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.001331113237448492
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0013035567272752953
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.0012174099206214081
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.0009421648354282219
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.0009879018636148637
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.0010253745556520833
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.0009073873703658232
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0009078444502453894
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.0009631550117602383
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.0007965970985270905
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.0009236610353360442
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.0009337385838791659
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0010030945761487413
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.0009272930390546153
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.0006718580893845896
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.0006879463250180366
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.0007000643303952198
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.0007350829274320997
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0007592380817003373
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.0007211816169744157
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.0006574558965954289
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.0007082780139006309
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.0007299670204150318
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0007338371885366614
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.0007234364144099137
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.0012710844037131146
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.0013138645277652617
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.0013118207908507412
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.001159220674000616
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0011769094263213797
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.0012155051954352825
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.0011438589658179276
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.0012320048544519127
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.0011779111256105049
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0012757623237553387
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.0012660961906877156
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-19",
+    "mean_gain": 0.001037803938301263
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 0.0010222044653886266
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 0.0010376656574918898
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.0011430660424217533
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0011430660424217533
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-24",
+    "mean_gain": 0.000979567935199775
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-25",
+    "mean_gain": 0.000913420263714253
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 0.0010113445530213724
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-27",
+    "mean_gain": 0.0010207681594772296
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-28",
+    "mean_gain": 0.0009961358086662505
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "omitted_date": "2026-10-29",
+    "mean_gain": 0.0009961358086662505
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-19",
+    "mean_gain": -1.0860804071090673e-05
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-20",
+    "mean_gain": 3.8091309763862806e-05
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-21",
+    "mean_gain": 9.902953768949276e-05
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-22",
+    "mean_gain": 0.0001165375357375385
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-23",
+    "mean_gain": 0.0001165375357375385
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-24",
+    "mean_gain": -7.128317980135209e-05
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-25",
+    "mean_gain": -0.00016641985229547257
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-26",
+    "mean_gain": 1.0724756935806407e-05
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-27",
+    "mean_gain": -1.526545711520948e-05
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-28",
+    "mean_gain": -3.300861068151427e-05
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "omitted_date": "2026-10-29",
+    "mean_gain": -3.300861068151427e-05
+  }
+]

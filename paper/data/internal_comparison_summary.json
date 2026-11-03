@@ -1,0 +1,1226 @@
+[
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "paired_cases": 330,
+    "mean_gain": 0.0011820190155502118,
+    "case_outcomes": {
+      "help": 156,
+      "little": 69,
+      "harm": 105
+    },
+    "date_mean_outcomes": {
+      "help": 7,
+      "little": 4,
+      "harm": 0
+    },
+    "circuit_mean_outcomes": {
+      "help": 5,
+      "little": 0,
+      "harm": 0
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.00047403387059725385
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.0016405934133596686
+      },
+      {
+        "date": "2026-10-21",
+        "gain": -3.015360607954368e-05
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 0.002556020467678126
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 0.0034079890405475845
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0008459275920761285
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0020177531848941453
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.0019092090052234805
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 6.051339133940822e-05
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 5.919391726208296e-05
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 6.112889415399412e-05
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "ghz_4",
+        "gain": 0.0025035368918574444
+      },
+      {
+        "circuit_id": "product_4",
+        "gain": 0.0007425454143162261
+      },
+      {
+        "circuit_id": "rotcx_line_n4_l6",
+        "gain": 0.00018263346293106818
+      },
+      {
+        "circuit_id": "rotcx_ring_n4_l6",
+        "gain": 0.0013403520237021355
+      },
+      {
+        "circuit_id": "rotcx_star_n5_l6",
+        "gain": 0.001141027284944184
+      }
+    ],
+    "leave_one_date_out_min": 0.0009594220130504746,
+    "leave_one_date_out_max": 0.001303236277713187
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "paired_cases": 330,
+    "mean_gain": 0.0011289489214642162,
+    "case_outcomes": {
+      "help": 187,
+      "little": 42,
+      "harm": 101
+    },
+    "date_mean_outcomes": {
+      "help": 11,
+      "little": 0,
+      "harm": 0
+    },
+    "circuit_mean_outcomes": {
+      "help": 4,
+      "little": 1,
+      "harm": 0
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.0013025837808184916
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.001521718607826975
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 0.0019497759752679065
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 0.0016301307024631664
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 0.002099632134238157
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0005081270902455334
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0006045496620423596
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.0009873158661136761
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.000277277284550904
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.0007643123532926963
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.0007730146792465131
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "ghz_4",
+        "gain": 0.0011892980659620428
+      },
+      {
+        "circuit_id": "product_4",
+        "gain": 0.0005098598160569284
+      },
+      {
+        "circuit_id": "rotcx_line_n4_l6",
+        "gain": 8.777167929948898e-05
+      },
+      {
+        "circuit_id": "rotcx_ring_n4_l6",
+        "gain": 0.0013653688694815359
+      },
+      {
+        "circuit_id": "rotcx_star_n5_l6",
+        "gain": 0.0024924461765210857
+      }
+    ],
+    "leave_one_date_out_min": 0.0010318806001868221,
+    "leave_one_date_out_max": 0.0012141160851555472
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "paired_cases": 330,
+    "mean_gain": 0.0004175187058775912,
+    "case_outcomes": {
+      "help": 107,
+      "little": 136,
+      "harm": 87
+    },
+    "date_mean_outcomes": {
+      "help": 6,
+      "little": 3,
+      "harm": 2
+    },
+    "circuit_mean_outcomes": {
+      "help": 4,
+      "little": 0,
+      "harm": 1
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": -0.00043362577218289725
+      },
+      {
+        "date": "2026-10-20",
+        "gain": -0.00023952640657672676
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 7.881534494680195e-05
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 0.0018075151779968093
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 0.002063572046108744
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0002546507252201728
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0003099434749989491
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.0006061124321120941
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.00016299226569974488
+      },
+      {
+        "date": "2026-10-28",
+        "gain": -3.2414077658140936e-05
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 1.4670553987951452e-05
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "ghz_4",
+        "gain": 0.0013766039178543345
+      },
+      {
+        "circuit_id": "product_4",
+        "gain": 0.00026603502326548613
+      },
+      {
+        "circuit_id": "rotcx_line_n4_l6",
+        "gain": -0.0005512161234947534
+      },
+      {
+        "circuit_id": "rotcx_ring_n4_l6",
+        "gain": 0.0007551672882397297
+      },
+      {
+        "circuit_id": "rotcx_star_n5_l6",
+        "gain": 0.00024100342352315884
+      }
+    ],
+    "leave_one_date_out_min": 0.0002529133718544758,
+    "leave_one_date_out_max": 0.00050263315368364
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "paired_cases": 330,
+    "mean_gain": 0.0012752925872612905,
+    "case_outcomes": {
+      "help": 177,
+      "little": 75,
+      "harm": 78
+    },
+    "date_mean_outcomes": {
+      "help": 11,
+      "little": 0,
+      "harm": 0
+    },
+    "circuit_mean_outcomes": {
+      "help": 5,
+      "little": 0,
+      "harm": 0
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.0012741673443862514
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.0020315889650916828
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 0.0017182276879159854
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 0.0013533159879931397
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 0.00139714247565231
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0011806236701702346
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0011033151389763201
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.0010356750988102024
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.0010804231278262507
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.0009028230876593446
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.0009509158753924743
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "ghz_4",
+        "gain": 0.0014732522529044537
+      },
+      {
+        "circuit_id": "product_4",
+        "gain": 0.0004693495213030198
+      },
+      {
+        "circuit_id": "rotcx_line_n4_l6",
+        "gain": 0.0008860028771607207
+      },
+      {
+        "circuit_id": "rotcx_ring_n4_l6",
+        "gain": 0.001258363301314471
+      },
+      {
+        "circuit_id": "rotcx_star_n5_l6",
+        "gain": 0.0022894949836237874
+      }
+    ],
+    "leave_one_date_out_min": 0.001199662949478251,
+    "leave_one_date_out_max": 0.0013125395372214853
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "paired_cases": 330,
+    "mean_gain": 5.790980713586136e-05,
+    "case_outcomes": {
+      "help": 130,
+      "little": 84,
+      "harm": 116
+    },
+    "date_mean_outcomes": {
+      "help": 4,
+      "little": 0,
+      "harm": 7
+    },
+    "circuit_mean_outcomes": {
+      "help": 4,
+      "little": 0,
+      "harm": 1
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": -0.00032226511345695793
+      },
+      {
+        "date": "2026-10-20",
+        "gain": -0.0015783615032472326
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 0.00023179647913210028
+      },
+      {
+        "date": "2026-10-22",
+        "gain": -0.0010409364993454171
+      },
+      {
+        "date": "2026-10-23",
+        "gain": -0.0010409364993454171
+      },
+      {
+        "date": "2026-10-24",
+        "gain": -0.0002537775904466851
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0011764152834638276
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.0004934257343318476
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.0035102923121788734
+      },
+      {
+        "date": "2026-10-28",
+        "gain": -0.00026932236238523196
+      },
+      {
+        "date": "2026-10-29",
+        "gain": -0.00026932236238523196
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "ghz_4",
+        "gain": 0.002196810531916114
+      },
+      {
+        "circuit_id": "product_4",
+        "gain": 0.0017058634912861322
+      },
+      {
+        "circuit_id": "rotcx_line_n4_l6",
+        "gain": -0.004490696928323323
+      },
+      {
+        "circuit_id": "rotcx_ring_n4_l6",
+        "gain": 0.0003378655288237288
+      },
+      {
+        "circuit_id": "rotcx_star_n5_l6",
+        "gain": 0.0005397064119766544
+      }
+    ],
+    "leave_one_date_out_min": -0.0002873284433684398,
+    "leave_one_date_out_max": 0.00022153693817417085
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "paired_cases": 330,
+    "mean_gain": 0.0004312047202073933,
+    "case_outcomes": {
+      "help": 150,
+      "little": 50,
+      "harm": 130
+    },
+    "date_mean_outcomes": {
+      "help": 7,
+      "little": 2,
+      "harm": 2
+    },
+    "circuit_mean_outcomes": {
+      "help": 3,
+      "little": 0,
+      "harm": 2
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.001187673709765948
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.0016492339678502938
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 0.0019456189612233278
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 4.5460305816297926e-05
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 4.5460305816297926e-05
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0007176163136234967
+      },
+      {
+        "date": "2026-10-25",
+        "gain": -0.0015380756384768628
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.00037865281800987874
+      },
+      {
+        "date": "2026-10-27",
+        "gain": -0.0013819862008614134
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.0008467986897570311
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.0008467986897570311
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "ghz_4",
+        "gain": 0.00014340692974765699
+      },
+      {
+        "circuit_id": "product_4",
+        "gain": 0.0015905948100946624
+      },
+      {
+        "circuit_id": "rotcx_line_n4_l6",
+        "gain": -0.0018848234552911942
+      },
+      {
+        "circuit_id": "rotcx_ring_n4_l6",
+        "gain": -0.0005785906072024324
+      },
+      {
+        "circuit_id": "rotcx_star_n5_l6",
+        "gain": 0.002885435923688274
+      }
+    ],
+    "leave_one_date_out_min": 0.0002797632961057999,
+    "leave_one_date_out_max": 0.000628132756075819
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "swarm",
+    "paired_cases": 660,
+    "mean_gain": 0.0012296631660638883,
+    "case_outcomes": {
+      "help": 285,
+      "little": 197,
+      "harm": 178
+    },
+    "date_mean_outcomes": {
+      "help": 11,
+      "little": 0,
+      "harm": 0
+    },
+    "circuit_mean_outcomes": {
+      "help": 9,
+      "little": 0,
+      "harm": 1
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.001491281158891577
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.0013673066250472301
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 0.0015437559924631047
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 0.0013392036872373581
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 0.002056747324057525
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0006548311144234102
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0015517014651803287
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.00146338183274588
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.00021516245221785084
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.0004907275539498154
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.0013521956204886893
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+        "gain": 0.00023259076921337918
+      },
+      {
+        "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+        "gain": 0.0012430326541024736
+      },
+      {
+        "circuit_id": "confirm_product_n4_seed20261118",
+        "gain": 0.0003260520537701304
+      },
+      {
+        "circuit_id": "confirm_product_n5_seed20261119",
+        "gain": 0.0004260801115957421
+      },
+      {
+        "circuit_id": "confirm_line_n4_seed20261218",
+        "gain": 0.0016374700318812258
+      },
+      {
+        "circuit_id": "confirm_line_n5_seed20261219",
+        "gain": 0.003637911569717825
+      },
+      {
+        "circuit_id": "confirm_ring_n4_seed20261318",
+        "gain": 0.0007910171516754758
+      },
+      {
+        "circuit_id": "confirm_ring_n5_seed20261319",
+        "gain": -0.00014130416537523721
+      },
+      {
+        "circuit_id": "confirm_star_n4_seed20261418",
+        "gain": 0.002480517014926274
+      },
+      {
+        "circuit_id": "confirm_star_n5_seed20261419",
+        "gain": 0.0016632644691315923
+      }
+    ],
+    "leave_one_date_out_min": 0.0011469547502645247,
+    "leave_one_date_out_max": 0.001331113237448492
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "always_adopt",
+    "control": "random_fixed_56",
+    "paired_cases": 660,
+    "mean_gain": 0.0009380193109102071,
+    "case_outcomes": {
+      "help": 322,
+      "little": 138,
+      "harm": 200
+    },
+    "date_mean_outcomes": {
+      "help": 10,
+      "little": 1,
+      "harm": 0
+    },
+    "circuit_mean_outcomes": {
+      "help": 8,
+      "little": 1,
+      "harm": 1
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.0008965640657300583
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.00043919378386364006
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 6.446686349144359e-05
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 0.0012443387163540436
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 0.0012397679175583836
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0006866623024098926
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0023522414347413724
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.0010816020666518352
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.0009808265812206185
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.00028726665852486474
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.0010452820294661242
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+        "gain": 0.00013224355277609038
+      },
+      {
+        "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+        "gain": 0.0013956770460683944
+      },
+      {
+        "circuit_id": "confirm_product_n4_seed20261118",
+        "gain": -1.7841985450344723e-05
+      },
+      {
+        "circuit_id": "confirm_product_n5_seed20261119",
+        "gain": 0.00248326185490807
+      },
+      {
+        "circuit_id": "confirm_line_n4_seed20261218",
+        "gain": 0.0011211945291932633
+      },
+      {
+        "circuit_id": "confirm_line_n5_seed20261219",
+        "gain": 0.0011273346340673319
+      },
+      {
+        "circuit_id": "confirm_ring_n4_seed20261318",
+        "gain": 0.0010783280571926932
+      },
+      {
+        "circuit_id": "confirm_ring_n5_seed20261319",
+        "gain": 0.0003659552560713675
+      },
+      {
+        "circuit_id": "confirm_star_n4_seed20261418",
+        "gain": -0.0008458313026895523
+      },
+      {
+        "circuit_id": "confirm_star_n5_seed20261419",
+        "gain": 0.002539871466964755
+      }
+    ],
+    "leave_one_date_out_min": 0.0007965970985270905,
+    "leave_one_date_out_max": 0.0010253745556520833
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "swarm",
+    "paired_cases": 660,
+    "mean_gain": 0.0007116678095238513,
+    "case_outcomes": {
+      "help": 237,
+      "little": 259,
+      "harm": 164
+    },
+    "date_mean_outcomes": {
+      "help": 11,
+      "little": 0,
+      "harm": 0
+    },
+    "circuit_mean_outcomes": {
+      "help": 7,
+      "little": 2,
+      "harm": 1
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.0011097650109164697
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.0009488826545820001
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 0.000827702600810168
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 0.00047751663044136837
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 0.0002359650877589919
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0006165297350182087
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0012537869388080758
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.0007455657657560573
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.0005286757006120465
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.000489974019395751
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.0005939817606632288
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+        "gain": 0.00017292579339984882
+      },
+      {
+        "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+        "gain": 0.0010304915495941399
+      },
+      {
+        "circuit_id": "confirm_product_n4_seed20261118",
+        "gain": 1.2423573210063055e-05
+      },
+      {
+        "circuit_id": "confirm_product_n5_seed20261119",
+        "gain": -8.262643947434033e-05
+      },
+      {
+        "circuit_id": "confirm_line_n4_seed20261218",
+        "gain": 0.001519202044932372
+      },
+      {
+        "circuit_id": "confirm_line_n5_seed20261219",
+        "gain": 0.0026863688176851958
+      },
+      {
+        "circuit_id": "confirm_ring_n4_seed20261318",
+        "gain": 0.00039366017238507
+      },
+      {
+        "circuit_id": "confirm_ring_n5_seed20261319",
+        "gain": -0.0009400109053525549
+      },
+      {
+        "circuit_id": "confirm_star_n4_seed20261418",
+        "gain": 0.0016178462309899184
+      },
+      {
+        "circuit_id": "confirm_star_n5_seed20261419",
+        "gain": 0.0007063972578688015
+      }
+    ],
+    "leave_one_date_out_min": 0.0006574558965954289,
+    "leave_one_date_out_max": 0.0007592380817003373
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "retain_unless_better",
+    "control": "random_fixed_56",
+    "paired_cases": 660,
+    "mean_gain": 0.0012312762253099815,
+    "case_outcomes": {
+      "help": 325,
+      "little": 175,
+      "harm": 160
+    },
+    "date_mean_outcomes": {
+      "help": 11,
+      "little": 0,
+      "harm": 0
+    },
+    "circuit_mean_outcomes": {
+      "help": 9,
+      "little": 1,
+      "harm": 0
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.0008331944412786498
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.00040539320075717796
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 0.0004258305699023846
+      },
+      {
+        "date": "2026-10-22",
+        "gain": 0.0019518317384036338
+      },
+      {
+        "date": "2026-10-23",
+        "gain": 0.0017749442151959972
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.001388986524056971
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.00210544882023052
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.001223989933890667
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.0017649272223047466
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.0007864152408564067
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.0008830765715326411
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+        "gain": 0.00017085712034445568
+      },
+      {
+        "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+        "gain": 0.0017966964702030692
+      },
+      {
+        "circuit_id": "confirm_product_n4_seed20261118",
+        "gain": -9.413050013522693e-05
+      },
+      {
+        "circuit_id": "confirm_product_n5_seed20261119",
+        "gain": 0.0024365676226748567
+      },
+      {
+        "circuit_id": "confirm_line_n4_seed20261218",
+        "gain": 0.0019292580677520933
+      },
+      {
+        "circuit_id": "confirm_line_n5_seed20261219",
+        "gain": 0.0011965568734239398
+      },
+      {
+        "circuit_id": "confirm_ring_n4_seed20261318",
+        "gain": 0.0012036233085345788
+      },
+      {
+        "circuit_id": "confirm_ring_n5_seed20261319",
+        "gain": 0.0009248562079174499
+      },
+      {
+        "circuit_id": "confirm_star_n4_seed20261418",
+        "gain": 0.0007456534843857533
+      },
+      {
+        "circuit_id": "confirm_star_n5_seed20261419",
+        "gain": 0.0020028235979988444
+      }
+    ],
+    "leave_one_date_out_min": 0.0011438589658179276,
+    "leave_one_date_out_max": 0.0013138645277652617
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "swarm",
+    "paired_cases": 660,
+    "mean_gain": 0.0010273798795245835,
+    "case_outcomes": {
+      "help": 302,
+      "little": 170,
+      "harm": 188
+    },
+    "date_mean_outcomes": {
+      "help": 9,
+      "little": 0,
+      "harm": 2
+    },
+    "circuit_mean_outcomes": {
+      "help": 5,
+      "little": 1,
+      "harm": 4
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.0009231392917577885
+      },
+      {
+        "date": "2026-10-20",
+        "gain": 0.0010791340208841514
+      },
+      {
+        "date": "2026-10-21",
+        "gain": 0.0009245220998515167
+      },
+      {
+        "date": "2026-10-22",
+        "gain": -0.00012948174944711575
+      },
+      {
+        "date": "2026-10-23",
+        "gain": -0.00012948174944711575
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0015054993227726675
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.002166976037627886
+      },
+      {
+        "date": "2026-10-26",
+        "gain": 0.0011877331445566937
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.0010934970799981215
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.001339820588107912
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.001339820588107912
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+        "gain": 0.000898132990076164
+      },
+      {
+        "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+        "gain": -0.004242736458517399
+      },
+      {
+        "circuit_id": "confirm_product_n4_seed20261118",
+        "gain": -0.0004672707652188554
+      },
+      {
+        "circuit_id": "confirm_product_n5_seed20261119",
+        "gain": -0.0019829579377898037
+      },
+      {
+        "circuit_id": "confirm_line_n4_seed20261218",
+        "gain": 6.808278128126793e-05
+      },
+      {
+        "circuit_id": "confirm_line_n5_seed20261219",
+        "gain": 0.004914871110452335
+      },
+      {
+        "circuit_id": "confirm_ring_n4_seed20261318",
+        "gain": 0.0011417803151511738
+      },
+      {
+        "circuit_id": "confirm_ring_n5_seed20261319",
+        "gain": -0.000962332583774012
+      },
+      {
+        "circuit_id": "confirm_star_n4_seed20261418",
+        "gain": 0.008395780190272794
+      },
+      {
+        "circuit_id": "confirm_star_n5_seed20261419",
+        "gain": 0.002510449153312171
+      }
+    ],
+    "leave_one_date_out_min": 0.000913420263714253,
+    "leave_one_date_out_max": 0.0011430660424217533
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "policy": "never_recompile",
+    "control": "random_fixed_56",
+    "paired_cases": 660,
+    "mean_gain": 4.643105565280473e-06,
+    "case_outcomes": {
+      "help": 300,
+      "little": 112,
+      "harm": 248
+    },
+    "date_mean_outcomes": {
+      "help": 6,
+      "little": 1,
+      "harm": 4
+    },
+    "circuit_mean_outcomes": {
+      "help": 6,
+      "little": 1,
+      "harm": 3
+    },
+    "date_means": [
+      {
+        "date": "2026-10-19",
+        "gain": 0.00015968220192899245
+      },
+      {
+        "date": "2026-10-20",
+        "gain": -0.0003298389364205423
+      },
+      {
+        "date": "2026-10-21",
+        "gain": -0.0009392212156768418
+      },
+      {
+        "date": "2026-10-22",
+        "gain": -0.0011143011961572994
+      },
+      {
+        "date": "2026-10-23",
+        "gain": -0.0011143011961572994
+      },
+      {
+        "date": "2026-10-24",
+        "gain": 0.0007639059592316063
+      },
+      {
+        "date": "2026-10-25",
+        "gain": 0.0017152726841728105
+      },
+      {
+        "date": "2026-10-26",
+        "gain": -5.617340813997805e-05
+      },
+      {
+        "date": "2026-10-27",
+        "gain": 0.0002037287323701806
+      },
+      {
+        "date": "2026-10-28",
+        "gain": 0.0003811602680332283
+      },
+      {
+        "date": "2026-10-29",
+        "gain": 0.0003811602680332283
+      }
+    ],
+    "circuit_means": [
+      {
+        "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+        "gain": 0.0006681504394999652
+      },
+      {
+        "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+        "gain": -0.0031777258820031634
+      },
+      {
+        "circuit_id": "confirm_product_n4_seed20261118",
+        "gain": -0.0008155014420843884
+      },
+      {
+        "circuit_id": "confirm_product_n5_seed20261119",
+        "gain": 0.0018895252196930844
+      },
+      {
+        "circuit_id": "confirm_line_n4_seed20261218",
+        "gain": 0.00026699904543434294
+      },
+      {
+        "circuit_id": "confirm_line_n5_seed20261219",
+        "gain": 0.00029211123169576463
+      },
+      {
+        "circuit_id": "confirm_ring_n4_seed20261318",
+        "gain": 0.0016983597770967433
+      },
+      {
+        "circuit_id": "confirm_ring_n5_seed20261319",
+        "gain": -0.001705422033309813
+      },
+      {
+        "circuit_id": "confirm_star_n4_seed20261418",
+        "gain": 5.212305715256791e-06
+      },
+      {
+        "circuit_id": "confirm_star_n5_seed20261419",
+        "gain": 0.0009247223939150125
+      }
+    ],
+    "leave_one_date_out_min": -0.00016641985229547257,
+    "leave_one_date_out_max": 0.0001165375357375385
+  }
+]

@@ -1,0 +1,677 @@
+[
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "ghz_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.09979376978534188,
+    "mean_our_tvd": 0.07133547204237058,
+    "mean_gain": 0.028458297742971293
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "product_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.02740511716603632,
+    "mean_our_tvd": 0.003468168811928227,
+    "mean_gain": 0.023936948354108093
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "rotcx_line_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.08341716198684104,
+    "mean_our_tvd": 0.06591879246267422,
+    "mean_gain": 0.017498369524166855
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "rotcx_ring_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.15125231792592272,
+    "mean_our_tvd": 0.1518635557613061,
+    "mean_gain": -0.0006112378353833727
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "rotcx_star_n5_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.12615050438492295,
+    "mean_our_tvd": 0.09758367627284517,
+    "mean_gain": 0.028566828112077777
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "ghz_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.08939513669883196,
+    "mean_our_tvd": 0.07133547204237058,
+    "mean_gain": 0.018059664656461402
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "product_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.010859506785557747,
+    "mean_our_tvd": 0.003468168811928227,
+    "mean_gain": 0.007391337973629522
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "rotcx_line_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06720511543982977,
+    "mean_our_tvd": 0.06591879246267422,
+    "mean_gain": 0.0012863229771555517
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "rotcx_ring_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.13448751413121418,
+    "mean_our_tvd": 0.1518635557613061,
+    "mean_gain": -0.017376041630091918
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "rotcx_star_n5_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.1262144123127388,
+    "mean_our_tvd": 0.09758367627284517,
+    "mean_gain": 0.02863073603989365
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "ghz_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.09314051976324873,
+    "mean_our_tvd": 0.07133547204237058,
+    "mean_gain": 0.021805047720878157
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "product_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.023711979416052967,
+    "mean_our_tvd": 0.003468168811928227,
+    "mean_gain": 0.020243810604124744
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "rotcx_line_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.07846617473754292,
+    "mean_our_tvd": 0.06591879246267422,
+    "mean_gain": 0.0125473822748687
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "rotcx_ring_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.14429972375797556,
+    "mean_our_tvd": 0.1518635557613061,
+    "mean_gain": -0.007563832003330537
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "rotcx_star_n5_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.19084673834048602,
+    "mean_our_tvd": 0.09758367627284517,
+    "mean_gain": 0.09326306206764083
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "ghz_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.11062863124999746,
+    "mean_our_tvd": 0.07133547204237058,
+    "mean_gain": 0.039293159207626875
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "product_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.03804666386781817,
+    "mean_our_tvd": 0.003468168811928227,
+    "mean_gain": 0.03457849505588994
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "rotcx_line_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.10134073348035043,
+    "mean_our_tvd": 0.06591879246267422,
+    "mean_gain": 0.03542194101767621
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "rotcx_ring_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.20394216759167172,
+    "mean_our_tvd": 0.1518635557613061,
+    "mean_gain": 0.052078611830365606
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "rotcx_star_n5_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.150365652098462,
+    "mean_our_tvd": 0.09758367627284517,
+    "mean_gain": 0.0527819758256168
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "ghz_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.11062863124999746,
+    "mean_our_tvd": 0.07133547204237058,
+    "mean_gain": 0.039293159207626875
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "product_4",
+    "cases": 66,
+    "mean_baseline_tvd": 0.03167629025086401,
+    "mean_our_tvd": 0.003468168811928227,
+    "mean_gain": 0.02820812143893578
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "rotcx_line_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.10134073348047555,
+    "mean_our_tvd": 0.06591879246267422,
+    "mean_gain": 0.03542194101780132
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "rotcx_ring_n4_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.2118267159115298,
+    "mean_our_tvd": 0.1518635557613061,
+    "mean_gain": 0.059963160150223654
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "rotcx_star_n5_l6",
+    "cases": 66,
+    "mean_baseline_tvd": 0.2535955677340268,
+    "mean_our_tvd": 0.09758367627284517,
+    "mean_gain": 0.15601189146118163
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+    "cases": 66,
+    "mean_baseline_tvd": 0.02309458569845743,
+    "mean_our_tvd": 0.017225352976126217,
+    "mean_gain": 0.005869232722331215
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06598542513229481,
+    "mean_our_tvd": 0.05817929270016895,
+    "mean_gain": 0.007806132432125844
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_line_n4_seed20261218",
+    "cases": 66,
+    "mean_baseline_tvd": 0.058709203473850814,
+    "mean_our_tvd": 0.0387974029014736,
+    "mean_gain": 0.019911800572377205
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_line_n5_seed20261219",
+    "cases": 66,
+    "mean_baseline_tvd": 0.09418652242761033,
+    "mean_our_tvd": 0.08270379834865489,
+    "mean_gain": 0.01148272407895544
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_product_n4_seed20261118",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06741868645719057,
+    "mean_our_tvd": 0.026664860931975735,
+    "mean_gain": 0.04075382552521484
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_product_n5_seed20261119",
+    "cases": 66,
+    "mean_baseline_tvd": 0.046968204793467076,
+    "mean_our_tvd": 0.011213723210054274,
+    "mean_gain": 0.03575448158341281
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_ring_n4_seed20261318",
+    "cases": 66,
+    "mean_baseline_tvd": 0.0639761374893236,
+    "mean_our_tvd": 0.07999107563692394,
+    "mean_gain": -0.016014938147600327
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_ring_n5_seed20261319",
+    "cases": 66,
+    "mean_baseline_tvd": 0.12152209114148578,
+    "mean_our_tvd": 0.13230432565835012,
+    "mean_gain": -0.010782234516864305
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_star_n4_seed20261418",
+    "cases": 66,
+    "mean_baseline_tvd": 0.050433642495322055,
+    "mean_our_tvd": 0.049144624644374225,
+    "mean_gain": 0.001289017850947825
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "circuit_id": "confirm_star_n5_seed20261419",
+    "cases": 66,
+    "mean_baseline_tvd": 0.10170252285868632,
+    "mean_our_tvd": 0.1011953092080971,
+    "mean_gain": 0.0005072136505892275
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+    "cases": 66,
+    "mean_baseline_tvd": 0.019961697351102693,
+    "mean_our_tvd": 0.017225352976126217,
+    "mean_gain": 0.0027363443749764764
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+    "cases": 66,
+    "mean_baseline_tvd": 0.061994950684821484,
+    "mean_our_tvd": 0.05817929270016895,
+    "mean_gain": 0.0038156579846525397
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_line_n4_seed20261218",
+    "cases": 66,
+    "mean_baseline_tvd": 0.04246863591488365,
+    "mean_our_tvd": 0.0387974029014736,
+    "mean_gain": 0.0036712330134100538
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_line_n5_seed20261219",
+    "cases": 66,
+    "mean_baseline_tvd": 0.09108386101002298,
+    "mean_our_tvd": 0.08270379834865489,
+    "mean_gain": 0.008380062661368088
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_product_n4_seed20261118",
+    "cases": 66,
+    "mean_baseline_tvd": 0.04040834607425459,
+    "mean_our_tvd": 0.026664860931975735,
+    "mean_gain": 0.013743485142278866
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_product_n5_seed20261119",
+    "cases": 66,
+    "mean_baseline_tvd": 0.029024932289270677,
+    "mean_our_tvd": 0.011213723210054274,
+    "mean_gain": 0.017811209079216406
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_ring_n4_seed20261318",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06401875551876854,
+    "mean_our_tvd": 0.07999107563692394,
+    "mean_gain": -0.015972320118155404
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_ring_n5_seed20261319",
+    "cases": 66,
+    "mean_baseline_tvd": 0.12113546799012849,
+    "mean_our_tvd": 0.13230432565835012,
+    "mean_gain": -0.011168857668221585
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_star_n4_seed20261418",
+    "cases": 66,
+    "mean_baseline_tvd": 0.04986074038127476,
+    "mean_our_tvd": 0.049144624644374225,
+    "mean_gain": 0.0007161157369005368
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "circuit_id": "confirm_star_n5_seed20261419",
+    "cases": 66,
+    "mean_baseline_tvd": 0.1016692062224609,
+    "mean_our_tvd": 0.1011953092080971,
+    "mean_gain": 0.00047389701436378293
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+    "cases": 66,
+    "mean_baseline_tvd": 0.02481419610733056,
+    "mean_our_tvd": 0.017225352976126217,
+    "mean_gain": 0.007588843131204346
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06594992078501646,
+    "mean_our_tvd": 0.05817929270016895,
+    "mean_gain": 0.0077706280848475
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_line_n4_seed20261218",
+    "cases": 66,
+    "mean_baseline_tvd": 0.054553003809764675,
+    "mean_our_tvd": 0.0387974029014736,
+    "mean_gain": 0.015755600908291065
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_line_n5_seed20261219",
+    "cases": 66,
+    "mean_baseline_tvd": 0.09308609654700356,
+    "mean_our_tvd": 0.08270379834865489,
+    "mean_gain": 0.010382298198348672
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_product_n4_seed20261118",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06452603864081494,
+    "mean_our_tvd": 0.026664860931975735,
+    "mean_gain": 0.03786117770883921
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_product_n5_seed20261119",
+    "cases": 66,
+    "mean_baseline_tvd": 0.04105495646827907,
+    "mean_our_tvd": 0.011213723210054274,
+    "mean_gain": 0.0298412332582248
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_ring_n4_seed20261318",
+    "cases": 66,
+    "mean_baseline_tvd": 0.0778124048246768,
+    "mean_our_tvd": 0.07999107563692394,
+    "mean_gain": -0.0021786708122471334
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_ring_n5_seed20261319",
+    "cases": 66,
+    "mean_baseline_tvd": 0.15194786550052042,
+    "mean_our_tvd": 0.13230432565835012,
+    "mean_gain": 0.019643539842170352
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_star_n4_seed20261418",
+    "cases": 66,
+    "mean_baseline_tvd": 0.08124406355866294,
+    "mean_our_tvd": 0.049144624644374225,
+    "mean_gain": 0.03209943891428873
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "circuit_id": "confirm_star_n5_seed20261419",
+    "cases": 66,
+    "mean_baseline_tvd": 0.18628726865101994,
+    "mean_our_tvd": 0.1011953092080971,
+    "mean_gain": 0.08509195944292286
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+    "cases": 66,
+    "mean_baseline_tvd": 0.023001298335273302,
+    "mean_our_tvd": 0.017225352976126217,
+    "mean_gain": 0.005775945359147083
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06902994633461032,
+    "mean_our_tvd": 0.05817929270016895,
+    "mean_gain": 0.010850653634441359
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_line_n4_seed20261218",
+    "cases": 66,
+    "mean_baseline_tvd": 0.0692022584348151,
+    "mean_our_tvd": 0.0387974029014736,
+    "mean_gain": 0.030404855533341508
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_line_n5_seed20261219",
+    "cases": 66,
+    "mean_baseline_tvd": 0.09114368444109934,
+    "mean_our_tvd": 0.08270379834865489,
+    "mean_gain": 0.00843988609244444
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_product_n4_seed20261118",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06506374422833353,
+    "mean_our_tvd": 0.026664860931975735,
+    "mean_gain": 0.038398883296357794
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_product_n5_seed20261119",
+    "cases": 66,
+    "mean_baseline_tvd": 0.05652695059311019,
+    "mean_our_tvd": 0.011213723210054274,
+    "mean_gain": 0.045313227383055925
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_ring_n4_seed20261318",
+    "cases": 66,
+    "mean_baseline_tvd": 0.11894607518101494,
+    "mean_our_tvd": 0.07999107563692394,
+    "mean_gain": 0.038954999544090985
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_ring_n5_seed20261319",
+    "cases": 66,
+    "mean_baseline_tvd": 0.16676240047857163,
+    "mean_our_tvd": 0.13230432565835012,
+    "mean_gain": 0.034458074820221556
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_star_n4_seed20261418",
+    "cases": 66,
+    "mean_baseline_tvd": 0.10960520178063524,
+    "mean_our_tvd": 0.049144624644374225,
+    "mean_gain": 0.06046057713626098
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "circuit_id": "confirm_star_n5_seed20261419",
+    "cases": 66,
+    "mean_baseline_tvd": 0.15340607267356596,
+    "mean_our_tvd": 0.1011953092080971,
+    "mean_gain": 0.052210763465468865
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_ghz_rotated_n4_seed20261018",
+    "cases": 66,
+    "mean_baseline_tvd": 0.02300129833528018,
+    "mean_our_tvd": 0.017225352976126217,
+    "mean_gain": 0.00577594535915396
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_ghz_rotated_n5_seed20261019",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06902994633461419,
+    "mean_our_tvd": 0.05817929270016895,
+    "mean_gain": 0.01085065363444523
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_line_n4_seed20261218",
+    "cases": 66,
+    "mean_baseline_tvd": 0.06920225843478532,
+    "mean_our_tvd": 0.0387974029014736,
+    "mean_gain": 0.03040485553331172
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_line_n5_seed20261219",
+    "cases": 66,
+    "mean_baseline_tvd": 0.09114368444113716,
+    "mean_our_tvd": 0.08270379834865489,
+    "mean_gain": 0.008439886092482269
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_product_n4_seed20261118",
+    "cases": 66,
+    "mean_baseline_tvd": 0.08794959664883717,
+    "mean_our_tvd": 0.026664860931975735,
+    "mean_gain": 0.06128473571686144
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_product_n5_seed20261119",
+    "cases": 66,
+    "mean_baseline_tvd": 0.04037246465466534,
+    "mean_our_tvd": 0.011213723210054274,
+    "mean_gain": 0.029158741444611065
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_ring_n4_seed20261318",
+    "cases": 66,
+    "mean_baseline_tvd": 0.1237780153652367,
+    "mean_our_tvd": 0.07999107563692394,
+    "mean_gain": 0.04378693972831274
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_ring_n5_seed20261319",
+    "cases": 66,
+    "mean_baseline_tvd": 0.2045241364376775,
+    "mean_our_tvd": 0.13230432565835012,
+    "mean_gain": 0.07221981077932742
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_star_n4_seed20261418",
+    "cases": 66,
+    "mean_baseline_tvd": 0.12998129813451176,
+    "mean_our_tvd": 0.049144624644374225,
+    "mean_gain": 0.08083667349013754
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "circuit_id": "confirm_star_n5_seed20261419",
+    "cases": 66,
+    "mean_baseline_tvd": 0.23280084109457816,
+    "mean_our_tvd": 0.1011953092080971,
+    "mean_gain": 0.13160553188648105
+  }
+]

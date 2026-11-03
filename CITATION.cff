@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Cite this versioned artifact when reusing its original code or results; also cite the upstream calibration dataset and compiler publications."
+title: "Response-guided qubit placement: code and research data"
+type: software
+authors:
+  - name: "response-guided-qubit-placement contributors"
+version: 1.0.0
+date-released: 2026-11-03
+repository-code: "https://github.com/mskrcnis/response-guided-qubit-placement"
+url: "https://github.com/mskrcnis/response-guided-qubit-placement/releases/tag/v1.0.0"
+license: MIT
+keywords:
+  - quantum compilation
+  - qubit placement
+  - calibration
+  - particle swarm optimization
+  - reproducibility

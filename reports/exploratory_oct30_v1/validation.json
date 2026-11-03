@@ -1,0 +1,20 @@
+{
+  "status": "passed_exploratory_validation",
+  "at_utc": "2026-10-30T18:14:41.338736+00:00",
+  "validator_sha256": "27b6e388f29d57376b9aac6eb7df04a9bf89f5e81efc3eeb9fea9e8cc138ca27",
+  "plan_sha256": "c3d3743a3e5432d4208e689e24fadc023a4a8976cbe2019e9125b76ba4000e66",
+  "generation_manifest_sha256": "d2d118739eac875138130330d5f4147624d9aafe154a998f59ab98d553ae7166",
+  "trajectories": 270,
+  "searches": 3240,
+  "scored_proposals": 181440,
+  "distinct_layout_candidate_records": 161775,
+  "policy_update_rows": 8910,
+  "independent_native_date_evaluations": 7910,
+  "unchanged_calibration_fixed_seed_checks": 270,
+  "prior_pilot_overlap_regression_checks": 270,
+  "prior_pilot_generation_manifest_sha256": "2321ae86fc5779e84e8c956c31e613ae53239694be0bea491d7c0d63ae22b65b",
+  "max_independent_error": 3.774758283725532e-15,
+  "tolerance": 2e-10,
+  "scope": "Reconstruct every seeded proposal sequence; independently recompile each winner; check QPY round trips. Independently evaluate exact noise channels and tangent hybrid scores for every winner and each policy incumbent, and verify saved arithmetic and history. Nonwinner candidate scores use the unchanged previously validated engine; this is not a new exhaustive independent all-candidate audit.",
+  "confirmation_complete": false
+}

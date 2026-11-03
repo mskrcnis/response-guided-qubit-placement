@@ -1,0 +1,122 @@
+[
+  {
+    "stratum": "known_instance_new_period",
+    "method": "lightsabre",
+    "cases": 330,
+    "circuits": 5,
+    "dates": 11,
+    "mean_tvd": 0.097603774249813,
+    "mean_cz": 26.4,
+    "mean_depth": 72.47272727272727
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "method": "mapomatic",
+    "cases": 330,
+    "circuits": 5,
+    "dates": 11,
+    "mean_tvd": 0.0856323370736345,
+    "mean_cz": 26.4,
+    "mean_depth": 72.47272727272727
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "method": "sqgm",
+    "cases": 330,
+    "circuits": 5,
+    "dates": 11,
+    "mean_tvd": 0.10609302720306124,
+    "mean_cz": 31.73030303030303,
+    "mean_depth": 94.48181818181818
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "method": "qmap",
+    "cases": 330,
+    "circuits": 5,
+    "dates": 11,
+    "mean_tvd": 0.12086476965765995,
+    "mean_cz": 33.0,
+    "mean_depth": 95.0
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "method": "duostra",
+    "cases": 330,
+    "circuits": 5,
+    "dates": 11,
+    "mean_tvd": 0.14181358772537875,
+    "mean_cz": 36.0,
+    "mean_depth": 89.6
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "method": "swarm_unique_56",
+    "cases": 330,
+    "circuits": 5,
+    "dates": 11,
+    "mean_tvd": 0.07803393307022485,
+    "mean_cz": 33.054545454545455,
+    "mean_depth": 83.34242424242424
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "method": "lightsabre",
+    "cases": 660,
+    "circuits": 10,
+    "dates": 11,
+    "mean_tvd": 0.06939970219676887,
+    "mean_cz": 18.0,
+    "mean_depth": 54.842424242424244
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "method": "mapomatic",
+    "cases": 660,
+    "circuits": 10,
+    "dates": 11,
+    "mean_tvd": 0.06216265934369888,
+    "mean_cz": 18.0,
+    "mean_depth": 54.842424242424244
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "method": "sqgm",
+    "cases": 660,
+    "circuits": 10,
+    "dates": 11,
+    "mean_tvd": 0.08412758148930895,
+    "mean_cz": 24.093939393939394,
+    "mean_depth": 71.32575757575758
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "method": "qmap",
+    "cases": 660,
+    "circuits": 10,
+    "dates": 11,
+    "mean_tvd": 0.09226876324810296,
+    "mean_cz": 23.3,
+    "mean_depth": 68.0
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "method": "duostra",
+    "cases": 660,
+    "circuits": 10,
+    "dates": 11,
+    "mean_tvd": 0.10717835398813236,
+    "mean_cz": 27.6,
+    "mean_depth": 76.2
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "method": "swarm_unique_56",
+    "cases": 660,
+    "circuits": 10,
+    "dates": 11,
+    "mean_tvd": 0.059741976621619904,
+    "mean_cz": 26.136363636363637,
+    "mean_depth": 72.35454545454546
+  }
+]

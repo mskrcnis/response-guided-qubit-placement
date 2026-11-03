@@ -1,0 +1,9 @@
+{
+  "version": "v1.0.0",
+  "filename": "qst-frozen-artifacts-v1.0.0.tar.gz",
+  "sha256": "7e56436f4f4ece0ee67f145e7c7c230dfff258124faea8025a83a781d7f68d2c",
+  "bytes": 41824096,
+  "files": 7020,
+  "unpacked_bytes": 240401357,
+  "url": "https://github.com/mskrcnis/response-guided-qubit-placement/releases/download/v1.0.0/qst-frozen-artifacts-v1.0.0.tar.gz"
+}

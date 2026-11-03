@@ -1,0 +1,265 @@
+{
+  "status": "passed",
+  "fresh_searches": 12,
+  "rows": [
+    {
+      "circuit": "ghz_4",
+      "method": "swarm",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-19",
+      "tvd": 0.060706105643818384,
+      "max_channel_error": 2.220446049250313e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 2.7755575615628914e-16,
+      "logical_input_dimension": 16,
+      "measurement_map": {
+        "0": 5,
+        "1": 4,
+        "2": 2,
+        "3": 1
+      },
+      "native_cz": 9,
+      "native_depth": 27,
+      "native_1q": 32
+    },
+    {
+      "circuit": "ghz_4",
+      "method": "swarm",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-29",
+      "tvd": 0.06991857172619768,
+      "max_channel_error": 4.440892098500626e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 2.7755575615628914e-16,
+      "logical_input_dimension": 16,
+      "measurement_map": {
+        "0": 4,
+        "1": 2,
+        "2": 3,
+        "3": 5
+      },
+      "native_cz": 12,
+      "native_depth": 31,
+      "native_1q": 36
+    },
+    {
+      "circuit": "ghz_4",
+      "method": "swarm_unique_56",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-19",
+      "tvd": 0.060706105643818384,
+      "max_channel_error": 2.220446049250313e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 2.7755575615628914e-16,
+      "logical_input_dimension": 16,
+      "measurement_map": {
+        "0": 5,
+        "1": 4,
+        "2": 2,
+        "3": 1
+      },
+      "native_cz": 9,
+      "native_depth": 27,
+      "native_1q": 32
+    },
+    {
+      "circuit": "ghz_4",
+      "method": "swarm_unique_56",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-29",
+      "tvd": 0.059432078295811736,
+      "max_channel_error": 4.996003610813204e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 2.7755575615628914e-16,
+      "logical_input_dimension": 16,
+      "measurement_map": {
+        "0": 5,
+        "1": 4,
+        "2": 2,
+        "3": 1
+      },
+      "native_cz": 9,
+      "native_depth": 27,
+      "native_1q": 32
+    },
+    {
+      "circuit": "ghz_4",
+      "method": "random_fixed_56",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-19",
+      "tvd": 0.06580046194135494,
+      "max_channel_error": 2.220446049250313e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 4.440892098500626e-16,
+      "logical_input_dimension": 16,
+      "measurement_map": {
+        "0": 2,
+        "1": 4,
+        "2": 3,
+        "3": 5
+      },
+      "native_cz": 12,
+      "native_depth": 32,
+      "native_1q": 37
+    },
+    {
+      "circuit": "ghz_4",
+      "method": "random_fixed_56",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-29",
+      "tvd": 0.062170272639406915,
+      "max_channel_error": 2.220446049250313e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 3.3306690738754696e-16,
+      "logical_input_dimension": 16,
+      "measurement_map": {
+        "0": 2,
+        "1": 4,
+        "2": 3,
+        "3": 5
+      },
+      "native_cz": 6,
+      "native_depth": 21,
+      "native_1q": 26
+    },
+    {
+      "circuit": "confirm_ring_n5_seed20261319",
+      "method": "swarm",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-19",
+      "tvd": 0.10066733467822613,
+      "max_channel_error": 4.85722573273506e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 6.663939575991697e-16,
+      "logical_input_dimension": 32,
+      "measurement_map": {
+        "0": 5,
+        "1": 1,
+        "2": 2,
+        "3": 4,
+        "4": 3
+      },
+      "native_cz": 71,
+      "native_depth": 194,
+      "native_1q": 268
+    },
+    {
+      "circuit": "confirm_ring_n5_seed20261319",
+      "method": "swarm",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-29",
+      "tvd": 0.10237792751341544,
+      "max_channel_error": 6.522560269672795e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 4.718449255508611e-16,
+      "logical_input_dimension": 32,
+      "measurement_map": {
+        "0": 2,
+        "1": 1,
+        "2": 5,
+        "3": 4,
+        "4": 3
+      },
+      "native_cz": 77,
+      "native_depth": 195,
+      "native_1q": 269
+    },
+    {
+      "circuit": "confirm_ring_n5_seed20261319",
+      "method": "swarm_unique_56",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-19",
+      "tvd": 0.10066733467822613,
+      "max_channel_error": 4.85722573273506e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 6.663939575991697e-16,
+      "logical_input_dimension": 32,
+      "measurement_map": {
+        "0": 5,
+        "1": 1,
+        "2": 2,
+        "3": 4,
+        "4": 3
+      },
+      "native_cz": 71,
+      "native_depth": 194,
+      "native_1q": 268
+    },
+    {
+      "circuit": "confirm_ring_n5_seed20261319",
+      "method": "swarm_unique_56",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-29",
+      "tvd": 0.09651635241747117,
+      "max_channel_error": 6.661338147750939e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 5.412462574659243e-16,
+      "logical_input_dimension": 32,
+      "measurement_map": {
+        "0": 4,
+        "1": 1,
+        "2": 2,
+        "3": 5,
+        "4": 3
+      },
+      "native_cz": 71,
+      "native_depth": 190,
+      "native_1q": 264
+    },
+    {
+      "circuit": "confirm_ring_n5_seed20261319",
+      "method": "random_fixed_56",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-19",
+      "tvd": 0.1008047015082018,
+      "max_channel_error": 4.718447854656915e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 5.412462574659243e-16,
+      "logical_input_dimension": 32,
+      "measurement_map": {
+        "0": 4,
+        "1": 1,
+        "2": 2,
+        "3": 5,
+        "4": 3
+      },
+      "native_cz": 71,
+      "native_depth": 190,
+      "native_1q": 264
+    },
+    {
+      "circuit": "confirm_ring_n5_seed20261319",
+      "method": "random_fixed_56",
+      "replicate": 0,
+      "seed_rule": "resampled",
+      "date": "2026-10-29",
+      "tvd": 0.10076808256257919,
+      "max_channel_error": 6.38378239159465e-16,
+      "native_signature_matches": true,
+      "max_povm_error": 5.551160076363013e-16,
+      "logical_input_dimension": 32,
+      "measurement_map": {
+        "0": 2,
+        "1": 1,
+        "2": 4,
+        "3": 5,
+        "4": 3
+      },
+      "native_cz": 77,
+      "native_depth": 199,
+      "native_1q": 275
+    }
+  ],
+  "scope": "Fresh search, native circuit, channel and score reproduction. Recorded wall times are not replicated. Post-search policy histories are checked separately by audit."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "updated_utc": "2026-10-31T01:36:03.680753+00:00",
+  "frozen_source_hashes": 440,
+  "generation_hashes": 4125,
+  "complete_observations": 6480,
+  "paired_observations": 5940,
+  "unique_external_compilations": 2055,
+  "serial_timing_trials": 270,
+  "independent_channel_evaluations": 2780,
+  "independently_enumerated_mapomatic_embedding_costs": 94248,
+  "all_input_measurement_checks": 2494,
+  "max_channel_error": 6.526723606015139e-13,
+  "max_measurement_povm_error": 7.143176643046686e-13,
+  "protocol_sha256": "43f8a497fba9bfcd19d8f069452e203ef34bcbc588879e7aa049644877f88711",
+  "audit_scope": "Saved-data provenance, completeness, probability distributions, source reproduction, independent aggregate arithmetic and serial timing records. Earlier full channel and measurement checks are cross-checked; not a new physical experiment."
+}

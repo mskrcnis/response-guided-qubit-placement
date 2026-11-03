@@ -1,0 +1,992 @@
+[
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-19",
+    "cases": 30,
+    "mean_baseline_tvd": 0.0787638137526397,
+    "mean_our_tvd": 0.06375173298355992,
+    "mean_gain": 0.0150120807690798
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-20",
+    "cases": 30,
+    "mean_baseline_tvd": 0.08749549807393257,
+    "mean_our_tvd": 0.06765346511129028,
+    "mean_gain": 0.01984203296264227
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-21",
+    "cases": 30,
+    "mean_baseline_tvd": 0.09360327364990881,
+    "mean_our_tvd": 0.06873979135396521,
+    "mean_gain": 0.024863482295943564
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-22",
+    "cases": 30,
+    "mean_baseline_tvd": 0.12149211834103962,
+    "mean_our_tvd": 0.11624949232448678,
+    "mean_gain": 0.0052426260165528375
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-23",
+    "cases": 30,
+    "mean_baseline_tvd": 0.12173079667448736,
+    "mean_our_tvd": 0.11562722830356006,
+    "mean_gain": 0.00610356837092729
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-24",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1035929159302761,
+    "mean_our_tvd": 0.07709667293812665,
+    "mean_gain": 0.026496242992149446
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-25",
+    "cases": 30,
+    "mean_baseline_tvd": 0.10939379444290602,
+    "mean_our_tvd": 0.07764979927956135,
+    "mean_gain": 0.03174399516334466
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-26",
+    "cases": 30,
+    "mean_baseline_tvd": 0.07868953406731151,
+    "mean_our_tvd": 0.060536798302652454,
+    "mean_gain": 0.018152735764659048
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-27",
+    "cases": 30,
+    "mean_baseline_tvd": 0.11781642871372135,
+    "mean_our_tvd": 0.09000911170346707,
+    "mean_gain": 0.027807317010254348
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-28",
+    "cases": 30,
+    "mean_baseline_tvd": 0.08003147761293622,
+    "mean_our_tvd": 0.06071066973211912,
+    "mean_gain": 0.019320807880817085
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-29",
+    "cases": 30,
+    "mean_baseline_tvd": 0.08103186548878366,
+    "mean_our_tvd": 0.060348501739684604,
+    "mean_gain": 0.020683363749099064
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-19",
+    "cases": 30,
+    "mean_baseline_tvd": 0.06814381528221096,
+    "mean_our_tvd": 0.06375173298355992,
+    "mean_gain": 0.004392082298651038
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-20",
+    "cases": 30,
+    "mean_baseline_tvd": 0.07634413530374691,
+    "mean_our_tvd": 0.06765346511129028,
+    "mean_gain": 0.008690670192456614
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-21",
+    "cases": 30,
+    "mean_baseline_tvd": 0.08132985094104458,
+    "mean_our_tvd": 0.06873979135396521,
+    "mean_gain": 0.01259005958707935
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-22",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1130775996389701,
+    "mean_our_tvd": 0.11624949232448678,
+    "mean_gain": -0.0031718926855167067
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-23",
+    "cases": 30,
+    "mean_baseline_tvd": 0.11296696821627053,
+    "mean_our_tvd": 0.11562722830356006,
+    "mean_gain": -0.002660260087289539
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-24",
+    "cases": 30,
+    "mean_baseline_tvd": 0.08773194697210798,
+    "mean_our_tvd": 0.07709667293812665,
+    "mean_gain": 0.010635274033981313
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-25",
+    "cases": 30,
+    "mean_baseline_tvd": 0.0996117403500635,
+    "mean_our_tvd": 0.07764979927956135,
+    "mean_gain": 0.02196194107050213
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-26",
+    "cases": 30,
+    "mean_baseline_tvd": 0.06903396267502514,
+    "mean_our_tvd": 0.060536798302652454,
+    "mean_gain": 0.00849716437237269
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-27",
+    "cases": 30,
+    "mean_baseline_tvd": 0.09963099286852836,
+    "mean_our_tvd": 0.09000911170346707,
+    "mean_gain": 0.00962188116506132
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-28",
+    "cases": 30,
+    "mean_baseline_tvd": 0.06688469272333883,
+    "mean_our_tvd": 0.06071066973211912,
+    "mean_gain": 0.006174022991219704
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-29",
+    "cases": 30,
+    "mean_baseline_tvd": 0.06720000283867275,
+    "mean_our_tvd": 0.060348501739684604,
+    "mean_gain": 0.006851501098988148
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-19",
+    "cases": 30,
+    "mean_baseline_tvd": 0.0817169419377632,
+    "mean_our_tvd": 0.06375173298355992,
+    "mean_gain": 0.0179652089542033
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-20",
+    "cases": 30,
+    "mean_baseline_tvd": 0.09868119632982704,
+    "mean_our_tvd": 0.06765346511129028,
+    "mean_gain": 0.03102773121853675
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-21",
+    "cases": 30,
+    "mean_baseline_tvd": 0.10465117905455786,
+    "mean_our_tvd": 0.06873979135396521,
+    "mean_gain": 0.035911387700592635
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-22",
+    "cases": 30,
+    "mean_baseline_tvd": 0.13244688812394628,
+    "mean_our_tvd": 0.11624949232448678,
+    "mean_gain": 0.01619739579945948
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-23",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1303383268849733,
+    "mean_our_tvd": 0.11562722830356006,
+    "mean_gain": 0.01471109858141322
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-24",
+    "cases": 30,
+    "mean_baseline_tvd": 0.09906410087016444,
+    "mean_our_tvd": 0.07709667293812665,
+    "mean_gain": 0.02196742793203778
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-25",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1221295693644697,
+    "mean_our_tvd": 0.07764979927956135,
+    "mean_gain": 0.044479770084908346
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-26",
+    "cases": 30,
+    "mean_baseline_tvd": 0.09064230112347345,
+    "mean_our_tvd": 0.060536798302652454,
+    "mean_gain": 0.03010550282082102
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-27",
+    "cases": 30,
+    "mean_baseline_tvd": 0.12281257327541135,
+    "mean_our_tvd": 0.09000911170346707,
+    "mean_gain": 0.032803461571944345
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-28",
+    "cases": 30,
+    "mean_baseline_tvd": 0.09637270577877698,
+    "mean_our_tvd": 0.06071066973211912,
+    "mean_gain": 0.03566203604665785
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-29",
+    "cases": 30,
+    "mean_baseline_tvd": 0.08816751649031004,
+    "mean_our_tvd": 0.060348501739684604,
+    "mean_gain": 0.027819014750625457
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-19",
+    "cases": 30,
+    "mean_baseline_tvd": 0.10441812844589755,
+    "mean_our_tvd": 0.06375173298355992,
+    "mean_gain": 0.0406663954623376
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-20",
+    "cases": 30,
+    "mean_baseline_tvd": 0.11120465228845709,
+    "mean_our_tvd": 0.06765346511129028,
+    "mean_gain": 0.043551187177166835
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-21",
+    "cases": 30,
+    "mean_baseline_tvd": 0.11476919626274559,
+    "mean_our_tvd": 0.06873979135396521,
+    "mean_gain": 0.04602940490878042
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-22",
+    "cases": 30,
+    "mean_baseline_tvd": 0.13664287773638223,
+    "mean_our_tvd": 0.11624949232448678,
+    "mean_gain": 0.020393385411895396
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-23",
+    "cases": 30,
+    "mean_baseline_tvd": 0.13664287773638223,
+    "mean_our_tvd": 0.11562722830356006,
+    "mean_gain": 0.021015649432822112
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-24",
+    "cases": 30,
+    "mean_baseline_tvd": 0.12517581557730711,
+    "mean_our_tvd": 0.07709667293812665,
+    "mean_gain": 0.04807914263918049
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-25",
+    "cases": 30,
+    "mean_baseline_tvd": 0.13644920488437187,
+    "mean_our_tvd": 0.07764979927956135,
+    "mean_gain": 0.0587994056048105
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-26",
+    "cases": 30,
+    "mean_baseline_tvd": 0.10499509545785207,
+    "mean_our_tvd": 0.060536798302652454,
+    "mean_gain": 0.044458297155199604
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-27",
+    "cases": 30,
+    "mean_baseline_tvd": 0.14743028887218473,
+    "mean_our_tvd": 0.09000911170346707,
+    "mean_gain": 0.05742117716871767
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-28",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1058921644863395,
+    "mean_our_tvd": 0.06071066973211912,
+    "mean_gain": 0.0451814947542204
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-29",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1058921644863395,
+    "mean_our_tvd": 0.060348501739684604,
+    "mean_gain": 0.0455436627466549
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-19",
+    "cases": 30,
+    "mean_baseline_tvd": 0.12421062611104974,
+    "mean_our_tvd": 0.06375173298355992,
+    "mean_gain": 0.06045889312748987
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-20",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1294005534254653,
+    "mean_our_tvd": 0.06765346511129028,
+    "mean_gain": 0.061747088314175066
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-21",
+    "cases": 30,
+    "mean_baseline_tvd": 0.13426022852194125,
+    "mean_our_tvd": 0.06873979135396521,
+    "mean_gain": 0.06552043716797602
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-22",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1547422918614906,
+    "mean_our_tvd": 0.11624949232448678,
+    "mean_gain": 0.038492799537003804
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-23",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1547422918614906,
+    "mean_our_tvd": 0.11562722830356006,
+    "mean_gain": 0.03911506355793052
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-24",
+    "cases": 30,
+    "mean_baseline_tvd": 0.140848927238631,
+    "mean_our_tvd": 0.07709667293812665,
+    "mean_gain": 0.0637522543005044
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-25",
+    "cases": 30,
+    "mean_baseline_tvd": 0.15625738380561688,
+    "mean_our_tvd": 0.07764979927956135,
+    "mean_gain": 0.07860758452605555
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-26",
+    "cases": 30,
+    "mean_baseline_tvd": 0.13493895847038162,
+    "mean_our_tvd": 0.060536798302652454,
+    "mean_gain": 0.07440216016772917
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-27",
+    "cases": 30,
+    "mean_baseline_tvd": 0.1762138634179158,
+    "mean_our_tvd": 0.09000911170346707,
+    "mean_gain": 0.08620475171444872
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-28",
+    "cases": 30,
+    "mean_baseline_tvd": 0.12716717013259154,
+    "mean_our_tvd": 0.06071066973211912,
+    "mean_gain": 0.06645650040047239
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-29",
+    "cases": 30,
+    "mean_baseline_tvd": 0.12716717013259154,
+    "mean_our_tvd": 0.060348501739684604,
+    "mean_gain": 0.06681866839290691
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-19",
+    "cases": 60,
+    "mean_baseline_tvd": 0.05833102680462406,
+    "mean_our_tvd": 0.04902628034135094,
+    "mean_gain": 0.009304746463273115
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-20",
+    "cases": 60,
+    "mean_baseline_tvd": 0.06335118938915961,
+    "mean_our_tvd": 0.05322420755728421,
+    "mean_gain": 0.0101269818318754
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-21",
+    "cases": 60,
+    "mean_baseline_tvd": 0.06668754035676505,
+    "mean_our_tvd": 0.05376314156008835,
+    "mean_gain": 0.012924398796676692
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-22",
+    "cases": 60,
+    "mean_baseline_tvd": 0.0817325670466196,
+    "mean_our_tvd": 0.08229793401790846,
+    "mean_gain": -0.0005653669712888528
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-23",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08208712373958815,
+    "mean_our_tvd": 0.08213372074851359,
+    "mean_gain": -4.6597008925443326e-05
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-24",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07239345166147097,
+    "mean_our_tvd": 0.060392292839566084,
+    "mean_gain": 0.012001158821904868
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-25",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08024596464835433,
+    "mean_our_tvd": 0.062318987576915036,
+    "mean_gain": 0.017926977071439285
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-26",
+    "cases": 60,
+    "mean_baseline_tvd": 0.05928465668230623,
+    "mean_our_tvd": 0.04718782466981113,
+    "mean_gain": 0.01209683201249511
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-27",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08240291281493457,
+    "mean_our_tvd": 0.07285287476803928,
+    "mean_gain": 0.009550038046895314
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-28",
+    "cases": 60,
+    "mean_baseline_tvd": 0.058807063850271755,
+    "mean_our_tvd": 0.04708440122369197,
+    "mean_gain": 0.011722662626579785
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "date": "2026-10-29",
+    "cases": 60,
+    "mean_baseline_tvd": 0.05807322717036335,
+    "mean_our_tvd": 0.04688007753464988,
+    "mean_gain": 0.011193149635713467
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-19",
+    "cases": 60,
+    "mean_baseline_tvd": 0.053252498460397264,
+    "mean_our_tvd": 0.04902628034135094,
+    "mean_gain": 0.004226218119046322
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-20",
+    "cases": 60,
+    "mean_baseline_tvd": 0.05730732688853121,
+    "mean_our_tvd": 0.05322420755728421,
+    "mean_gain": 0.004083119331247009
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-21",
+    "cases": 60,
+    "mean_baseline_tvd": 0.05740239116644486,
+    "mean_our_tvd": 0.05376314156008835,
+    "mean_gain": 0.0036392496063565078
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-22",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07872663430715182,
+    "mean_our_tvd": 0.08229793401790846,
+    "mean_gain": -0.003571299710756637
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-23",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07834232214523239,
+    "mean_our_tvd": 0.08213372074851359,
+    "mean_gain": -0.0037913986032812015
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-24",
+    "cases": 60,
+    "mean_baseline_tvd": 0.06324205777355454,
+    "mean_our_tvd": 0.060392292839566084,
+    "mean_gain": 0.0028497649339884455
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-25",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07007567253004768,
+    "mean_our_tvd": 0.062318987576915036,
+    "mean_gain": 0.00775668495313263
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-26",
+    "cases": 60,
+    "mean_baseline_tvd": 0.05153075476318003,
+    "mean_our_tvd": 0.04718782466981113,
+    "mean_gain": 0.004342930093368899
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-27",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07273426233421414,
+    "mean_our_tvd": 0.07285287476803928,
+    "mean_gain": -0.00011861243382512293
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-28",
+    "cases": 60,
+    "mean_baseline_tvd": 0.04995822137111567,
+    "mean_our_tvd": 0.04708440122369197,
+    "mean_gain": 0.0028738201474236974
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "date": "2026-10-29",
+    "cases": 60,
+    "mean_baseline_tvd": 0.05121711104081807,
+    "mean_our_tvd": 0.04688007753464988,
+    "mean_gain": 0.004337033506168185
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-19",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07128631694160055,
+    "mean_our_tvd": 0.04902628034135094,
+    "mean_gain": 0.0222600366002496
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-20",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07931458988274528,
+    "mean_our_tvd": 0.05322420755728421,
+    "mean_gain": 0.026090382325461074
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-21",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08245237694950781,
+    "mean_our_tvd": 0.05376314156008835,
+    "mean_gain": 0.028689235389419455
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-22",
+    "cases": 60,
+    "mean_baseline_tvd": 0.10224690595768292,
+    "mean_our_tvd": 0.08229793401790846,
+    "mean_gain": 0.019948971939774456
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-23",
+    "cases": 60,
+    "mean_baseline_tvd": 0.09850259709644457,
+    "mean_our_tvd": 0.08213372074851359,
+    "mean_gain": 0.016368876347930966
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-24",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08424607005532447,
+    "mean_our_tvd": 0.060392292839566084,
+    "mean_gain": 0.023853777215758376
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-25",
+    "cases": 60,
+    "mean_baseline_tvd": 0.09245143721602504,
+    "mean_our_tvd": 0.062318987576915036,
+    "mean_gain": 0.03013244963911001
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-26",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07517290784718987,
+    "mean_our_tvd": 0.04718782466981113,
+    "mean_gain": 0.02798508317737873
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-27",
+    "cases": 60,
+    "mean_baseline_tvd": 0.09695004311006329,
+    "mean_our_tvd": 0.07285287476803928,
+    "mean_gain": 0.024097168342024033
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-28",
+    "cases": 60,
+    "mean_baseline_tvd": 0.07353960249630473,
+    "mean_our_tvd": 0.04708440122369197,
+    "mean_gain": 0.026455201272612756
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "date": "2026-10-29",
+    "cases": 60,
+    "mean_baseline_tvd": 0.06924054882950983,
+    "mean_our_tvd": 0.04688007753464988,
+    "mean_gain": 0.022360471294859963
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-19",
+    "cases": 60,
+    "mean_baseline_tvd": 0.0801028112657609,
+    "mean_our_tvd": 0.04902628034135094,
+    "mean_gain": 0.03107653092440996
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-20",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08625905818229858,
+    "mean_our_tvd": 0.05322420755728421,
+    "mean_gain": 0.033034850625014385
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-21",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08683346794824104,
+    "mean_our_tvd": 0.05376314156008835,
+    "mean_gain": 0.03307032638815268
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-22",
+    "cases": 60,
+    "mean_baseline_tvd": 0.10081449826049209,
+    "mean_our_tvd": 0.08229793401790846,
+    "mean_gain": 0.01851656424258365
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-23",
+    "cases": 60,
+    "mean_baseline_tvd": 0.10081449826049209,
+    "mean_our_tvd": 0.08213372074851359,
+    "mean_gain": 0.018680777511978504
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-24",
+    "cases": 60,
+    "mean_baseline_tvd": 0.09448314995259738,
+    "mean_our_tvd": 0.060392292839566084,
+    "mean_gain": 0.03409085711303129
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-25",
+    "cases": 60,
+    "mean_baseline_tvd": 0.1040799940746291,
+    "mean_our_tvd": 0.062318987576915036,
+    "mean_gain": 0.041761006497714054
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-26",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08211172237832415,
+    "mean_our_tvd": 0.04718782466981113,
+    "mean_gain": 0.03492389770851301
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-27",
+    "cases": 60,
+    "mean_baseline_tvd": 0.11355958271799071,
+    "mean_our_tvd": 0.07285287476803928,
+    "mean_gain": 0.04070670794995146
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-28",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08294880634415322,
+    "mean_our_tvd": 0.04708440122369197,
+    "mean_gain": 0.03586440512046123
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "date": "2026-10-29",
+    "cases": 60,
+    "mean_baseline_tvd": 0.08294880634415322,
+    "mean_our_tvd": 0.04688007753464988,
+    "mean_gain": 0.03606872880950332
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-19",
+    "cases": 60,
+    "mean_baseline_tvd": 0.09438530907057432,
+    "mean_our_tvd": 0.04902628034135094,
+    "mean_gain": 0.04535902872922337
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-20",
+    "cases": 60,
+    "mean_baseline_tvd": 0.10056914546037173,
+    "mean_our_tvd": 0.05322420755728421,
+    "mean_gain": 0.047344937903087546
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-21",
+    "cases": 60,
+    "mean_baseline_tvd": 0.10394952151527281,
+    "mean_our_tvd": 0.05376314156008835,
+    "mean_gain": 0.05018637995518443
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-22",
+    "cases": 60,
+    "mean_baseline_tvd": 0.11519668356504734,
+    "mean_our_tvd": 0.08229793401790846,
+    "mean_gain": 0.032898749547138846
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-23",
+    "cases": 60,
+    "mean_baseline_tvd": 0.11519668356504734,
+    "mean_our_tvd": 0.08213372074851359,
+    "mean_gain": 0.03306296281653371
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-24",
+    "cases": 60,
+    "mean_baseline_tvd": 0.10945118736822941,
+    "mean_our_tvd": 0.060392292839566084,
+    "mean_gain": 0.04905889452866334
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-25",
+    "cases": 60,
+    "mean_baseline_tvd": 0.11897925293904385,
+    "mean_our_tvd": 0.062318987576915036,
+    "mean_gain": 0.05666026536212879
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-26",
+    "cases": 60,
+    "mean_baseline_tvd": 0.09959158976190707,
+    "mean_our_tvd": 0.04718782466981113,
+    "mean_gain": 0.052403765092095954
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-27",
+    "cases": 60,
+    "mean_baseline_tvd": 0.12925881792672383,
+    "mean_our_tvd": 0.07285287476803928,
+    "mean_gain": 0.05640594315868456
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-28",
+    "cases": 60,
+    "mean_baseline_tvd": 0.09619185134861906,
+    "mean_our_tvd": 0.04708440122369197,
+    "mean_gain": 0.049107450124927114
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "date": "2026-10-29",
+    "cases": 60,
+    "mean_baseline_tvd": 0.09619185134861906,
+    "mean_our_tvd": 0.04688007753464988,
+    "mean_gain": 0.04931177381396921
+  }
+]

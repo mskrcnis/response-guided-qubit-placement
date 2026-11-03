@@ -1,0 +1,52 @@
+[
+  {
+    "id": "mapomatic",
+    "title": "Suppressing Quantum Circuit Errors Due to System Variability",
+    "year": 2023,
+    "venue": "PRX Quantum",
+    "doi": "10.1103/PRXQuantum.4.010327",
+    "source": "https://github.com/qiskit-community/mapomatic",
+    "noise": true,
+    "commit": "c28d796bc181b01cc88b845814c814265b23bfe4"
+  },
+  {
+    "id": "sqgm",
+    "title": "Single-Qubit Gates Matter for Optimising Quantum Circuit Depth in Qubit Mapping",
+    "year": 2023,
+    "venue": "ICCAD",
+    "doi": "10.1109/ICCAD57390.2023.10323863",
+    "source": "https://github.com/ebony72/sqgm",
+    "noise": false,
+    "commit": "55b0eabb8f3e331435f652f091067ca196aea3b0"
+  },
+  {
+    "id": "duostra",
+    "title": "Robust Qubit Mapping Algorithm via Double-Source Optimal Routing on Large Quantum Circuits",
+    "year": 2024,
+    "venue": "ACM Transactions on Quantum Computing",
+    "doi": "10.1145/3680291",
+    "source": "https://github.com/DVLab-NTU/qsyn",
+    "noise": false,
+    "commit": "b77187c87f0bddd69bc6c213700642ee6c423159"
+  },
+  {
+    "id": "qmap",
+    "title": "MQT QMAP: Efficient Quantum Circuit Mapping",
+    "year": 2023,
+    "venue": "ISPD",
+    "doi": "10.1145/3569052.3578928",
+    "source": "https://github.com/munich-quantum-toolkit/qmap",
+    "noise": false,
+    "note": "Tool paper 2023; underlying default heuristic originates in Zulehner et al., IEEE TCAD 2019. Not a newly invented 2023 heuristic."
+  },
+  {
+    "id": "lightsabre",
+    "title": "LightSABRE: A Lightweight and Enhanced SABRE Algorithm",
+    "year": 2024,
+    "venue": "arXiv preprint; peer-reviewed venue not verified",
+    "doi": "10.48550/arXiv.2409.08368",
+    "source": "https://github.com/Qiskit/qiskit",
+    "noise": false,
+    "note": "Current Qiskit 2.5.2 implementation; paper benchmarks Qiskit 1.2.0. Not exact paper-version reproduction."
+  }
+]

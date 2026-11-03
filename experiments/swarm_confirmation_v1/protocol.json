@@ -1,0 +1,308 @@
+{
+  "version": "swarm_confirmation_v1",
+  "status": "frozen_awaiting_future_calibration",
+  "frozen_at_utc": "2026-10-14T09:26:26.909755+00:00",
+  "files": {
+    "scripts/prepare_swarm_confirmation.py": "06afb03105f35d1179c34e270b0d2189ca3311e51e451482661ac9e42550cd0e",
+    "scripts/collect_swarm_confirmation.py": "0fa94b686c035e00710c469490cc284a0a6cb559b8632f8f923447c145a6f38d",
+    "scripts/confirmation_readiness.py": "b1fcad5b73bca7bd4b5f570d893d5c1243dac0927191e461bfceb6e69bcb1c80",
+    "scripts/duplicate_aware_swarm.py": "54421a826c2fb3234e547af5d484d5cf9b638a6baf076bad17259168deb02f2c",
+    "scripts/response_search_engine.py": "abe3b4bb41571df4c5fc8fd97e7cc389bf138845e68e5d0c4697263aa310f08f",
+    "scripts/response_cache_batched.py": "37d68334fa564dd303cf2ea537cd88b295641c4d9a0bb30d38a7a5f08c1dd8f8",
+    "scripts/response_cache.py": "bc2a0f966863eafbe7b60558c84b07034d5bbb778afba111a6ce0907bf9e3e2b",
+    "scripts/run_step2_pilot.py": "7be981114268e248639eb9d004c11e2ab747b8a32e3f3f389a6ab469f1186270",
+    "experiments/swarm_confirmation_v1/exposure_audit.json": "50872deed98a336499b37016888e35045075e79189b2f1c08e35e8512aa7e2f9",
+    "experiments/swarm_confirmation_v1/circuit_manifest.json": "46b65315c7ec840d9ecd738014123354475c8dbf374198838a78014b27ce4b0b",
+    "experiments/duplicate_swarm_v1/protocol.json": "7e11c6771335b2d1184cf4fee5e1513b103a429ccc55bc481be806ea0cf80a62",
+    "reports/duplicate_swarm_v1/delivery_validation.json": "487738f703dfc66bdec5c3890f09a22618aecd4e5e6af47ddb6a3f1258a009bf",
+    "data/processed/step2_v1/config.json": "07ae806806d6e60001444314495961194a319d0fb0701c5adca7051f03f484eb",
+    "experiments/training_expansion_v1/circuits/ghz_4.qasm": "a498ea75ae3301d04f78bed60fc5179d0ed9da0af3a89ac6f9871b1d688e93bb",
+    "experiments/training_expansion_v1/circuits/product_4.qasm": "a4023d133faea9848190e1cb0266529119348a8cb3979708a8cbf8cc3734ff75",
+    "data/processed/diversity_v1/circuits/rotcx_line_n4_l6.qasm": "3abbaa6b64a2d924493c2ab7a59865208f36cce72d17f88ae5949cd2241d9a11",
+    "data/processed/diversity_v1/circuits/rotcx_ring_n4_l6.qasm": "ee2a13b540d32e37a0ff9c937eee980c2d4952be42291e1ff140144196cec84e",
+    "data/processed/diversity_v1/circuits/rotcx_star_n5_l6.qasm": "ffa2ee103196caaff651f3117d52b22c20eb7e10a5a3fe6dda00f4fa35d82a80",
+    "experiments/swarm_confirmation_v1/circuits/confirm_ghz_rotated_n4_seed20261018.qasm": "0b20ffb5911cf74f144ad5bd20cdb6c4a40e5e958249167bf2f71b06ba882998",
+    "experiments/swarm_confirmation_v1/circuits/confirm_ghz_rotated_n5_seed20261019.qasm": "2ad4e625d76d43770d93b9469b39e3633cf8ab9f04c29fd43afb9470388b337f",
+    "experiments/swarm_confirmation_v1/circuits/confirm_product_n4_seed20261118.qasm": "551761f8ec402c7b53babd25f09f7eaaff9d6887f2e6a0b67a769792e6ee70d1",
+    "experiments/swarm_confirmation_v1/circuits/confirm_product_n5_seed20261119.qasm": "1239c9c28774b27b601d30f6b9460d076a75a3cf89ceebc8ee589303c2969c55",
+    "experiments/swarm_confirmation_v1/circuits/confirm_line_n4_seed20261218.qasm": "b085bfdaf14809bc8a02f5a32d2ec59a9fee787101ff83dc69dd39574dae405c",
+    "experiments/swarm_confirmation_v1/circuits/confirm_line_n5_seed20261219.qasm": "48232d3590cf9faa3d25fdf5aff0f1d50dbb14694eccc9279dd0656d192e7665",
+    "experiments/swarm_confirmation_v1/circuits/confirm_ring_n4_seed20261318.qasm": "c376e5495ae83d88400644640dcf34fe9245c2c6c63d50eca80e140e2e22aec7",
+    "experiments/swarm_confirmation_v1/circuits/confirm_ring_n5_seed20261319.qasm": "070e466763c71cb1db88942ad59a1238561f447ca2a6e82459f86bb67f8be9be",
+    "experiments/swarm_confirmation_v1/circuits/confirm_star_n4_seed20261418.qasm": "12ebc3af901d53a37a75ba27faeb6446b475777ed8a5b11edcfe3104e5375a42",
+    "experiments/swarm_confirmation_v1/circuits/confirm_star_n5_seed20261419.qasm": "765a7ebaecbe8c7c04d08b73b276076c7681128f265a6cebd53a424248b22be6"
+  },
+  "bank": {
+    "ghz_4": {
+      "family": "ghz",
+      "path": "experiments/training_expansion_v1/circuits/ghz_4.qasm",
+      "regions": [
+        "ibm_fez_r0"
+      ],
+      "sha256": "a498ea75ae3301d04f78bed60fc5179d0ed9da0af3a89ac6f9871b1d688e93bb",
+      "stratum": "known_instance_new_period"
+    },
+    "product_4": {
+      "family": "product",
+      "path": "experiments/training_expansion_v1/circuits/product_4.qasm",
+      "regions": [
+        "ibm_fez_r0"
+      ],
+      "sha256": "a4023d133faea9848190e1cb0266529119348a8cb3979708a8cbf8cc3734ff75",
+      "stratum": "known_instance_new_period"
+    },
+    "rotcx_line_n4_l6": {
+      "family": "rotation_cx",
+      "path": "data/processed/diversity_v1/circuits/rotcx_line_n4_l6.qasm",
+      "regions": [
+        "ibm_fez_r0"
+      ],
+      "sha256": "3abbaa6b64a2d924493c2ab7a59865208f36cce72d17f88ae5949cd2241d9a11",
+      "stratum": "known_instance_new_period"
+    },
+    "rotcx_ring_n4_l6": {
+      "family": "rotation_cx",
+      "path": "data/processed/diversity_v1/circuits/rotcx_ring_n4_l6.qasm",
+      "regions": [
+        "ibm_fez_r0"
+      ],
+      "sha256": "ee2a13b540d32e37a0ff9c937eee980c2d4952be42291e1ff140144196cec84e",
+      "stratum": "known_instance_new_period"
+    },
+    "rotcx_star_n5_l6": {
+      "family": "rotation_cx",
+      "path": "data/processed/diversity_v1/circuits/rotcx_star_n5_l6.qasm",
+      "regions": [
+        "ibm_fez_r0"
+      ],
+      "sha256": "ffa2ee103196caaff651f3117d52b22c20eb7e10a5a3fe6dda00f4fa35d82a80",
+      "stratum": "known_instance_new_period"
+    },
+    "confirm_ghz_rotated_n4_seed20261018": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_ghz_rotated_n4_seed20261018.qasm",
+      "sha256": "0b20ffb5911cf74f144ad5bd20cdb6c4a40e5e958249167bf2f71b06ba882998",
+      "family": "ghz_rotated",
+      "qubits": 4,
+      "parameter_seed": 20261018,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_ghz_rotated_n5_seed20261019": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_ghz_rotated_n5_seed20261019.qasm",
+      "sha256": "2ad4e625d76d43770d93b9469b39e3633cf8ab9f04c29fd43afb9470388b337f",
+      "family": "ghz_rotated",
+      "qubits": 5,
+      "parameter_seed": 20261019,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_product_n4_seed20261118": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_product_n4_seed20261118.qasm",
+      "sha256": "551761f8ec402c7b53babd25f09f7eaaff9d6887f2e6a0b67a769792e6ee70d1",
+      "family": "product",
+      "qubits": 4,
+      "parameter_seed": 20261118,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_product_n5_seed20261119": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_product_n5_seed20261119.qasm",
+      "sha256": "1239c9c28774b27b601d30f6b9460d076a75a3cf89ceebc8ee589303c2969c55",
+      "family": "product",
+      "qubits": 5,
+      "parameter_seed": 20261119,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_line_n4_seed20261218": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_line_n4_seed20261218.qasm",
+      "sha256": "b085bfdaf14809bc8a02f5a32d2ec59a9fee787101ff83dc69dd39574dae405c",
+      "family": "line",
+      "qubits": 4,
+      "parameter_seed": 20261218,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_line_n5_seed20261219": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_line_n5_seed20261219.qasm",
+      "sha256": "48232d3590cf9faa3d25fdf5aff0f1d50dbb14694eccc9279dd0656d192e7665",
+      "family": "line",
+      "qubits": 5,
+      "parameter_seed": 20261219,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_ring_n4_seed20261318": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_ring_n4_seed20261318.qasm",
+      "sha256": "c376e5495ae83d88400644640dcf34fe9245c2c6c63d50eca80e140e2e22aec7",
+      "family": "ring",
+      "qubits": 4,
+      "parameter_seed": 20261318,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_ring_n5_seed20261319": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_ring_n5_seed20261319.qasm",
+      "sha256": "070e466763c71cb1db88942ad59a1238561f447ca2a6e82459f86bb67f8be9be",
+      "family": "ring",
+      "qubits": 5,
+      "parameter_seed": 20261319,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_star_n4_seed20261418": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_star_n4_seed20261418.qasm",
+      "sha256": "12ebc3af901d53a37a75ba27faeb6446b475777ed8a5b11edcfe3104e5375a42",
+      "family": "star",
+      "qubits": 4,
+      "parameter_seed": 20261418,
+      "stratum": "new_instance_new_period"
+    },
+    "confirm_star_n5_seed20261419": {
+      "path": "experiments/swarm_confirmation_v1/circuits/confirm_star_n5_seed20261419.qasm",
+      "sha256": "765a7ebaecbe8c7c04d08b73b276076c7681128f265a6cebd53a424248b22be6",
+      "family": "star",
+      "qubits": 5,
+      "parameter_seed": 20261419,
+      "stratum": "new_instance_new_period"
+    }
+  },
+  "backend": "ibm_fez",
+  "physical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    16
+  ],
+  "directed_cz_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      16
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      16,
+      3
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cz"
+  ],
+  "properties": [
+    "sx_gate_error",
+    "x_gate_error",
+    "rz_gate_error",
+    "cz_gate_error",
+    "prob_meas0_prep1",
+    "prob_meas1_prep0"
+  ],
+  "initial_date": "2026-10-18",
+  "dates": [
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22"
+  ],
+  "collection_end_utc": "2026-11-23T00:00:00+00:00",
+  "methods": [
+    "swarm",
+    "swarm_unique_56",
+    "random_fixed_56"
+  ],
+  "objective": "hybrid",
+  "proposal_budget": 56,
+  "replicates": [
+    0,
+    1,
+    2
+  ],
+  "seed_rules": [
+    "fixed",
+    "resampled"
+  ],
+  "seed_formula": "50001 +1000*circuit_index +100*replicate +date_index (index0=initialization); fixed uses index0. Circuit order is manifest insertion order.",
+  "scope": "Prospectively frozen simulation comparison of compilers using subsequently received calibration. Not a live hardware/controller trial. Old prospective_validation_v1 for unqualified ML policies remains inactive. Same5 development anchors and10 new exact instances; related families, fixed small patch. Report strata separately.",
+  "calendar": "Four calendar warmup days October15-18; initialization October18 00UTC;35 fixed observation cutoffs October19-November22 00UTC. At least28 valid paired noninitial dates per stratum required; otherwise inconclusive. No endpoint extension based on outcomes.",
+  "source": {
+    "repo": "phanerozoic/qiskit-calibration-drift",
+    "access": "Public immutable revision, no IBM credentials or hardware jobs",
+    "receipt": "UTC local completion time, raw SHA256 and revision. Both observation and first local receipt must precede cutoff. Downloading historical values later does not establish past availability.",
+    "topology": "Public scalar archive does not independently verify live backend topology/status. Fixed historical patch/basis is a simulator assumption; require every declared directional edge, do not claim live-device compatibility."
+  },
+  "eligibility": "All required calibrated_time >= freeze; observed/calibrated/snapshot timestamps consistent and no future records; <=72h measurement and observation age; original unit/probability/failure-ceiling policy; reject conflicting revisions of an event identity. Latest invalid observation blocks property, no fallback to older healthy values. All arms skip blocked days and reset together at next ready date; every episode initialization excluded from paired update counts. Explicit source measurement disjointness from old raw archive.",
+  "quality": "Freeze unchanged hybrid score and both controls. Primary endpoint positive control-minus-variant mean TVD >1e-10 versus BOTH controls, separately for known and new-instance strata, equal-date then equal-circuit/seed/rule weighting, all eligible dates. Threshold1e-4 classifies better/little/worse. No IID p-values, no formal power or statistical-superiority claim.",
+  "safety": "Preserve each method own protected and always-adopt history. Score acceptance iff fresh<incumbent-1e-12. Keep literal previous update screens per method/stratum/seed-rule:mean selected-fresh<=0,accepted harm<=10%,>=30actions,>=10%coverage,>=4action dates. Flag GHZ and ring explicitly. Report counts/magnitudes even if mean gain positive.",
+  "runtime": "After validation,3 pinned serial technical repeats of replicate0 complete trajectories for all15 circuits x3methods x2rules. Rotate order deterministically. Cold cache per trajectory, include setup/parameters/proposal/compile/coefficient/incumbent decisions. API acquisition and offline labels separate. Report every repeat and paired ratios, no IID timing CI. An efficiency claim additionally requires median paired total time<=control for both controls; quality gains alone do not establish practical usefulness. No scalar conversion of seconds into TVD.",
+  "stopping": "No interim noisy outcomes until fixed calendar closes and source readiness audited. No tuning or model training. Missing dates retained in audit; inadequate coverage=inconclusive. Outcomes remain unavailable today.",
+  "qualified_controller": false,
+  "research_complete": false,
+  "independent_confirmation": false,
+  "compatible_receipt_protocols": [
+    "5cdd782858313af986eb3e8164810672a211ab4fcc0453badd8bef1581e8bba2"
+  ],
+  "technical_amendment": {
+    "at_utc": "2026-10-14T09:29:58.007010+00:00",
+    "original_protocol_sha256": "5cdd782858313af986eb3e8164810672a211ab4fcc0453badd8bef1581e8bba2",
+    "reason": "Pre-activation ingestion tests exposed reserved SQL alias and unavailable pandas dependency; replaced alias and used native DuckDB rows. Preserve earliest exact-observation receipt across revisions and exclude episode reset initializations from readiness counts.",
+    "evidence": "18 synthetic ingestion tests passed. First real source max observed09:16:29 precedes original freeze09:26:26.909755. No eligible post-freeze calibration or noisy outcome inspected. Algorithms, circuit population, dates and scientific endpoints unchanged."
+  }
+}

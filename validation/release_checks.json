@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-03T06:30:33.271329+00:00",
+  "frozen_artifact_files": 7020,
+  "fresh_internal_searches": 12,
+  "fresh_external_compilations": 10,
+  "generated_tables_matching_manuscript": 5,
+  "numerical_figure_pngs_matching_manuscript": [
+    "reuse_policies.png",
+    "search_coverage.png",
+    "circuit_gains.png",
+    "calibration_patch.png",
+    "quality.png",
+    "cost_quality.png",
+    "daily_gains.png"
+  ],
+  "fresh_temporary_checkout_audit": "passed",
+  "credential_pattern_scan": "passed",
+  "source_code_absolute_home_paths": 0,
+  "fresh_dependency_install_tested": false,
+  "baseline_source_build_tested_in_release_validation": false,
+  "environment_note": "Fresh solver calls used the recorded installed environments and pinned upstream checkouts. A separate temporary source checkout passed all file and saved-output audits. Historical wall times were not remeasured."
+}

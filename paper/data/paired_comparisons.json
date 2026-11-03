@@ -1,0 +1,182 @@
+[
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "lightsabre",
+    "cases": 330,
+    "baseline_mean": 0.097603774249813,
+    "our_mean": 0.07803393307022485,
+    "mean_gain": 0.01956984117958814,
+    "relative_mean_error_reduction_pct": 20.05029142571875,
+    "case_outcomes": {
+      "our_better": 263,
+      "little_difference": 6,
+      "our_worse": 61
+    },
+    "leave_one_date_out_gain_range": [
+      0.018352425781212475,
+      0.021002562695891656
+    ]
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "mapomatic",
+    "cases": 330,
+    "baseline_mean": 0.0856323370736345,
+    "our_mean": 0.07803393307022485,
+    "mean_gain": 0.007598404003409651,
+    "relative_mean_error_reduction_pct": 8.873288132818153,
+    "case_outcomes": {
+      "our_better": 206,
+      "little_difference": 14,
+      "our_worse": 110
+    },
+    "leave_one_date_out_gain_range": [
+      0.006162050296700394,
+      0.008675433672302276
+    ]
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "sqgm",
+    "cases": 330,
+    "baseline_mean": 0.10609302720306124,
+    "our_mean": 0.07803393307022485,
+    "mean_gain": 0.028059094132836387,
+    "relative_mean_error_reduction_pct": 26.447632679131207,
+    "case_outcomes": {
+      "our_better": 258,
+      "little_difference": 5,
+      "our_worse": 67
+    },
+    "leave_one_date_out_gain_range": [
+      0.02641702653762918,
+      0.029393893687978696
+    ]
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "qmap",
+    "cases": 330,
+    "baseline_mean": 0.12086476965765995,
+    "our_mean": 0.07803393307022485,
+    "mean_gain": 0.0428308365874351,
+    "relative_mean_error_reduction_pct": 35.43699020711338,
+    "case_outcomes": {
+      "our_better": 318,
+      "little_difference": 0,
+      "our_worse": 12
+    },
+    "leave_one_date_out_gain_range": [
+      0.04123397968569755,
+      0.04507458170498906
+    ]
+  },
+  {
+    "stratum": "known_instance_new_period",
+    "baseline": "duostra",
+    "cases": 330,
+    "baseline_mean": 0.14181358772537875,
+    "our_mean": 0.07803393307022485,
+    "mean_gain": 0.0637796546551539,
+    "relative_mean_error_reduction_pct": 44.97429031882534,
+    "case_outcomes": {
+      "our_better": 318,
+      "little_difference": 0,
+      "our_worse": 12
+    },
+    "leave_one_date_out_gain_range": [
+      0.061537144949224375,
+      0.06630834016696885
+    ]
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "lightsabre",
+    "cases": 660,
+    "baseline_mean": 0.06939970219676887,
+    "our_mean": 0.059741976621619904,
+    "mean_gain": 0.009657725575148969,
+    "relative_mean_error_reduction_pct": 13.916090803626842,
+    "case_outcomes": {
+      "our_better": 441,
+      "little_difference": 18,
+      "our_worse": 201
+    },
+    "leave_one_date_out_gain_range": [
+      0.008830800425519945,
+      0.010680034829792759
+    ]
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "mapomatic",
+    "cases": 660,
+    "baseline_mean": 0.06216265934369888,
+    "our_mean": 0.059741976621619904,
+    "mean_gain": 0.0024206827220789734,
+    "relative_mean_error_reduction_pct": 3.894110624667711,
+    "case_outcomes": {
+      "our_better": 346,
+      "little_difference": 59,
+      "our_worse": 255
+    },
+    "leave_one_date_out_gain_range": [
+      0.00188708249897361,
+      0.0030418908546149927
+    ]
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "sqgm",
+    "cases": 660,
+    "baseline_mean": 0.08412758148930895,
+    "our_mean": 0.059741976621619904,
+    "mean_gain": 0.024385604867689044,
+    "relative_mean_error_reduction_pct": 28.986456565125437,
+    "case_outcomes": {
+      "our_better": 530,
+      "little_difference": 11,
+      "our_worse": 119
+    },
+    "leave_one_date_out_gain_range": [
+      0.02381092039054694,
+      0.025187277719664846
+    ]
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "qmap",
+    "cases": 660,
+    "baseline_mean": 0.09226876324810296,
+    "our_mean": 0.059741976621619904,
+    "mean_gain": 0.032526786626483055,
+    "relative_mean_error_reduction_pct": 35.252219149205736,
+    "case_outcomes": {
+      "our_better": 628,
+      "little_difference": 29,
+      "our_worse": 3
+    },
+    "leave_one_date_out_gain_range": [
+      0.03160336463935995,
+      0.03392780886487299
+    ]
+  },
+  {
+    "stratum": "new_instance_new_period",
+    "baseline": "duostra",
+    "cases": 660,
+    "baseline_mean": 0.10717835398813236,
+    "our_mean": 0.059741976621619904,
+    "mean_gain": 0.047436377366512454,
+    "relative_mean_error_reduction_pct": 44.25928893418627,
+    "case_outcomes": {
+      "our_better": 631,
+      "little_difference": 29,
+      "our_worse": 0
+    },
+    "leave_one_date_out_gain_range": [
+      0.046513988566950805,
+      0.04889014014844979
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+DIRECT COMPARISON WITH PUBLISHED COMPILER IMPLEMENTATIONS
+Exploratory comparison on the already exposed October 19-29 period.
+
+All methods use the same 15 circuits, six physical qubits, eleven dates, native gates and exact noisy-output evaluator.
+Rows are correlated technical cases, not independent hardware experiments. New instances belong to related circuit families.
+
+Mean simulated TVD, native CZ count and depth (smaller is better):
+Group | Method | Cases | Mean TVD | Mean CZ | Mean depth
+known_instance_new_period | lightsabre | 330 | 0.09760377 | 26.400 | 72.473
+known_instance_new_period | mapomatic | 330 | 0.08563234 | 26.400 | 72.473
+known_instance_new_period | sqgm | 330 | 0.10609303 | 31.730 | 94.482
+known_instance_new_period | qmap | 330 | 0.12086477 | 33.000 | 95.000
+known_instance_new_period | duostra | 330 | 0.14181359 | 36.000 | 89.600
+known_instance_new_period | swarm_unique_56 | 330 | 0.07803393 | 33.055 | 83.342
+new_instance_new_period | lightsabre | 660 | 0.06939970 | 18.000 | 54.842
+new_instance_new_period | mapomatic | 660 | 0.06216266 | 18.000 | 54.842
+new_instance_new_period | sqgm | 660 | 0.08412758 | 24.094 | 71.326
+new_instance_new_period | qmap | 660 | 0.09226876 | 23.300 | 68.000
+new_instance_new_period | duostra | 660 | 0.10717835 | 27.600 | 76.200
+new_instance_new_period | swarm_unique_56 | 660 | 0.05974198 | 26.136 | 72.355
+
+Direct paired contrasts. Positive gain favors our swarm; negative favors the baseline.
+Group | Baseline | Relative mean TVD reduction (%) | Absolute TVD gain | Our better/little/worse cases
+known_instance_new_period | lightsabre | +20.050% | +0.01956984 | {'our_better': 263, 'little_difference': 6, 'our_worse': 61}
+known_instance_new_period | mapomatic | +8.873% | +0.00759840 | {'our_better': 206, 'little_difference': 14, 'our_worse': 110}
+known_instance_new_period | sqgm | +26.448% | +0.02805909 | {'our_better': 258, 'little_difference': 5, 'our_worse': 67}
+known_instance_new_period | qmap | +35.437% | +0.04283084 | {'our_better': 318, 'little_difference': 0, 'our_worse': 12}
+known_instance_new_period | duostra | +44.974% | +0.06377965 | {'our_better': 318, 'little_difference': 0, 'our_worse': 12}
+new_instance_new_period | lightsabre | +13.916% | +0.00965773 | {'our_better': 441, 'little_difference': 18, 'our_worse': 201}
+new_instance_new_period | mapomatic | +3.894% | +0.00242068 | {'our_better': 346, 'little_difference': 59, 'our_worse': 255}
+new_instance_new_period | sqgm | +28.986% | +0.02438560 | {'our_better': 530, 'little_difference': 11, 'our_worse': 119}
+new_instance_new_period | qmap | +35.252% | +0.03252679 | {'our_better': 628, 'little_difference': 29, 'our_worse': 3}
+new_instance_new_period | duostra | +44.259% | +0.04743638 | {'our_better': 631, 'little_difference': 29, 'our_worse': 0}
+
+Comparison scope and fairness:
+Same raw circuits, 6-qubit patch, directed CZ edges, CZ/RZ/SX/X native basis, eligible dates and output definitions. Baselines retain their own objectives. Default heuristic QMAP, default depth-4 DFS Duostra, author SQGM decay with enhanced heuristic and 3-iteration SabreLayout; LightSABRE 20 layout and 20 swap trials, 3 iterations; Mapomatic unmodified default success-product scoring after that LightSABRE pipeline. Common zero-optimization CX/1Q lowering before baselines, terminal-measurement barrier, common native CZ lowering optimization_level=1 after routing. Existing swarm native outputs unchanged.
+Native-configuration comparison, not equal runtime or equal candidate work. Swarm has 56 unique placements. LightSABRE has 20 layout and 20 routing trials per configured layout. Mapomatic enumerates valid post-routing embeddings; QMAP/Duostra native search. No winner chosen with noisy evaluation TVD.
+QMAP and Duostra ignore external seeds; compile once per circuit. Reused deterministic outputs and repeated static calibration states are not independent trials.
+Equal date/circuit/replicate/seed-rule weight within each predefined stratum. Paired differences, per-circuit and per-date means, seed-rule and changing-calibration sensitivity, leave-one-date-out range. No IID p-values or statistically significant superiority claim from correlated technical cases.
+
+Published provenance:
+mapomatic: Suppressing Quantum Circuit Errors Due to System Variability; PRX Quantum (2023). https://doi.org/10.1103/PRXQuantum.4.010327. 
+sqgm: Single-Qubit Gates Matter for Optimising Quantum Circuit Depth in Qubit Mapping; ICCAD (2023). https://doi.org/10.1109/ICCAD57390.2023.10323863. 
+duostra: Robust Qubit Mapping Algorithm via Double-Source Optimal Routing on Large Quantum Circuits; ACM Transactions on Quantum Computing (2024). https://doi.org/10.1145/3680291. 
+qmap: MQT QMAP: Efficient Quantum Circuit Mapping; ISPD (2023). https://doi.org/10.1145/3569052.3578928. Tool paper 2023; underlying default heuristic originates in Zulehner et al., IEEE TCAD 2019. Not a newly invented 2023 heuristic.
+lightsabre: LightSABRE: A Lightweight and Enhanced SABRE Algorithm; arXiv preprint; peer-reviewed venue not verified (2024). https://doi.org/10.48550/arXiv.2409.08368. Current Qiskit 2.5.2 implementation; paper benchmarks Qiskit 1.2.0. Not exact paper-version reproduction.
+
+The common circuit adapter is not an exact reproduction of each paper's original end-to-end benchmark. Maintained implementations, versions and all deviations are pinned in the protocol.
+Mapomatic sees only eligible calibration parameters and uses its published default success-product objective. No method sees evaluated noisy TVD during selection.
+Duostra uses abstract unit gate durations, not measured device pulse times. Rational-pi interchange avoids the upstream decimal parser's 1e-4-radian quantization. Its routing algorithm is unmodified; the source patch adds permutation logging and build compatibility only.
+The noise model omits idle relaxation, crosstalk, leakage and calibration uncertainty. Small-circuit in-model comparisons do not establish large-circuit or physical-device superiority.
+These are per-date compilation comparisons, not a test of an ML decision about when to recompile. No pre-search controller is qualified.
+
+Validation: 2494 arbitrary-input measurement checks; 2780 independent noisy-channel evaluations. Maximum discrepancies: 7.14e-13 (measurement semantics), 6.53e-13 (noisy probabilities).
+Compilation timing from the main run is concurrent and diagnostic only. Consult separate serial timing results when present.

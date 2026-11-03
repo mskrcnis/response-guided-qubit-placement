@@ -1,0 +1,53 @@
+DIRECT PUBLISHED-BASELINE COMPARISON: INTERPRETATION
+
+The modified swarm achieved lower mean simulated total variation distance (TVD) than every tested baseline configuration in both predefined circuit groups. This is an average output-quality result for this experiment; it is not a universal, equal-runtime, physical-hardware, or state-of-the-art superiority claim.
+
+Completed experiment: 15 circuits (5 familiar and 10 new instances of related families), 4-5 logical qubits on one six-qubit IBM Fez patch, 11 paired cutoff dates (19-29 October 2026), 3 seed replicates and 2 seed rules. There are 990 observations per method, 5,940 method observations and 4,950 baseline-versus-swarm contrasts. The 540 initialization observations on 18 October are not included in reported means. These correlated observations are not 5,940 independent experiments.
+The comparison used 2,055 distinct external compilation requests. Static deterministic outputs were reused and identical calibration cases deduplicated. No failed compilation or evaluation was dropped.
+
+Measured relative reduction in mean simulated output error:
+Baseline | Five familiar instances (%) | Ten new instances (%)
+Mapomatic | 8.873 | 3.894
+LightSABRE | 20.050 | 13.916
+SQGM | 26.448 | 28.986
+MQT QMAP | 35.437 | 35.252
+Duostra | 44.974 | 44.259
+
+Definition: 100 x (baseline mean TVD - swarm mean TVD) / baseline mean TVD. These are relative reductions in distribution error, not percentage-point fidelity improvements. All dates, circuits, replicates and seed rules have equal weight within each group.
+Our means are 0.0780339331 (familiar) and 0.0597419766 (new). The strongest external output-quality comparator is Mapomatic, at 0.0856323371 and 0.0621626593. Its new-instance difference is only 0.0024206827 absolute TVD, so the modest 3.894% relative gain must be reported alongside costs and losses.
+
+Losses and sensitivity:
+Mapomatic and LightSABRE each outperform our swarm on three circuit-level means: rotcx_ring_n4_l6, confirm_ring_n4_seed20261318 and confirm_ring_n5_seed20261319. SQGM outperforms our swarm on the first two of those. QMAP and Duostra have higher error on all 15 circuit means. The tolerance for better/worse is 0.0001 TVD.
+Mapomatic, known_instance_new_period: swarm better/little/worse = 206/14/110 of 330 paired technical cases.
+Mapomatic has the lower date-level mean on: 2026-10-22, 2026-10-23.
+Mapomatic, new_instance_new_period: swarm better/little/worse = 346/59/255 of 660 paired technical cases.
+Mapomatic has the lower date-level mean on: 2026-10-22, 2026-10-23, 2026-10-27.
+Both fixed-seed and resampled-seed aggregate contrasts favor our swarm against each comparator. Restricting to nine changing-calibration transitions preserves each average gain; two paired dates had unchanged calibration values. All leave-one-date-out aggregate gains remain positive. These are descriptive sensitivity checks, not confidence intervals or significance tests.
+
+Compilation cost:
+Method | Median seconds, familiar | Median seconds, new
+Our modified swarm | 5.375563 | 4.482974
+Mapomatic | 0.035166 | 0.024327
+LightSABRE | 0.012490 | 0.011948
+SQGM | 0.050678 | 0.041754
+MQT QMAP | 0.022994 | 0.022375
+Duostra | 0.100357 | 0.101379
+Timing comprises 270 serial calls: all 15 circuits x six methods x three technical repeats, using the first paired date and fixed replicate-zero seed on the same pinned CPU. All repeated outputs reproduced the cohort native circuits. Cold per-call compiler objects and our coefficient-cache construction are included. Package startup/input reads are excluded where possible; method-specific lazy imports remain included, and Duostra includes external executable/temporary-file overhead. Frameworks and languages differ. Consult serial_timing.json for ranges and all observations.
+The output-quality gain is therefore expensive: our new-instance median is approximately 4.48 seconds versus 0.024 seconds for Mapomatic. This comparison cannot establish a gain at equal computational budget, and cache amortization across dates has not been measured here.
+Our average native CZ counts are 33.055 (familiar) and 26.136 (new), versus 26.400 and 18.000 for LightSABRE/Mapomatic. Depth is also higher. Fewer gates are not the observed mechanism for our advantage under this noise model.
+
+What was compared:
+Four peer-reviewed 2023-2024 tool/method publications plus the 2024 LightSABRE preprint. Mapomatic receives the same eligible gate/readout calibration and uses its unmodified success-product objective after LightSABRE routing. The other four selected configurations are topology-aware. Mapomatic is the important calibrated comparator; the topology-only gaps should not be portrayed as defeating four equally noise-aware methods.
+Maintained implementations and a common circuit adapter were used, not exact reproductions of the papers' original tables. QMAP is represented by its 2023 tool paper but the selected default heuristic originates in 2019. LightSABRE is Qiskit 2.5.2 rather than the paper's 1.2.0. SQGM uses the authors' Terra 0.22.3 code with one configured routing call per replicate, not their entire multi-start benchmarking protocol. Duostra uses maintained Qsyn, its default depth-four search/DFS placement and abstract gate durations. The saved source patch changes build compatibility and permutation logging only.
+Methods have different native work budgets: 56 unique swarm placements, 20 layout and 20 swap trials in LightSABRE, all valid post-route embeddings in Mapomatic, and native QMAP/Duostra searches. The original swarm outputs were preserved. Common external preprocessing/native lowering, exact versions, seeds and deviations are specified in protocol.json. This is a comparison of tested pipelines; it cannot isolate an advantage due specifically to the swarm mechanism.
+
+Evidence boundaries and next validation:
+This is a post hoc exploratory comparison on an already exposed period. The ten new instances are from related circuit families and are not independent held-out evidence for this newly added baseline study. No evaluated noisy TVD was used to select a baseline output, but our response objective uses ideal circuit information aligned with the simulated error model. Physical-device behavior may differ.
+Exact noisy simulation uses calibrated independent depolarizing gate errors and asymmetric readout assignment. It omits idle relaxation, crosstalk, leakage and calibration uncertainty. One small patch and 4-5-qubit circuits do not establish scalability. The ideal-response computation has exponential scaling. No ML policy deciding when to recompile, pre-search savings, or physical-device improvement is established.
+The next defensible comparison should freeze a new evaluation set, include larger and different-family circuits, investigate the ring losses, compare against strong calibrated baselines at matched time, and test independent output quality or hardware. This experiment does not change the existing collection timer or retrospectively qualify the original confirmation criterion.
+
+Validation:
+All 440 frozen source hashes and 4125 generated-artifact hashes match. 2494 arbitrary-input measurement checks and 2780 independent noisy-channel checks pass; maximum errors are 7.14e-13 and 6.53e-13.
+The independent standard-library audit recomputed report arithmetic, completeness and timing summaries. It independently enumerated 94248 feasible embedding costs across all 945 Mapomatic requests and verified every selected minimum. The plots were rendered and visually inspected.
+
+Publication links and implementation provenance are in RESULTS.txt and baseline_registry.json. Numerical data are in comparison.csv, method_summary.json, paired_cases.json, by_circuit.json, by_date.json, sensitivity.json and serial_timing.json.

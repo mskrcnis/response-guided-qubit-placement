@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "paired_rows": 5940,
+  "external_compilation_requests": 2055,
+  "methods": 6,
+  "circuits": 15,
+  "dates": 11,
+  "failed": [],
+  "compiled_correctness_checks": 2494,
+  "independent_channel_evaluations": 2780,
+  "max_channel_error": 6.526723606015139e-13,
+  "max_measurement_povm_error": 7.143176643046686e-13,
+  "source_swarm_reproduced_rows": 990,
+  "protocol_sha256": "43f8a497fba9bfcd19d8f069452e203ef34bcbc588879e7aa049644877f88711",
+  "generation_manifest_sha256": "b99702e3de3c17427e3f75c6817f5219c1e66aed970296b3b5e8b4262bc7d460"
+}

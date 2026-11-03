@@ -1,0 +1,5 @@
+# Exact observed study versions; use the documented Python version.
+qiskit==2.5.2
+mqt-qmap==3.11.0
+mapomatic==0.14.0
+numpy==2.5.4
